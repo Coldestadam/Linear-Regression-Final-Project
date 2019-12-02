@@ -1,0 +1,586 @@
+---
+title: "Final Project"
+author: "Zachary Dougherty & Adam Villarreal"
+date: "November 18, 2019"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+# USF's Class of 2018
+```{r load data, include=FALSE}
+library("readxl") 
+library("dplyr")
+library("lmtest")
+library("glmnet")
+library("RColorBrewer")
+library("ggplot2")
+library("MASS")
+library("faraway")
+students = read_xls("student_info.xls")
+dataset <- read.csv("dataset.csv")
+head(students)
+my.theme <- theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+  panel.background = element_blank(), axis.line = element_line(colour = "white"),
+  plot.background = element_rect(fill = "black"),
+  legend.background = element_rect(fill = "black"),
+  legend.text = element_text(color = "white"),
+  title = element_text(color = "white"),
+  axis.text = element_text(color = "white"))
+
+``` 
+## Data Cleaning
+We need to make a few adjustments to our data to allow for proper analysis. We factorize our character columns and set the GPA of observations equal to 0 to 0.001. This is because a Box Cox transformation requires all response variables to be positive and non-zero.
+```{r data cleaning}
+students$PELL[is.na(students$PELL)] <- "N"
+students$RESIDENCE_HALL[is.na(students$RESIDENCE_HALL)] <- "Off-Campus"
+students$RESIDENCE_HALL <- as.factor(students$RESIDENCE_HALL)
+sum(is.na(students)) # 14
+students <- na.omit(students)
+sum(is.na(students))
+
+factor.cols <- c("GENDER", "IN_STATE", "PELL", "MAJOR", "ETHNICITY")
+students$GENDER <- as.factor(students$GENDER)
+students$IN_STATE <- as.factor(students$IN_STATE)
+students$PELL <- as.factor(students$PELL)
+students$MAJOR <- as.factor(students$MAJOR)
+students$ETHNICITY <- as.factor(students$ETHNICITY)
+
+# Changing GPA where it is equal to 0 to 0.001 instead, so preserves emptiness of value but also allows for a box-cox transform.
+students[students$GPA == 0, ]$GPA <- 0.001 
+nrow(students[students$GPA == 0, ]) # 0
+
+str(students)
+```
+## Data Exploration
+We will not perform some exploratory analysis and gather simple statistics on our various predictors and responses.
+```{r exploration 1}
+getPalette <- colorRampPalette(brewer.pal(8, "Paired"))
+pairs(students[, c("MAJOR", "UNMET_NEED_PERCENT", "SCIENCE_CLASSES", "LAB_CLASSES", "RESIDENCE_HALL", "ETHNICITY", "CREDITS_EARNED", "GPA")])
+
+```
+
+```{r Gender}
+num_male <- sum(students$GENDER == "M") #525 males
+num_female <- sum(students$GENDER == "F") #970 females
+num_male/nrow(students)
+num_female/nrow(students)
+```
+Around 65% of the class of 2018 were females, while the other 35% were male
+
+```{r In_State}
+in_state <- sum(students$IN_STATE == "Y") #1116 students were from California
+out_state <- nrow(students) - in_state #379 students were from outside California
+in_state/nrow(students)
+out_state/nrow(students)
+```
+Most students are from the state of California, which there were 1116 students from California that attended USF. There were 379 students from outside California. 75% of the student body is from California while the 25% are outside of California. The 25% can include both US students or Foreign students.
+
+```{r UNMET_NEED}
+boxplot(students$UNMET_NEED_PERCENT)
+summary(students$UNMET_NEED_PERCENT)
+```
+UNMET_NEED_PERCENT column contains continuous values that tell at what percentage was aid not provided to fill the cost of tuition. Someone that has 100 for their data point states that they had to fully pay the tuition cost at the time without aid from the university or Federal Government. If someone has 0 for their data point, that means that their tuition was fully aided by either or both by the university and Federal Government. The mean unmet need percentage was 44.54% while the median was 45%. The minimum was 0% and the maximum was 100%.
+
+```{r PELL}
+qualified <- sum(students$PELL == "Y") #357 students qualified for Federal Pell Grants
+not_qualified <- nrow(students) - qualified #1128 students did not qualify for Federal Pell Grants
+qualified/nrow(students)
+not_qualified/nrow(students)
+```
+The PELL column states whether the student qualified for the Federal Pell Grant given by the United States Government. 357 students qualified for Federal Pell Grants while the other 1128 did not. Therefore, around 25% of students qualified while 75% did not.
+
+```{r Major}
+summary(dataset$MAJOR_DESC)
+```
+These are the Majors with the amount of students within those majors. The most popular majors are Business Administration, Biology, Nursing, and Psychology. The least popular majors are Theology with 1 student, Urban Studies with 2 students, Japanese Studies and Spanish with 3 students. The Data Science undergraduate program gained 5 students from the class of 2018!
+
+```{r Science}
+boxplot(students$SCIENCE_CLASSES)
+summary(students$SCIENCE_CLASSES)
+```
+The average student would take at least 7 science classes as a USF student. The maximum of science classes taken per student is 40, while the minimum is 0 science classes.
+
+```{r Lab Classes}
+boxplot(students$LAB_CLASSES)
+summary(students$LAB_CLASSES)
+```
+LAB_CLASSES column provides the number of classes with labs taken by each student. The average student took at least 3 classes with labs. The maximum amount of lab classes per student is 14 and the minimum is 0.
+
+```{r Residence}
+summary(students$RESIDENCE_HALL)
+sum(students[students$RESIDENCE_HALL == "Off-Campus", ]$IN_STATE == "Y")
+```
+Most of 2019 graduating class lived in Hayes Healy their freshmen year. However, one important factor is that a total of 113 students lived Off-Campus. 99 of 113 students are from the state of California, which might indicate that these students are oringially from San Francisco or that they commute from neighboring cities. I am not quite sure of the 14 students who live on campus who are not originally from California. My best guess would be that they might have family connections here in the city to have a place to stay.
+
+```{r Ethnicity}
+summary(students$ETHNICITY)/nrow(students)
+```
+These are the students ethnicities for the class of 2018 by percentage. The majority of the class identify as white at 28%. The smallest ethnicity group are those who idenitify as Native American which is less that 1% or 0.4% exactly. What is interesting is that 17% of the student population are international students which is the 4th largest ethnicity group.
+
+```{r credits}
+boxplot(students$CREDITS_EARNED)
+summary(students$CREDITS_EARNED)
+over.128 <- subset(students, CREDITS_EARNED >= 128)
+nrow(over.128) / nrow(students)
+```
+The average student completed at least 111 credits. The maximum amount of credits earned by a student was 198 credits, while the minimum was 0 credits. However, we calculated that only 72% achieved the graduation requirement of attaining 128 credits. Therefore, around 28% of the class of 2018 did not graduate. This can entail those students either transferred, dropped-out or did not complete their USF education in 4 years.
+
+```{r gpa_credits}
+boxplot(students$GPA_CREDITS)
+summary(students$GPA_CREDITS)
+```
+The average student gained 104 GPA credits during their career as a student. The max GPA credits earned by a student was 181.00. The min GPA credits earned by a student was 4.00.
+
+```{r gpa}
+boxplot(students$GPA)
+summary(students$GPA)
+nrow(subset(students, GPA==4.00))
+nrow(subset(students, GPA==0.00))
+```
+The average student GPA is a 3.19. The max GPA is 4.00 and the min GPA is 0.00. Only 10 students were able to earn a GPA of 4.00. Only 7 students were able to get a 0.00 GPA.
+
+#Zach's Contribution
+
+### WE CAN ADJUST THESE PLOTS BASED ON IMPORTANT PREDICTORS
+```{r exploration 2}
+over.128 <- subset(students, CREDITS_EARNED >= 128)
+finished.at.usf <- nrow(over.128) / nrow(students) # 0.508
+avg.gpa <- mean(students$GPA) # 3.19
+avg.creds.earned <- mean(students$CREDITS_EARNED) # 111.276
+
+# How many students earned at least 128 credits
+did.graduate <- students$CREDITS_EARNED >= 128
+
+# How many of each major are there?
+majors <- students %>% group_by(MAJOR) %>% tally()
+majors$prop <- majors$n / nrow(students)
+major.plot <- ggplot(aes(x = MAJOR, y = n, fill = MAJOR), data = majors, fill = MAJOR)
+major.plot + geom_bar(stat = "identity") +
+  scale_fill_manual(values = getPalette(nrow(majors))) +
+  xlab("Major") +
+  ylab("Count") +
+  ggtitle("Number of Students in Each Major") +
+  my.theme 
+
+# How many residence halls?
+halls <- students %>% group_by(RESIDENCE_HALL) %>% tally()
+halls$prop <- halls$n / nrow(students)
+halls.plot <- ggplot(data = halls, aes(x = RESIDENCE_HALL, y = n, fill = RESIDENCE_HALL))
+halls.plot + geom_bar(stat = "identity") +
+  scale_fill_brewer(palette = "OrRd") +
+  xlab("Residence Hall") +
+  ylab("Count") +
+  ggtitle("Number of Students in Each Residence Hall") +
+  my.theme
+
+
+```
+Based on the various response variables we have, GPA, CREDITS_EARNED, and GPA_CREDITS_EARNED, we have decided to build 4 different models, 2 explanatory models for both GPA and CREDITS_EARNED and 2 predictive models for both GPA and CREDITS_EARNED. We will perform LASSO subset selection before building a simple OLS model for our explanatory purposes followed by a test of many different models to attain the most accurate model for predictive purposes.
+
+## LASSO for GPA Explanatory Model
+After some data exploration, we see that we have over 40 majors, and so these different majors may have an impact on how likely a student is to get a good GPA or graduate at USF. We will attempt to first see which variables provide the most value to our model by using LASSO to select a subset of all our predictors.
+
+We first isolate our independent variable from our predictors
+```{r separation}
+creds <- students$CREDITS_EARNED
+gpa.creds <- students$GPA_CREDITS
+gpa <- students$GPA
+
+students.vs.creds <- students[ , -c(1, 7, 13, 14)]
+students.vs.gpa.cred <- students[ , -c(1, 7, 12, 14)]
+students.vs.gpa <- students[, -c(1, 7, 12, 13)]
+
+```
+
+We will run a LASSO penalty to obtain a subset of important predictors for GPA. First, we are going to build an explanatory model for the GPA against our selected features.
+```{r LASSO selection}
+train.test <- students[, -c(1, 7, 12, 13, 14)]
+train.test <- cbind(gpa, train.test)
+train.test <- model.matrix(gpa ~ ., train.test)
+train.test <- train.test[, -1]
+
+train <- sample(1:nrow(train.test), (nrow(train.test) * 0.75 ))
+test <- (-train)
+
+y.train <- gpa[train]
+y.test <- gpa[test]
+
+
+lasso.selection <- cv.glmnet(train.test[train,], y.train, alpha = 1)
+plot(lasso.selection)
+abline(v = log(lasso.selection$lambda.min), col = "blue", lwd = 2)
+
+coef(lasso.selection, lasso.selection$lambda.min)
+
+# Removing Lasso variables
+train.test <- train.test[, -c(2, 3)]
+```
+Our LASSO penalty exlcluded many variables from our model, but we will not be excluding all of them. Some majors were exlcuded while others were not and it does not make sense, in the context of our study, to only include some majors since we want to see the effect of any particular major on a student's GPA. A similar argument is used to include all Residence Hallsas predictors, despite our LASSO indicating that Gillson and Lone Village students do not have a relatively large contribution to the model. However, we will exclude the predictors IN_STATE and UNMET_NEED_PERCENT according to our optimal LASSO model.
+
+## GPA OLS Explanatory Model
+We will now build an explanatory Linear Regression model. Then we will perform diagnostics to understand better the data and its implications. 
+
+## GPA Diagnostics
+### 1) Model Creation, Homoskedasticity, and Normality
+```{r ols 1}
+train.test.gpa <- cbind(train.test, gpa)
+
+gpa.ols <- lm(gpa ~ ., as.data.frame(train.test.gpa[train,]))
+summary(gpa.ols)
+bptest(gpa.ols)
+shapiro.test(residuals(gpa.ols))
+```
+A few initial diagnostics show that we apparently have some heteroskedasticity and normality errors. Our initial model fails both the Shapiro Wilkes and Breusch Pagan tests and has an adjusted $R{^2}$ value of only 0.14. We will now conduct more tests and perform transforms in an attempt to correct these issues.
+
+
+### 2) Extreme Values
+I have created a function which gives many important diagnistic plots for quick analysis.
+```{r extreme value function}
+plot.extreme <- function(x, labs=NA) {
+  hats <- hatvalues(x)
+  plot(fitted(x), residuals(x), xlab = "Fitted Values", ylab = "Residuals", main = "Residual Plot")
+  qqnorm(residuals(x))
+  qqline(residuals(x))
+  if (!is.na(labs)) {
+    halfnorm(hats, labs = labs, ylab = "Leverage Points", main = "Leverage Points Plot")
+  } else {
+    halfnorm(hats, labs = rownames(x), ylab = "Leverage Points", main = "Leverage Points Plot")
+  }
+  std.resids <- rstudent(x)
+  plot(fitted(x), std.resids, xlab = "Fitted Values", ylab = "Studentized Residuals", main = "Outliers")
+  abline(h = 3, col = "purple", lwd = 2)
+  abline(h = -3, col = "purple", lwd = 2)
+  if (!is.na(labs)) {
+    halfnorm(cooks.distance(gpa.ols), labs = labs, ylab = "Cook's Distance", main = "Influential Points")
+  } else {
+    halfnorm(cooks.distance(gpa.ols), labs = rownames(x), ylab = "Cook's Distance", main = "Influential Points")
+  }
+}
+```
+
+```{r diagnostics 1}
+plot.extreme(gpa.ols, labs = students$MAJOR)
+```
+From a plot of the _h-values_, we can see that there are many observations which have high leverage, including an UNSC (undeclared sciences) and the only THES (theology studies) major. A plot of the studentized residuals also gives the indication that we have many extreme values, as we see many observations with studentized residuals greater than 3 standard deviations. We find a trend in our Cook's Distance plot, with many influential points. Before removing any observations, we will examine the effect of a Box-Cox transform to see if we can correct some issues in our data, and then re-examine our extreme values.
+
+### 3) Box-Cox Transformation
+```{r box cox 1}
+boxcox(gpa.ols,
+       lambda = seq(-1, 4, 1/10))
+bx.1.gpa <- train.test.gpa
+bx.1.gpa[, "gpa"] <- (bx.1.gpa[, "gpa"] ** 3) # transformation on GPA
+head(bx.1.gpa[, "gpa"])
+#head(train.test.gpa[, "gpa"])
+
+# After y ^ 3 transform...
+bx.1.gpa.ols <- lm(gpa ~ ., as.data.frame(bx.1.gpa[train, ]))
+
+shapiro.test(residuals(bx.1.gpa.ols))
+bptest(bx.1.gpa.ols)
+```
+The Box-Cox suggests that the best integer transformation on Y involves a $\lambda$ of 3. Replotting the residuals  and QQ plots shows much better adherence to normality and homoskedasticity, though we do still have a somewhat predictable structure in the residual plot. However, we still find that our Shapiro Wilkes and Breusch Pagan tests fail. Let's re-examine our extreme values.
+
+```{r extreme after transformation}
+plot.extreme(bx.1.gpa.ols, students$MAJOR)
+```
+We are still left with many Leverage points and influential points which could be hurting the reliability of our model, but our studentized residual plot shows that we did fit nearly all of our previous outliers within 3 standard deviations. Let us remove all observations with a Cook's distance greater than 0.010 and re-examine our plots.
+
+### 4) Removing Influential Points
+We now need to find all influential observations from our data. We need to remove the observations and store new dataset, then create new train and test splits. However, we will examine our influential points to see if there are any noticeable trends or patterns in our extreme data.
+```{r examining influential points}
+influential <- as.numeric(names(na.omit(cooks.distance(bx.1.gpa.ols)))[(na.omit(cooks.distance(bx.1.gpa.ols)) > (4/nrow(students)))])
+
+length(cooks.distance(bx.1.gpa.ols)[cooks.distance(bx.1.gpa.ols) > 4/(nrow(students))]) # 103
+
+print("Proportion of Majors in Data with Influential Points")
+summary(students[influential, ]$MAJOR)/nrow(students[influential,])
+
+print("Proportion of Majors in Data without Influential Points")
+summary(students$MAJOR)/nrow(students)
+
+pairs(students[influential, c("MAJOR", "UNMET_NEED_PERCENT", "SCIENCE_CLASSES", "LAB_CLASSES", "RESIDENCE_HALL", "ETHNICITY", "CREDITS_EARNED", "GPA")])
+```
+We can see some trends in our influential pairs plot, such as a positive linear trend between LAB_CLASSES and GPA and SCIENCE_CLASSES and GPA. The most noticeable difference here is that we do not see the thick bands which represent students who get 128 credits. There is no large difference between the summary statistics for the predictors of the entire dataset and those of the influential points, so we will proceed with removing them.
+
+```{r removing influential points}
+bx.1.gpa.screened <- bx.1.gpa[-(influential), ]
+
+train.screened <- sample(1:nrow(bx.1.gpa.screened), (nrow(bx.1.gpa.screened) * 0.75 ))
+test.screened <- (-train.screened)
+
+y.train.screened <- gpa[train.screened]
+y.test.screened <- gpa[test.screened]
+
+bx.screened.ols <- lm(gpa ~ ., as.data.frame(bx.1.gpa.screened[train.screened, ]))
+summary(bx.screened.ols)
+shapiro.test(residuals(bx.screened.ols))
+bptest(bx.screened.ols)
+plot.extreme(bx.screened.ols)
+
+# What is error of the model?
+gpa.final.pred <- predict(bx.screened.ols, newx = y.test.screened)
+gpa.final.mspe <- mean((gpa.final.pred - y.test.screened) ** 2)
+print("MSPE of Final Explanatory GPA Model")
+gpa.final.mspe
+```
+We have decided to use the standard rule of removing influential values with Cook's Distance greater than 4/_n_, f which there are 103. We have obtained a slightly better adjusted $R{^2}$ and see more predictors as statistically significant which is an improvement. Another problem that we ran into is that some in the process of removing influential points from our model, we have incidentally excluded some majors from consideration. This may be why these students were considered influential, because they represented a very large fraction of their respective major, and in some cases, entire majors were excluded because of the small number of students in them.
+
+## Interpretation of GPA OLS Explanatory Model
+The goal from this model was to form an understanding of how a freshman student's various attributes contribute to their cumulative GPA after 4 years of education at USF. In order to achieve a better model fit, we performed a transformation on the response, GPA, in particular, we used a $\lambda$ = 3 transformation. So, we can say that for each coefficient value, a single unit change in X has the effect of increasing GPA by the cubed root of each coefficient. This is very rough and is far from what ideal results would be. Regardless, we will describe some of the most significant or interesting coefficients (cubed root of) and their standard errors:
+- Gender had a very significant impact, with a value of -6.44 and std err of 0.97. This corresponds to a value of -1.86 per unit change in X on y. This means that, approximately, being a male negatively impacts your GPA by 1.86 points compared to females.
+- Having a Pell grant negatively impacted a person's GPA by 1.28 as opposed to those who did not. Coef = -2.13 with std err = 1.03.
+Note: All dummy coded Major variables are compared to Advertising majors.
+- Being an Environmental Science major has a -2.60 impact on one's GPA compared to Advertising majors. Coef = -17.60 with std err = -5.74
+- Though Data Science majors did not have a significant result, we did have a -2.29 impact on GPA compared to Advertising majors, but again, not statistically significant. Coef = -12.04 with std err = 13.38.
+Note: All dummy coded residence halls are compared to Fromm.
+- Those who live in Hayes had a -1.65 impact on GPA compared to Fromm. Coef = -4.5 with std err = 1.66.
+- Those who lived in Lomo had a -2.00 impact on GPA compared to those in Fromm.
+Note: All dummy encoded ethnicities are compared to African American.
+- Being Asian American had a 1.91 impact on GPA compared to African American students. Coef = 6.99 with std err = 2.49.
+- Being white had a 2.20 impact on GPA compared to African American students. Coef = 10.74 with std err = 2.47.
+
+These were just a few of the coefficient estimates gathered for this explanatory model. There are many issues with this model, the glaring problem being an abysmal $R{^2}$ value of 0.19. After examining the coefficient estimates and their standard errors, we found that most were not statistically significant and had extremely high standard errors relative to their estimates such as the Data Science Major. I believe that there is most likely some multicollinearity between dummy variables, even though that is supposed to not happen. I believe that this multicollinearity is leading to high variance and low interpretability. We could have used Ridge Regression to solve this issue but we would have lost all interpretability in the process. 
+
+We also have the problem of failing both the Shapiro Wilkes and Breusch Pagan tests. The Shapiro Wilkes test is shown to be very sensitive to small deviations from normality, and our QQ plot still demonstrated a very near approximation to normality after our Box Cox transformation. We could have used a more optimal $\lambda$ value, but our interpretability would have been even worse. Also, our residual plot is very peculiar in that there is randomness, but there appears to be almost be a random scattering of points within certain bounds. This is most likely due to the many students who received exactly 128 credits or very near that number. This is because it  is the requirement to graduate at USF. This also explains the very distinguishable lines in our pairs plot of the data. 
+
+To conclude, the purposes of our study prevented us from excluding many predictors which seem to have harmed the accuracy and meaningness of our model. However, we can derive a few statistcially significant results regarding the impact that a student's ethnicity or residence hall may have on their final, cumulative GPA at USF.
+
+## GPA Predictive Model
+Now that we don't have to try and fix normality assumptions, let's try and build a predictive model for a student's final, cumulative GPA.
+
+### LASSO
+We actually already built a LASSO model for GPA in the Explanatory step, so let's revisit that.
+```{r lasso pred}
+gpa.pred.lasso <- glmnet(train.test[train, ], y.train, alpha = 1, 
+                         lambda = lasso.selection$lambda.min)
+gpa.lasso.preds <- predict(gpa.pred.lasso, s = lasso.selection$lambda.min,
+                           newx = train.test[test, ])
+gpa.lasso.mspe <- mean((gpa.lasso.preds - y.test) ^ 2)
+coef(gpa.pred.lasso)
+gpa.lasso.mspe
+```
+### Ridge
+We find that our optimal LASSO model gives an MSPE of 0.405 which seems spectacular, but given the small range of values for GPA, may not be too great. Let's check cross-validated Ridge Regression model now.
+
+```{r ridge pred}
+ridge.gpa.cv <- cv.glmnet(train.test[train,], y.train, alpha = 0)
+plot(ridge.gpa.cv)
+abline(v = log(ridge.gpa.cv$lambda.min), col = "purple", lwd = 2)
+
+ridge.gpa.preds <- predict(ridge.gpa.cv, s = ridge.gpa.cv$lambda.min, 
+                           newx = train.test[test, ])
+ridge.gpa.mspe <- mean((ridge.gpa.preds - y.test) ^ 2)
+ridge.gpa.mspe
+```
+The Ridge Regression model actually gives a slightly worse test error of 0.407, however, it has the advantage of being able to predict a student's GPA no matter their major.
+
+### Final
+We will use the Ridge Regression model for prediction because even though it has a slightly worse testing error, the LASSO model is not able to predict the GPA of student's from certain majors or residence halls and so gives value to less students overall. 
+
+
+
+#Adam's Contribution
+
+```{r datacleaning}
+levels(dataset$PELL)[dataset$PELL != "Y"] <- "N"
+levels(dataset$RESIDENCE_HALL)[1] <- "Off-Campus"
+sum(is.na(dataset))
+na.dataset <- dataset[is.na(dataset), ]
+dataset <- na.omit(dataset)
+```
+
+#Diagnostics
+```{r model1}
+first.model <- lm(GPA ~ . - RANDOM_ID, data=dataset)
+plot.extreme(first.model, dataset$RANDOM_ID)
+```
+Based on Zach's plots, I will change the logistic dataset to remove the outliers, leverage and influential points to create a logistic model.
+
+#Logistic Model
+
+I will first create a new dataset just for the logistic model. I will also delete the RANDOM_ID column and the CREDITS_EARNED. RANDOM_ID is not needed and CREDITS_EARNED determines whether the students graduate so we need to delete it.
+```{r logistic.dataset}
+logistic.col <- dataset$CREDITS_EARNED >= 128
+logistic.col[logistic.col == TRUE] <- 1
+logistic.dataset <- cbind(dataset, logistic.col)
+logistic.dataset$RANDOM_ID <- NULL
+logistic.dataset$CREDITS_EARNED <- NULL
+```
+
+I will now clean the inluential points based on the graph above.
+```{r logistic.cleaning}
+#This is to clean the influential point
+cooks <- cooks.distance(first.model)
+threshold <- 4/nrow(logistic.dataset)
+cooks.delete <- which(cooks>threshold)
+#logistic.dataset <- logistic.dataset[-c(cooks.delete), ]
+
+#This is to clean the outliers
+student.residuals <- rstudent(first.model)
+student.residuals.delete <- which(student.residuals > 3 | student.residuals < -3)
+
+#Unionize both vectors to recieve all indices to delete at once
+delete.vector <- union(cooks.delete, student.residuals.delete)
+logistic.dataset <- logistic.dataset[-c(delete.vector), ]
+total_num <- nrow(logistic.dataset)
+num_graduated <- sum(logistic.dataset$logistic.col == 1)
+num_notgraduated <- total_num - num_graduated
+
+total_num
+num_graduated
+num_notgraduated
+```
+After deleting the influential and the outlier points, there are 1393 students in total in the dataset. Out of the 1393 students, 1052 graduated while 341 did not. One issue of thinking about running a logistic model over the data is that it is very unbalanced. So the best decision is to keep this dataset and create a new balanced dataset. I will keep 341 students that graduated and the 341 students that did not graduate and combine them to create a balanced dataset of 682 students.
+
+```{r unbalanced dataset}
+#I set the random number generator state to be able to split the training and testing sets to create the model without issues of rare unseen majors when the model trains itself.
+set.seed(150)
+unbalanced.train.indices <- sample(seq_len(nrow(logistic.dataset)), size = floor(0.75 * nrow(logistic.dataset)))
+
+unbalanced.train <- logistic.dataset[unbalanced.train.indices, ]
+unbalanced.test <- logistic.dataset[-unbalanced.train.indices, ]
+unbalanced.y.train <- unbalanced.train$logistic.col
+unbalanced.y.test <- unbalanced.test$logistic.col
+```
+
+```{r balanced dataset}
+graduated <- logistic.dataset[logistic.dataset$logistic.col==1, ]
+balanced.graduated <- graduated[1: 341,]
+balanced.notgraduated <- logistic.dataset[logistic.dataset$logistic.col==0, ]
+balanced.logistic.dataset <- rbind(balanced.graduated, balanced.notgraduated)
+
+#Need to randomize the observations to create a train and test set
+balanced.logistic.dataset <- balanced.logistic.dataset[sample(nrow(balanced.logistic.dataset)), ]
+
+train_indices <- sample(seq_len(nrow(balanced.logistic.dataset)), size = floor(0.75 * nrow(balanced.logistic.dataset)))
+
+train <- balanced.logistic.dataset[train_indices, ]
+test <- balanced.logistic.dataset[-train_indices, ]
+
+#I will find the difference of data
+diff.majors2 <- setdiff(test$MAJOR, train$MAJOR)
+delete.majors2 <- which(test$MAJOR %in% diff.majors2)
+train <- train[-c(delete.majors2), ]
+test <- test[-c(delete.majors2), ]
+
+y.test <- test$logistic.col
+y.train <- train$logistic.col
+```
+Here above, I created the training and testing dataset of the balanced dataset. The training dataset has 75% of the data in the balanced dataset while the testing dataset has 25%.
+
+##First logistic model
+This model will run on unbalanced data
+```{r logisticmodel1}
+logistic.model1 <- glm(logistic.col ~ ., family = "binomial", data = unbalanced.train)
+#You must round 
+model1preds <- round(predict(logistic.model1, unbalanced.test, type = "response"))
+summary(logistic.model1)
+which(logistic.model1$coefficients>0)
+```
+
+After creating the logistic model with the unbalanced data, we can see what are the positive coeffecient values that lead to whether a person graduated. Based on this random sample of the data, it seems that most majors contribute positively for a student to graduate. The coeffiecent for the Japanese Studies major is the highest, but only one student graduated with Japanese Studies as a major. The number of Lab Classes does not contribute much to whether that student graduates or not. The best dorm building is Loyola Village with the highest coefficient of all the dorm buildings. Most ethnicities contribute badly, except if you are Pacific Islander, Hispanic or Unknown. However, this does not insinuate that some ethnicities perform better than others since it is the number of observations between ethnicities are not equal. Of course, the GPA_CREDITS and the GPA have the most significance of determing whether a person graduates. This should not be surprising that since if the GPA of a student is higher than most, it establishes that student is achieving academically enough to graduate.
+
+Disclaimer: I set the random number generator so that the model and its coefficients can be repeated. I ran the model multiple times and recieved mixed results, this is just an example of interpreting the model.
+
+```{r first.accuracy}
+first.loss <- mean((model1preds - unbalanced.y.test)^2)
+first.accuracy <- 1 - first.loss
+first.accuracy
+```
+The accuracy of the first model is about 0.97 so 97% correct which is pretty good. However, the dataset is unblananced, so the model has seen mostly observations that show students that graduated, and not as much observations that show students that did not graduate. However, we can assess the model more.
+
+```{r first.assessment}
+unbalanced.y.test.equals1 <- unbalanced.y.test == 1
+model1preds.equals1 <- model1preds == 1
+unbalanced.y.test.equals0 <- unbalanced.y.test == 0
+model1preds.equals0 <- model1preds == 0
+
+true.positives1 <- sum(unbalanced.y.test.equals1 == T & model1preds.equals1==T)
+false.positives1 <- sum(model1preds.equals1 == T & unbalanced.y.test.equals0==T)
+true.negatives1 <- sum(unbalanced.y.test.equals0 == T &  model1preds.equals0 == T)
+false.negatives1 <- sum(model1preds.equals0 == T & unbalanced.y.test.equals1==T)
+true.positives1
+false.positives1
+true.negatives1
+false.negatives1
+```
+For a logistic model to be better, we want to decrease the number of False-Positives and False-Negatives. We would also like to increase the number of True-Positives and True-Negatives.
+
+```{r model1.relationships}
+first.accuracy <- (true.positives1+true.negatives1)/length(model1preds)
+first.sensitity <- true.positives1/(true.positives1 + false.negatives1)
+first.specifity <- true.negatives1/(true.negatives1 + false.positives1)
+first.precision <- true.positives1/(true.positives1 + false.positives1)
+
+first.accuracy
+first.sensitity
+first.specifity
+first.precision
+```
+The accuracy of the first model is 97%, which is really good. The sensitivity of the model is 98% which is the true positive rate. The specifity of the model is 93% which is the true negative rate. The precision of the model is 98% which is the positive predictive value. On face value, it seems that this model has done well.
+
+#Second logistic model
+This will used the balanced data
+
+Note: I deleted the some majors in the variable MAJOR, because there were factors that were being tested that the model was not trained on, so I deleted the majors that were unique to the testing dataset. There is only one way to get around this, and it is to oversample the data, so that those unique majors would have not been deleted from our dataset.
+
+```{r logisticmodel2}
+#If there is an issue, please run the chunk where train is initialized
+logistic.model2 <- glm(logistic.col ~ ., family = "binomial", data = train)
+#You must round 
+model2preds <- round(predict(logistic.model2, test, type = "response"))
+summary(logistic.model2)
+which(logistic.model2$coefficients>0)
+```
+
+The results from the logistic model ran on the balanced data is radically different from the previous. There are 36 positive coeffecients compared to the 45 in the previous model. One noticing difference from the previous is that the second model says that if the student is male, the student will be more likely to graduate. Also, it is the same for if the student is from the State of California, which makes sense if the student is from outside California, it is more likely for a student to transfer out. Another difference is that unmet need percentage of students also contribute positively for a student to graduate, so those who have to pay more will be more likely to graduate from USF. If a student has been given Pell grants, the student is less likely to graduate from USF. Students who take more Lab Classes are more likely to graduate as well. International Studies majors are more likely to graduate than any other major. All dorms are contribute negatively except Pac-Wing and Loyola Village. GPA_CREDITS and GPA remain as before to be variables that greatly contribute positively to whether a person will graduate or not.
+
+```{r second.accuracy}
+second.loss <- mean((model2preds - y.test)^2)
+second.accuracy <- 1 - second.loss
+second.accuracy
+```
+The accuracy of the mode is 94%, which is overall good since the data we have is very close to being perfectly balanced.
+
+```{r second.assessment}
+y.test.equals1 <- y.test == 1
+model2preds.equals1 <- model2preds == 1
+y.test.equals0 <- y.test == 0
+model2preds.equals0 <- model2preds == 0
+
+true.positives2 <- sum(y.test.equals1 == T & model2preds.equals1==T)
+false.positives2 <- sum(model2preds.equals1 == T & y.test.equals0==T)
+true.negatives2 <- sum(y.test.equals0 == T &  model2preds.equals0 == T)
+false.negatives2 <- sum(model2preds.equals0 == T & y.test.equals1==T)
+true.positives2
+false.positives2
+true.negatives2
+false.negatives2
+```
+Just as before, we would like to minimize the False-Positives and the False-Negatives, but we would like to maximize the True-Positives and the False-Negatives. The following ratios will allow us to assess which model is better.
+
+```{r model2.relationships}
+second.accuracy <- (true.positives2+true.negatives2)/length(model2preds)
+second.sensitity <- true.positives2/(true.positives2 + false.negatives2)
+second.specifity <- true.negatives2/(true.negatives2 + false.positives2)
+second.precision <- true.positives2/(true.positives2 + false.positives2)
+
+second.accuracy
+second.sensitity
+second.specifity
+second.precision
+```
+The accuracy of the first model is 94%, which is really good. The sensitivity of the model is 94% which is the true positive rate. The specifity of the model is 95% which is the true negative rate. The precision of the model is 94% which is the positive predictive value.
+
+#Conclusion
+##Which Logistic Model is Better?
+I will compare the various ratios that we calculated to measure the performance of each models.
+```{r better}
+first.accuracy > second.accuracy
+first.sensitity > second.sensitity
+first.specifity > second.specifity
+first.precision > second.precision
+```
+This clearly states that the first model performed better than the second model which was somewhat suprising to me, excpet for the specifity of the model. The second model has higher specificity rate, which is basically the ability to rightly predict if the student would not graduate. In other words, the second model was better at guessing which students were going to not graduate. It seems that the number of observations matters more rather than the whether the data being used is balanced. My first guess was that the first model overfitted, but it returned a greater testing accuracy than the second model. For predicitive purposes, I would proceed using the first model. But for inference, I would work with the second model, especially if we had more balanced data.
