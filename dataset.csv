@@ -1,0 +1,1503 @@
+﻿RANDOM_ID,GENDER,IN_STATE,UNMET_NEED_PERCENT,PELL,MAJOR,MAJOR_DESC,SCIENCE_CLASSES,LAB_CLASSES,RESIDENCE_HALL,ETHNICITY,CREDITS_EARNED,GPA_CREDITS,GPA
+"2,462",F,N,0,,ESS,Exercise and Sport Science,20,5,Hayes Healy,Multi Race,139,138,3.51
+"31,327",F,Y,100,Y,MS,Media Studies,4,10,Phelan,Hispanic or Latino,135,129,3.19
+"35,938",M,Y,0,,SOC,Sociology,0,0,Gillson,International,16,32,0.84
+"39,172",M,Y,0,,BENI,Entrepreneurship & Innovation,4,1,Gillson,International,139,163,2.59
+"42,202",F,Y,100,Y,PSYC,Psychology,0,0,Hayes Healy,Hispanic or Latino,56,60,2.99
+"50,041",F,Y,83,,BADM,Business Administration,6,1,Hayes Healy,Asian,131,134,3.33
+"51,156",F,Y,0,,ESS,Exercise and Sport Science,25,5,Hayes Healy,White,134,118,3.03
+"55,865",M,Y,0,,BADM,Business Administration,3,1,Lone Village,International,129,128,3.72
+"62,349",M,Y,0,,BADM,Business Administration,1,0,Hayes Healy,White,32,32,2.98
+"91,145",F,Y,0,,ENVS,Environmental Science,7,10,Gillson,Asian,134,132,2.87
+"96,030",F,Y,0,,PSYC,Psychology,5,1,Gillson,International,131,131,2.94
+"96,073",M,Y,0,,ECON,Economics,3,2,Phelan,International,130,130,2.99
+"102,882",F,Y,90,,POLS,Politics,3,1,Phelan,Hispanic or Latino,131,111,3.45
+"106,741",F,N,64,Y,BIOL,Biology,,,,White,0,0,0
+"107,819",F,Y,0,,BMKT,Marketing,4,1,Hayes Healy,Hispanic or Latino,128,128,3.21
+"114,916",M,Y,85,,FNAR,Fine Arts,0,3,Gillson,White,17,17,3.53
+"115,277",M,Y,0,,ENGL,English,2,8,Gillson,Hispanic or Latino,84,88,2.88
+"119,969",F,Y,100,Y,BIOL,Biology,8,4,Gillson,African American,134,121,3.42
+"125,143",M,Y,94,Y,NURS,Nursing,2,1,Hayes Healy,White,21,13,2.38
+"143,299",F,Y,0,,NURS,Nursing,8,19,Phelan,Asian,154,109,3.37
+"166,808",F,Y,98,Y,BIOL,Biology,31,12,Gillson,Asian,129,124,3.46
+"168,591",F,Y,0,,BADM,Business Administration,3,1,Hayes Healy,International,129,121,3.47
+"187,621",M,Y,0,,BMKT,Marketing,4,2,,International,128,135,2.96
+"191,079",F,Y,70,,BACT,Accounting,3,2,Phelan,Hispanic or Latino,130,130,3.42
+"195,308",F,N,87,,PSYC,Psychology,2,1,Hayes Healy,White,37,33,4
+"201,576",F,Y,69,,BACT,Accounting,4,2,Phelan,Asian,150,142,3.39
+"202,692",F,Y,92,Y,PSYC,Psychology,3,2,Fromm,Hispanic or Latino,128,120,3.31
+"203,040",F,Y,92,Y,BADM,Business Administration,2,0,Hayes Healy,Hispanic or Latino,135,112,3.13
+"203,961",F,N,100,Y,FNAR,Fine Arts,0,2,Gillson,White,18,18,3.78
+"207,288",M,Y,74,,ESS,Exercise and Sport Science,6,2,Hayes Healy,Asian,130,118,2.58
+"225,630",M,Y,2,,ESS,Exercise and Sport Science,27,3,Phelan,Asian,128,126,3.60
+"228,451",M,Y,0,,POLS,Politics,5,3,Gillson,Multi Race,145,133,3.65
+"233,824",F,Y,100,Y,BIOL,Biology,7,2,Hayes Healy,Hispanic or Latino,106,115,2.18
+"238,206",F,Y,100,Y,BIOL,Biology,34,16,Fromm,Asian,142,126,3.11
+"240,493",F,N,0,,BADM,Business Administration,4,1,,International,128,128,2.82
+"240,654",M,N,100,Y,BMKT,Marketing,1,0,Gillson,Asian,139,88,3.54
+"255,376",F,Y,0,,DSGN,Design,4,5,Hayes Healy,Hispanic or Latino,132,132,3.14
+"261,972",F,Y,28,,ENVS,Environmental Science,30,11,Phelan,Hispanic or Latino,132,129,3.02
+"262,977",F,Y,0,,ECON,Economics,4,1,Gillson,International,128,120,3.54
+"271,843",F,Y,92,Y,SOC,Sociology,33,12,Gillson,Asian,162,138,2.77
+"279,115",F,Y,0,,SOC,Sociology,13,1,Phelan,Asian,146,134,2.73
+"296,306",M,Y,0,,BACT,Accounting,7,1,Gillson,Asian,128,128,3.22
+"296,906",M,N,99,Y,BACT,Accounting,1,0,Gillson,Asian,27.05,17,3.78
+"301,905",F,Y,80,,PSYC,Psychology,0,0,Gillson,Hispanic or Latino,22,18,3.84
+"308,921",F,Y,56,,BMKT,Marketing,1,3,Hayes Healy,Multi Race,152,128,3.95
+"312,378",M,Y,0,,BFIN,Finance,5,1,Lone Village,International,129,132,3.19
+"316,279",M,Y,0,,UNBN,Undeclared Business,8,1,Gillson,White,129,125,3.29
+"337,564",F,Y,13,,NURS,Nursing,10,14,Fromm,Asian,136,102,3.39
+"342,136",F,Y,0,,BACT,Accounting,0,0,Gillson,White,30,30,3.19
+"345,083",M,Y,0,,BADM,Business Administration,1,0,Hayes Healy,Multi Race,133,121,2.98
+"346,025",F,Y,31,,COMS,Communication Studies,6,1,Phelan,Asian,128,138,2.63
+"348,615",F,N,0,,BMKT,Marketing,5,1,Gillson,Asian,145,141,3.82
+"351,355",F,Y,100,Y,ARTM,Art History/Arts Management,6,5,Fromm,Multi Race,129,130,3.00
+"360,462",F,Y,23,,BIOL,Biology,20,9,Phelan,Asian,141,124,2.92
+"370,421",F,Y,62,,ARTM,Art History/Arts Management,1,2,Gillson,White,32,32,3.88
+"372,419",M,N,0,,HIST,History,0,0,Hayes Healy,White,16,40,1.43
+"375,854",F,Y,100,Y,NURS,Nursing,7,14,Gillson,African American,134,118,2.79
+"378,063",M,Y,94,Y,ESS,Exercise and Sport Science,8,0,,Asian,55,51,3.38
+"386,099",M,Y,70,,BENI,Entrepreneurship & Innovation,3,1,Hayes Healy,White,128,112,3.34
+"387,018",F,N,90,,UNBN,Undeclared Business,4,3,Fromm,White,145,135,3.92
+"390,635",F,Y,100,Y,BIOL,Biology,16,6,Hayes Healy,Hispanic or Latino,57,60,2.97
+"392,824",M,Y,100,Y,UNSC,Undeclared Sciences,18,3,Pacific Wing,Multi Race,124,112,3.40
+"418,677",F,N,0,,MS,Media Studies,0,0,Hayes Healy,White,48,24,3.28
+"419,131",M,Y,94,Y,NURS,Nursing,7,14,Hayes Healy,White,142,99,3.25
+"426,667",M,N,0,,BMKT,Marketing,7,2,Hayes Healy,White,133,125,3.17
+"438,328",F,Y,53,,UNLA,Undeclared Arts,15,7,,Hispanic or Latino,73,64,2.78
+"439,237",M,Y,0,,DSGN,Design,5,4,Phelan,International,128,128,3.35
+"444,158",F,Y,85,,ESS,Exercise and Sport Science,3,1,Hayes Healy,Hispanic or Latino,24,28,2.24
+"446,481",F,Y,73,,NURS,Nursing,10,5,Gillson,White,43,50,2.34
+"457,307",F,N,100,Y,UNLA,Undeclared Arts,3,0,Lone Mountain,Hispanic or Latino,96,108,2.45
+"458,732",M,Y,88,,PSYC,Psychology,5,2,Phelan,Hispanic or Latino,128,128,2.82
+"461,297",F,Y,67,,COMS,Communication Studies,4,1,Hayes Healy,African American,128,128,3.61
+"468,602",F,N,0,,UNBN,Undeclared Business,3,1,Hayes Healy,White,141,96,3.78
+"469,926",M,Y,0,,ESS,Exercise and Sport Science,1,0,Gillson,International,30,29,0
+"476,126",F,N,100,Y,MS,Media Studies,3,3,Phelan,African American,130,130,2.94
+"485,268",F,Y,0,,BADM,Business Administration,5,1,Phelan,Hispanic or Latino,128,127,3.14
+"486,717",F,Y,88,,BAIS,International Studies,4,1,Fromm,White,153,125,3.94
+"497,292",F,N,93,Y,ENGL,English,3,2,Gillson,African American,133,133,3.70
+"501,470",M,Y,87,,NURS,Nursing,7,14,Hayes Healy,Asian,131,103,3.63
+"509,814",F,Y,97,Y,NURS,Nursing,8,14,Phelan,Asian,146,110,3.54
+"515,765",F,N,46,,UNSC,Undeclared Sciences,6,2,Hayes Healy,Asian,42,34,3.12
+"524,501",F,Y,12,,BIOL,Biology,11,5,Phelan,Hispanic or Latino,136,136,3.41
+"540,785",M,N,52,,UNLA,Undeclared Arts,3,6,Lone Mountain,Hispanic or Latino,90,92,2.17
+"549,249",F,Y,0,,NURS,Nursing,7,14,,Asian,152,100,3.84
+"558,406",M,N,0,,SOC,Sociology,4,1,Hayes Healy,Hispanic or Latino,128,128,2.91
+"562,269",M,Y,75,,POLS,Politics,3,1,Gillson,Hispanic or Latino,128,104,2.89
+"562,963",F,Y,52,,BADM,Business Administration,3,0,Hayes Healy,White,75,57,3.29
+"573,638",M,N,0,,PASJ,Perf. Arts & Soc. Justice,0,2,Gillson,White,35,33,3.52
+"578,099",F,Y,93,Y,PHYS,Physics,9,3,Gillson,Hispanic or Latino,71,63,2.74
+"588,277",F,N,100,Y,BACT,Accounting,3,1,Hayes Healy,African American,150,123,3.12
+"590,346",F,Y,0,,UNBN,Undeclared Business,5,1,Gillson,International,129,129,3.56
+"606,838",M,Y,0,,POLS,Politics,3,1,,International,142,142,3.61
+"608,011",M,N,0,,BIOL,Biology,35,13,Phelan,Asian,128,128,3.22
+"616,585",F,N,74,,BADM,Business Administration,3,3,Hayes Healy,White,161,149,3.88
+"623,790",F,N,89,,UNLA,Undeclared Arts,5,1,Gillson,Asian,130,130,3.41
+"635,267",F,Y,64,,UNBN,Undeclared Business,7,4,Gillson,Hispanic or Latino,130,130,3.03
+"662,505",M,Y,100,Y,BFIN,Finance,5,1,Phelan,White,128,126,3.21
+"672,109",M,Y,0,,UNBN,Undeclared Business,3,5,Phelan,White,130,130,3.12
+"676,952",F,Y,0,,BNTL,International Business,13,4,Gillson,White,138,128,3.38
+"696,600",F,Y,0,,ADVT,Advertising,3,1,Hayes Healy,White,130,130,3.41
+"698,868",F,N,19,,PSYC,Psychology,0,0,Hayes Healy,White,32,32,2.96
+"724,037",M,Y,93,,BADM,Business Administration,9,1,Phelan,Hispanic or Latino,128,108,3.41
+"731,977",F,Y,93,Y,ADVT,Advertising,0,0,Fromm,Native American,29,29,3.59
+"741,234",F,Y,57,,BIOL,Biology,32,13,Fromm,Asian,128,120,3.50
+"745,743",F,Y,44,,ESS,Exercise and Sport Science,10,3,Gillson,White,128,132,3.06
+"749,959",F,Y,0,,SOC,Sociology,1,0,Fromm,White,58,32,3.51
+"755,030",M,Y,100,Y,ARCD,Architecture & Community Design,4,11,Hayes Healy,Hispanic or Latino,130,130,3.38
+"757,455",M,Y,0,,UNBN,Undeclared Business,4,1,,International,157,126,3.93
+"789,831",F,Y,0,,BNTL,International Business,4,1,Hayes Healy,Asian,128,120,3.31
+"832,986",F,Y,0,,BFIN,Finance,3,1,Fromm,International,138,138,3.84
+"833,498",F,Y,37,,COMS,Communication Studies,2,0,Gillson,White,158.50,154,2.95
+"833,753",M,Y,0,,BADM,Business Administration,1,1,Gillson,International,99,77,2.27
+"844,758",M,Y,100,Y,UNLA,Undeclared Arts,9,5,Gillson,Hispanic or Latino,139,139,3.43
+"899,294",F,Y,0,,ENVA,Environmental Studies,6,3,Fromm,Asian,66,66,3.67
+"905,828",F,Y,0,,BADM,Business Administration,4,1,Phelan,International,150,154,2.85
+"917,480",M,Y,12,,CS,Computer Science,23,3,Gillson,Asian,129,105,3.58
+"923,044",F,Y,0,,NURS,Nursing,8,14,Hayes Healy,White,144,98,3.72
+"931,259",F,N,0,,SOC,Sociology,3,1,Gillson,White,32,32,3.51
+"933,570",M,Y,75,,BFIN,Finance,2,0,Gillson,Hispanic or Latino,70,62,3.69
+"967,598",F,Y,68,,MS,Media Studies,4,6,Fromm,White,128,128,3.48
+"972,442",M,Y,100,Y,MATH,Mathematics,1,0,Hayes Healy,White,32,32,3.65
+"979,149",F,Y,97,Y,CDS,Critical Diversity Studies,3,1,Hayes Healy,Hispanic or Latino,128,126,3.03
+"984,795",M,N,0,,BFIN,Finance,5,1,Hayes Healy,White,68,66,3.95
+"984,808",F,N,82,,BIOL,Biology,37,12,Fromm,Asian,137,135,3.35
+"998,843",F,Y,0,,BIOL,Biology,2,1,Gillson,White,12,20,1.52
+"999,662",M,Y,0,,PASJ,Perf. Arts & Soc. Justice,2,6,Gillson,International,33,37,3.25
+"1,011,630",F,N,100,Y,ENGL,English,3,1,Gillson,African American,73,64,3.47
+"1,019,085",F,Y,98,Y,COMS,Communication Studies,25,8,Gillson,White,131,131,3.46
+"1,023,954",M,Y,100,Y,BADM,Business Administration,3,1,Gillson,Hispanic or Latino,137,126,2.66
+"1,045,886",F,Y,100,Y,NURS,Nursing,7,14,Phelan,Asian,134,104,3.69
+"1,047,160",M,Y,0,,BFIN,Finance,4,1,,International,138,112,3.39
+"1,076,819",F,N,90,,ENVS,Environmental Science,4,7,Gillson,White,34,34,2.95
+"1,080,103",F,Y,100,Y,PSYC,Psychology,0,0,Hayes Healy,Hispanic or Latino,41.50,46,1.05
+"1,082,872",F,Y,92,Y,DSGN,Design,1,2,Phelan,White,64,64,3.53
+"1,092,594",F,Y,99,Y,BMKT,Marketing,3,8,Phelan,Hispanic or Latino,142,126,3.37
+"1,098,194",F,N,81,,UNSC,Undeclared Sciences,1,2,Hayes Healy,Hispanic or Latino,15,15,2.12
+"1,111,071",M,N,0,,BIOL,Biology,7,6,Gillson,White,128,132,3.50
+"1,117,366",F,Y,73,,UNBN,Undeclared Business,3,1,Hayes Healy,Hispanic or Latino,129,129,3.15
+"1,119,262",F,Y,48,,PASJ,Perf. Arts & Soc. Justice,1,1,Gillson,Hispanic or Latino,36,36,3.22
+"1,120,698",F,N,100,Y,POLS,Politics,3,1,Hayes Healy,Hispanic or Latino,129,124,3.45
+"1,121,644",F,N,0,,COMS,Communication Studies,1,0,Hayes Healy,Asian,12,12,2.47
+"1,129,033",F,Y,0,,BMKT,Marketing,5,1,Lone Village,International,148,152,2.70
+"1,130,943",M,Y,100,Y,CS,Computer Science,19,4,Hayes Healy,Hispanic or Latino,128,128,3.15
+"1,151,522",F,Y,0,,ENGL,English,1,0,Fromm,Asian,44,28,1.93
+"1,152,210",M,Y,0,,CS,Computer Science,18,3,Gillson,International,134,134,3.47
+"1,154,976",F,Y,37,,ARTM,Art History/Arts Management,2,4,Hayes Healy,White,134,122,3.66
+"1,160,038",F,Y,76,,CS,Computer Science,10,3,Hayes Healy,White,48,48,1.89
+"1,169,904",M,N,0,,MS,Media Studies,0,0,Phelan,White,12,12,3.23
+"1,177,362",M,N,0,,MS,Media Studies,1,0,Hayes Healy,White,74,34,3.49
+"1,183,784",F,N,0,,BADM,Business Administration,3,6,Gillson,White,135,135,3.92
+"1,186,437",F,Y,0,,UNBN,Undeclared Business,1,0,Gillson,Hispanic or Latino,65,65,3.59
+"1,190,278",M,Y,66,,BIOL,Biology,34,14,Phelan,Unknown,140,131,2.86
+"1,195,587",F,Y,96,Y,BADM,Business Administration,3,1,,Asian,132,120,3.96
+"1,205,291",M,Y,0,,BADM,Business Administration,3,1,Hayes Healy,Asian,154,138,3.95
+"1,206,176",F,Y,0,,BADM,Business Administration,3,1,Fromm,Asian,129,121,3.49
+"1,206,267",M,Y,92,Y,BADM,Business Administration,3,1,Gillson,Asian,129,129,3.27
+"1,212,274",F,N,0,,BIOL,Biology,10,6,Hayes Healy,White,64,32,3.73
+"1,212,319",F,N,92,Y,UNSC,Undeclared Sciences,6,2,Phelan,Asian,28,27,2.64
+"1,214,708",M,Y,0,,BIOL,Biology,36,12,Gillson,Multi Race,152,131,3.67
+"1,233,447",M,N,0,,CS,Computer Science,6,2,Phelan,White,128,132,2.94
+"1,236,235",F,N,0,,ADVT,Advertising,1,0,Hayes Healy,White,16,16,2.43
+"1,237,817",M,Y,84,,CMPL,Comparative Lit. & Culture,1,0,Hayes Healy,Asian,128,120,3.24
+"1,250,202",F,Y,28,,COMS,Communication Studies,4,1,Phelan,Hispanic or Latino,128,132,2.81
+"1,254,596",M,Y,89,,ENGL,English,19,1,Gillson,White,144,128,3.58
+"1,254,762",F,Y,34,,PSYC,Psychology,0,1,Gillson,White,128,84,3.67
+"1,256,767",F,Y,0,,MS,Media Studies,0,0,Fromm,White,16,16,2.60
+"1,264,723",F,Y,51,,DSGN,Design,1,0,Gillson,Hispanic or Latino,24,16,2.93
+"1,264,887",M,Y,0,,BADM,Business Administration,1,0,Lone Mountain,International,0,12,0
+"1,266,282",M,N,0,,CS,Computer Science,5,2,Phelan,International,129,129,2.57
+"1,274,460",F,Y,87,,MATH,Mathematics,30,7,Hayes Healy,Hispanic or Latino,128,132,2.85
+"1,276,964",M,Y,100,Y,BNTL,International Business,32,13,Gillson,White,131,127,3.69
+"1,279,925",F,Y,0,,PSYC,Psychology,0,0,Hayes Healy,Asian,36,32,1.05
+"1,280,436",F,Y,0,,BMKT,Marketing,4,1,Hayes Healy,White,134,130,3.62
+"1,281,883",M,N,98,Y,CS,Computer Science,4,0,Gillson,African American,43,55,1.95
+"1,287,302",M,Y,0,,BAIS,International Studies,9,1,Gillson,Asian,165,121,3.53
+"1,289,090",F,N,0,,UNBN,Undeclared Business,3,3,Hayes Healy,International,128,131,2.96
+"1,290,094",M,Y,9,,CS,Computer Science,20,7,Gillson,Asian,128,100,3.27
+"1,300,742",M,N,0,,UNLA,Undeclared Arts,20,4,Phelan,White,120,128,2.78
+"1,301,448",F,Y,62,,COMS,Communication Studies,3,1,Gillson,White,129,113,3.28
+"1,306,622",F,N,100,Y,UNLA,Undeclared Arts,1,1,Phelan,Asian,49,33,3.73
+"1,316,672",M,N,90,,CS,Computer Science,5,1,Hayes Healy,White,8,18,0.78
+"1,324,174",F,Y,2,,NURS,Nursing,9,14,Hayes Healy,White,129,101,3.23
+"1,327,645",M,Y,0,,UNLA,Undeclared Arts,2,1,Gillson,White,140,128,3.71
+"1,331,788",M,Y,0,,BADM,Business Administration,2,1,Lone Mountain,International,27,41,1.63
+"1,332,573",F,Y,100,Y,PSYC,Psychology,9,3,Phelan,Asian,128,128,3.38
+"1,346,680",M,N,0,,BENI,Entrepreneurship & Innovation,3,1,Lone Village,International,130,130,2.71
+"1,358,394",M,Y,43,,BIOL,Biology,12,5,Gillson,Asian,133.35,130,3.45
+"1,369,520",M,N,100,Y,ENVS,Environmental Science,27,12,Gillson,White,128,122,2.90
+"1,391,395",F,Y,97,Y,BAIS,International Studies,3,1,Phelan,White,155.50,141,3.91
+"1,393,498",F,N,99,Y,PASJ,Perf. Arts & Soc. Justice,3,19,Gillson,Hispanic or Latino,150,134,3.42
+"1,398,872",M,Y,35,,PSYC,Psychology,3,1,Gillson,Asian,130,130,3.39
+"1,398,961",F,N,98,Y,CS,Computer Science,3,1,Gillson,White,51,27,3.27
+"1,402,142",F,Y,0,,BADM,Business Administration,10,1,Fromm,Asian,142,138,3.83
+"1,411,053",F,Y,48,,PSYC,Psychology,4,2,Phelan,Hispanic or Latino,128,120,3.28
+"1,413,677",M,Y,0,,ENGL,English,3,1,Gillson,White,82,62,3.90
+"1,415,798",F,Y,100,Y,FNAR,Fine Arts,0,3,Hayes Healy,Hispanic or Latino,35,35,3.41
+"1,425,519",M,Y,96,Y,BADM,Business Administration,8,1,Lone Mountain,African American,61,63,2.29
+"1,429,643",M,Y,0,,ARCD,Architecture & Community Design,1,3,Gillson,White,55,55,2.93
+"1,430,932",F,Y,0,,PSYC,Psychology,3,3,Gillson,Unknown,128,120,3.41
+"1,431,052",M,Y,20,,BADM,Business Administration,4,1,Hayes Healy,White,131,131,3.37
+"1,453,055",M,Y,22,,BADM,Business Administration,8,2,Hayes Healy,African American,131,131,3.93
+"1,458,685",F,N,100,,COMS,Communication Studies,3,6,Fromm,Hispanic or Latino,160,128,3.69
+"1,460,401",M,Y,0,,BADM,Business Administration,4,1,Gillson,International,128,136,2.43
+"1,462,562",M,N,0,,ARCD,Architecture & Community Design,3,1,Hayes Healy,White,128,128,3.63
+"1,465,966",F,N,0,,SOC,Sociology,2,0,Phelan,Hispanic or Latino,131,131,3.12
+"1,467,924",F,Y,100,Y,COMS,Communication Studies,6,1,Hayes Healy,Hispanic or Latino,129,137,3.05
+"1,479,618",F,N,0,,BIOL,Biology,4,1,Phelan,White,133,125,3.44
+"1,481,958",F,Y,77,,UNSC,Undeclared Sciences,4,1,Fromm,Multi Race,128,128,3.85
+"1,490,195",M,Y,0,,BFIN,Finance,4,1,Lone Mountain,International,142,154,2.85
+"1,493,497",M,Y,95,Y,UNSC,Undeclared Sciences,0,0,Gillson,White,24,28,1.69
+"1,502,714",M,N,0,,UNBN,Undeclared Business,5,4,Phelan,Asian,137,117,3.76
+"1,505,582",F,N,0,,BACT,Accounting,4,3,Phelan,International,151,150,3.92
+"1,508,295",F,Y,77,,POLS,Politics,4,2,Hayes Healy,Hispanic or Latino,130,130,2.76
+"1,511,855",F,Y,97,Y,BADM,Business Administration,3,1,Phelan,Hispanic or Latino,138,130,3.31
+"1,516,007",F,Y,100,Y,COMS,Communication Studies,3,1,Phelan,Multi Race,128,128,3.08
+"1,518,067",M,Y,0,,BAIS,International Studies,3,1,Lone Mountain,International,128,128,3.47
+"1,519,859",M,Y,100,Y,PSYC,Psychology,2,2,Hayes Healy,Hispanic or Latino,128,125,3.65
+"1,521,604",M,Y,99,Y,ENGL,English,3,3,Gillson,Hispanic or Latino,128,120,3.69
+"1,522,361",F,N,98,Y,CHEM,Chemistry,4,2,Hayes Healy,White,30,29,2.74
+"1,524,363",F,Y,98,Y,BADM,Business Administration,1,0,Phelan,Asian,29,33,2.91
+"1,526,154",F,Y,63,,NURS,Nursing,6,14,Hayes Healy,Hispanic or Latino,167,110,3.30
+"1,528,064",F,Y,35,,NURS,Nursing,7,14,Gillson,White,135,107,3.56
+"1,533,177",M,Y,0,,DSGN,Design,0,0,Gillson,White,24,24,2.93
+"1,542,208",M,Y,25,,BADM,Business Administration,4,1,Hayes Healy,Asian,130,130,3.54
+"1,543,420",F,Y,0,,PSYC,Psychology,6,5,Phelan,International,128,134,2.93
+"1,543,844",F,N,100,Y,DSGN,Design,3,4,Fromm,Asian,129,109,3.74
+"1,553,875",M,Y,0,,BADM,Business Administration,7,1,Hayes Healy,White,128,125,2.86
+"1,562,906",F,Y,0,,BADM,Business Administration,3,1,Gillson,International,130,122,3.38
+"1,565,463",M,Y,68,,ESS,Exercise and Sport Science,38,11,Phelan,Asian,128,143,2.82
+"1,568,054",F,Y,0,,JNST,Japanese Studies,8,1,Gillson,Asian,128,98,3.62
+"1,572,624",F,Y,3,,BMKT,Marketing,4,2,Phelan,White,134,130,3.77
+"1,573,306",F,N,87,,BIOL,Biology,4,2,Gillson,Unknown,20,16,2.03
+"1,575,785",M,N,0,,BAIS,International Studies,5,1,,International,142,146,3.22
+"1,590,533",F,Y,100,Y,NURS,Nursing,13,17,Phelan,Asian,145,117,3.37
+"1,590,543",M,Y,0,,BMKT,Marketing,3,6,Hayes Healy,White,129,129,3.53
+"1,609,970",F,N,0,,BADM,Business Administration,0,0,,International,4,12,1.10
+"1,611,191",F,Y,100,Y,BIOL,Biology,31,12,Gillson,Asian,134,118,3.57
+"1,612,346",F,Y,100,Y,DSGN,Design,0,2,Gillson,White,8,16,0.83
+"1,626,654",F,Y,60,,COMS,Communication Studies,5,1,Fromm,Hispanic or Latino,128,112,3.34
+"1,627,222",M,Y,56,,ARCD,Architecture & Community Design,4,10,Hayes Healy,White,133,133,3.05
+"1,634,122",M,N,22,,BIOL,Biology,7,1,Hayes Healy,Pacific Islander,129,129,3.21
+"1,641,288",F,N,0,,COMS,Communication Studies,3,4,Hayes Healy,Hispanic or Latino,128,128,3.14
+"1,647,826",F,Y,87,,BOBL,Organizational Behav.& Ldrship,6,1,Gillson,Asian,128,128,3.42
+"1,666,765",F,Y,69,,PSYC,Psychology,2,2,Phelan,Asian,129,126,3.34
+"1,677,465",F,N,0,,URBS,Urban Studies,4,3,Hayes Healy,White,129,129,3.71
+"1,686,167",F,Y,0,,PSYC,Psychology,2,4,Phelan,Asian,132,105,3.98
+"1,692,887",M,Y,0,,BMKT,Marketing,9,1,Hayes Healy,International,128,139,2.48
+"1,694,000",F,Y,84,,NURS,Nursing,8,14,Phelan,White,129,92,3.61
+"1,694,872",M,N,0,,ECON,Economics,4,2,Hayes Healy,International,128,118,2.83
+"1,698,993",F,N,83,,ENGL,English,6,1,Phelan,White,128,99,3.88
+"1,701,766",F,Y,93,Y,NURS,Nursing,7,14,Hayes Healy,Hispanic or Latino,153,103,3.97
+"1,709,690",F,N,93,Y,PSYC,Psychology,0,0,Hayes Healy,Hispanic or Latino,28,12,3.10
+"1,748,963",F,Y,87,,COMS,Communication Studies,3,1,Phelan,Asian,133,125,3.83
+"1,755,831",M,Y,0,,BIOL,Biology,40,14,Gillson,Asian,162,130,3.47
+"1,756,311",M,N,100,Y,BADM,Business Administration,8,10,Hayes Healy,White,149,137,3.73
+"1,756,328",F,Y,0,,ARCD,Architecture & Community Design,4,11,Phelan,International,133,125,2.00
+"1,759,095",F,Y,96,Y,BIOL,Biology,2,1,Phelan,Hispanic or Latino,10,14,2.14
+"1,762,602",M,N,0,,BENI,Entrepreneurship & Innovation,1,0,Hayes Healy,Asian,36,35,2.56
+"1,771,163",F,Y,85,,BIOL,Biology,4,2,Hayes Healy,Hispanic or Latino,48,16,3.54
+"1,772,266",F,Y,100,Y,PSYC,Psychology,3,2,Hayes Healy,Hispanic or Latino,128,120,3.56
+"1,774,019",F,Y,0,,BADM,Business Administration,2,0,Phelan,Hispanic or Latino,16,16,3.58
+"1,776,868",M,Y,0,,UNSC,Undeclared Sciences,,,,White,0,0,0
+"1,777,518",M,Y,0,,CS,Computer Science,16,3,Phelan,International,136,136,3.09
+"1,788,414",M,Y,0,,BAIS,International Studies,2,2,Hayes Healy,International,56,98,1.62
+"1,794,204",F,Y,98,Y,COMS,Communication Studies,3,1,Phelan,White,128,128,3.02
+"1,796,867",F,N,94,Y,BADM,Business Administration,1,0,Gillson,Hispanic or Latino,40,44,2.72
+"1,800,916",M,Y,0,,BADM,Business Administration,0,0,Phelan,Asian,9,12,2.40
+"1,809,927",F,N,0,,BENI,Entrepreneurship & Innovation,1,0,Gillson,White,36,16,3.46
+"1,813,165",F,Y,61,,BIOL,Biology,10,3,Hayes Healy,Hispanic or Latino,128,130,2.65
+"1,826,131",M,Y,100,Y,CS,Computer Science,17,3,,Hispanic or Latino,139,134,3.77
+"1,832,735",F,N,0,,FNAR,Fine Arts,1,2,Hayes Healy,White,32,32,2.80
+"1,854,966",M,N,99,Y,BIOL,Biology,8,2,Hayes Healy,Asian,130,128,3.56
+"1,856,575",F,Y,0,,ARCD,Architecture & Community Design,4,10,Fromm,International,132,132,3.56
+"1,857,343",F,Y,0,,BMKT,Marketing,3,1,Gillson,Asian,128,132,2.54
+"1,868,193",F,Y,0,,COMS,Communication Studies,1,1,Gillson,International,60,63,2.91
+"1,884,865",F,N,58,,BADM,Business Administration,2,0,Hayes Healy,White,31,35,2.20
+"1,885,893",M,Y,0,,BFIN,Finance,1,0,Lone Village,International,146,103,3.88
+"1,887,311",F,N,0,,ECON,Economics,5,1,Hayes Healy,International,128,128,3.19
+"1,890,347",F,Y,0,,MS,Media Studies,12,7,Lone Mountain,Unknown,134,135,3.05
+"1,897,002",F,Y,0,,BNTL,International Business,7,1,Phelan,Asian,157,125,4
+"1,922,679",F,N,80,,NURS,Nursing,6,14,Hayes Healy,Asian,133,106,3.42
+"1,923,404",F,Y,17,,PSYC,Psychology,6,3,,Multi Race,136,128,3.88
+"1,923,776",F,N,0,,ECON,Economics,3,0,Hayes Healy,Multi Race,164,132,3.75
+"1,927,992",F,Y,0,,ESS,Exercise and Sport Science,18,5,Hayes Healy,Asian,85,68,3.81
+"1,928,260",F,Y,0,,BAIS,International Studies,3,2,Hayes Healy,Asian,128,124,2.51
+"1,931,332",F,Y,0,,COMS,Communication Studies,3,1,Phelan,Asian,137,131,3.64
+"1,931,699",M,Y,99,,BIOL,Biology,13,6,Gillson,Asian,63,71,2.82
+"1,934,836",F,Y,0,,PSYC,Psychology,0,2,Fromm,White,133,117,3.96
+"1,939,476",M,Y,72,,CS,Computer Science,21,2,Phelan,White,128,122,3.30
+"1,950,486",M,Y,0,,ECON,Economics,1,0,Gillson,International,72,32,3.76
+"1,951,711",M,Y,0,,ARCD,Architecture & Community Design,0,5,,International,27,27,3.08
+"1,962,575",F,Y,0,,PSYC,Psychology,6,2,Phelan,International,128,124,3.54
+"1,966,381",M,N,0,,MS,Media Studies,4,3,Gillson,White,54,34,3.96
+"1,972,456",F,N,100,Y,UNLA,Undeclared Arts,0,0,Phelan,White,64,48,4
+"1,979,143",M,Y,62,,NURS,Nursing,7,14,Phelan,Multi Race,137,113,3.07
+"1,995,542",F,Y,0,,BADM,Business Administration,1,0,,Asian,90,60,3.93
+"2,007,172",F,Y,100,Y,BADM,Business Administration,4,4,Phelan,Hispanic or Latino,128,125,3.25
+"2,048,449",M,N,0,,SOC,Sociology,5,1,Gillson,International,128,126,2.85
+"2,051,479",F,N,65,,COMS,Communication Studies,0,0,Hayes Healy,Multi Race,31.35,32,2.05
+"2,052,226",F,Y,100,Y,BNTL,International Business,3,0,Hayes Healy,White,139,135,3.40
+"2,068,312",F,Y,100,Y,BIOL,Biology,5,2,,Hispanic or Latino,28,36,1.41
+"2,076,960",F,Y,100,Y,POLS,Politics,23,5,Gillson,Hispanic or Latino,130,125,3.07
+"2,078,132",F,Y,0,,BADM,Business Administration,5,6,Gillson,International,128,128,3.86
+"2,115,707",F,Y,0,,ECON,Economics,1,0,Gillson,Unknown,24,24,3.03
+"2,119,074",F,N,0,,BADM,Business Administration,9,2,Hayes Healy,International,128,128,2.97
+"2,143,530",M,Y,98,Y,ADVT,Advertising,3,1,Hayes Healy,Asian,58,58,3.07
+"2,146,068",F,Y,95,,ANST,Asian Studies,4,1,,Asian,149,141,3.46
+"2,154,699",M,N,0,,ECON,Economics,4,1,Hayes Healy,Hispanic or Latino,128,128,2.34
+"2,163,027",F,Y,98,Y,NURS,Nursing,8,14,Phelan,Hispanic or Latino,142,120,3.09
+"2,177,370",F,Y,100,Y,COMS,Communication Studies,0,0,Hayes Healy,White,16,16,3.68
+"2,181,138",F,N,0,,BADM,Business Administration,5,1,Gillson,International,128,119,3.73
+"2,185,242",M,Y,0,,BFIN,Finance,1,0,,International,29,29,3.80
+"2,186,411",M,N,98,Y,CS,Computer Science,21,3,Gillson,Hispanic or Latino,129,128,2.41
+"2,195,443",F,Y,91,,JNST,Japanese Studies,1,0,Lone Mountain,White,69,66,1.93
+"2,197,082",M,N,95,Y,NURS,Nursing,11,4,Hayes Healy,White,46,30,2.73
+"2,200,712",M,Y,0,,BNTL,International Business,6,1,Hayes Healy,Multi Race,153,141,3.17
+"2,211,382",M,Y,0,,UNSC,Undeclared Sciences,11,3,Hayes Healy,International,149,153,2.85
+"2,216,040",M,N,73,,BMKT,Marketing,9,1,Hayes Healy,Multi Race,128,131,3.08
+"2,218,369",M,N,77,,BADM,Business Administration,3,1,Gillson,White,131,127,3.50
+"2,218,734",M,Y,100,Y,ENGL,English,4,1,,Hispanic or Latino,133,129,3.90
+"2,230,179",F,Y,0,,PSYC,Psychology,1,1,Gillson,White,128,124,3.33
+"2,231,014",F,Y,0,,PSYC,Psychology,0,0,Hayes Healy,White,16,16,3
+"2,231,083",F,Y,0,,BFIN,Finance,5,1,Lone Mountain,International,128,129,3.08
+"2,244,682",M,Y,83,,UNLA,Undeclared Arts,5,4,Hayes Healy,White,128,128,3.76
+"2,245,067",M,Y,78,,BIOL,Biology,13,6,Hayes Healy,Asian,131,126,3.25
+"2,248,076",F,Y,0,,HM,Hospitality Management,5,1,Phelan,International,128,128,2.54
+"2,249,576",F,Y,0,,ENGL,English,3,9,Fromm,White,130,124,3.88
+"2,250,372",M,Y,0,,PSYC,Psychology,3,2,Hayes Healy,International,130,138,2.97
+"2,255,755",M,Y,0,,ECON,Economics,20,3,Lone Village,International,132,136,3.32
+"2,257,926",F,Y,56,,NURS,Nursing,2,1,Phelan,White,29,17,3.79
+"2,259,651",M,Y,0,,UNBN,Undeclared Business,2,0,Gillson,White,139,111,3.76
+"2,281,995",M,N,98,Y,ENVA,Environmental Studies,7,3,Hayes Healy,White,128,128,3.87
+"2,283,545",F,Y,0,,BADM,Business Administration,5,6,Gillson,Hispanic or Latino,142,112,2.91
+"2,288,515",F,Y,91,,SOC,Sociology,1,0,Phelan,Hispanic or Latino,128.03,122,3.45
+"2,301,880",M,Y,0,,CS,Computer Science,4,0,Phelan,Hispanic or Latino,24,36,1.38
+"2,310,963",M,Y,100,Y,PSYC,Psychology,0,0,Phelan,African American,16,16,3.68
+"2,337,860",F,Y,100,Y,NURS,Nursing,8,8,Gillson,Asian,148,123,3.18
+"2,377,465",F,Y,0,,BIOL,Biology,7,2,,Multi Race,129,123,3.61
+"2,381,920",F,Y,59,,ESS,Exercise and Sport Science,3,2,Hayes Healy,Hispanic or Latino,135,127,3.63
+"2,412,495",F,N,100,Y,SPAN,Spanish,3,1,Hayes Healy,Multi Race,66,66,3.08
+"2,420,574",F,Y,0,,BADM,Business Administration,4,1,Gillson,International,129,129,3.67
+"2,421,438",F,Y,99,Y,NURS,Nursing,10,19,Hayes Healy,Asian,140,113,3.63
+"2,422,186",F,Y,0,,UNSC,Undeclared Sciences,7,2,Gillson,International,35,34,3.01
+"2,426,678",F,Y,98,Y,UNLA,Undeclared Arts,4,2,,Multi Race,146,114,3.42
+"2,429,349",F,Y,68,,BIOL,Biology,35,13,Hayes Healy,Hispanic or Latino,128,127,3.49
+"2,435,785",F,N,47,,NURS,Nursing,7,15,Hayes Healy,White,132,93,3.79
+"2,449,388",F,Y,0,,NURS,Nursing,7,14,Hayes Healy,White,149,110,3.75
+"2,453,611",F,Y,0,,BADM,Business Administration,4,1,Fromm,Asian,133,121,3.80
+"2,461,120",M,Y,0,,ANST,Asian Studies,3,1,Gillson,International,60,60,3.07
+"2,477,118",F,Y,97,Y,UNLA,Undeclared Arts,4,2,Fromm,Hispanic or Latino,128,126,2.52
+"2,481,992",F,Y,0,,BAIS,International Studies,1,0,Gillson,White,132,130,3.29
+"2,486,988",M,Y,0,,BADM,Business Administration,3,1,Lone Mountain,International,140,140,2.96
+"2,497,780",M,N,0,,BIOL,Biology,38,12,Pacific Wing,International,160,163,3.32
+"2,510,071",M,Y,65,,ESS,Exercise and Sport Science,27,7,Gillson,Asian,128,132,3.55
+"2,510,191",F,Y,0,,UNLA,Undeclared Arts,2,12,,White,138,114,3.64
+"2,524,110",M,Y,100,Y,CHEM,Chemistry,11,5,Phelan,Hispanic or Latino,76,60,2.63
+"2,537,995",F,N,48,,SOC,Sociology,18,1,Fromm,White,147,135,3.81
+"2,541,412",F,Y,87,,DSGN,Design,4,5,,Asian,132,124,3.46
+"2,550,556",F,Y,96,Y,ESS,Exercise and Sport Science,24,6,Fromm,Hispanic or Latino,128,120,3.36
+"2,554,368",F,N,97,Y,NURS,Nursing,2,1,Hayes Healy,White,13,13,3.17
+"2,564,871",M,Y,100,Y,HM,Hospitality Management,3,2,Lone Mountain,Asian,132,124,3.40
+"2,566,254",M,Y,0,,BADM,Business Administration,1,1,Gillson,International,0,15,0
+"2,577,505",F,Y,93,Y,ESS,Exercise and Sport Science,33,10,Phelan,Hispanic or Latino,144,128,3.61
+"2,579,704",M,N,95,Y,ECON,Economics,7,1,Lone Mountain,Multi Race,144,129,3.73
+"2,584,671",F,Y,100,Y,BADM,Business Administration,5,1,Hayes Healy,Asian,135,135,3.35
+"2,602,257",M,N,0,,BAIS,International Studies,8,1,Phelan,Asian,128,128,3.00
+"2,605,413",F,Y,62,,COMS,Communication Studies,7,2,Hayes Healy,Multi Race,128,128,3.87
+"2,607,787",F,Y,0,,BAIS,International Studies,4,5,Hayes Healy,Asian,130,124,2.66
+"2,612,868",F,Y,79,,BNTL,International Business,3,1,Hayes Healy,White,153,123,3.77
+"2,614,153",M,N,0,,BADM,Business Administration,2,0,Hayes Healy,International,38,42,2.41
+"2,617,257",M,Y,7,,NURS,Nursing,7,14,Gillson,Asian,133,106,3.24
+"2,623,844",F,Y,98,Y,CS,Computer Science,13,1,Hayes Healy,Hispanic or Latino,128,120,3.76
+"2,626,369",M,N,0,,HM,Hospitality Management,3,1,Gillson,International,136,128,3.47
+"2,626,716",F,Y,0,,SOC,Sociology,1,0,Hayes Healy,White,42,42,3.20
+"2,629,726",F,Y,100,Y,UNLA,Undeclared Arts,3,6,Hayes Healy,White,167,139,3.31
+"2,631,139",M,N,100,Y,PASJ,Perf. Arts & Soc. Justice,3,6,Hayes Healy,African American,128.50,132,2.72
+"2,637,328",F,Y,0,,UNLA,Undeclared Arts,5,3,Phelan,International,130,126,3.87
+"2,642,991",F,Y,89,,BSDS,Data Science,10,0,Gillson,White,92,60,2.89
+"2,643,394",M,Y,0,,POLS,Politics,2,0,,International,107,137,1.77
+"2,646,219",F,Y,83,,DSGN,Design,0,2,Phelan,Multi Race,61,61,3.37
+"2,646,346",F,Y,0,,UNLA,Undeclared Arts,1,0,Gillson,Hispanic or Latino,9,9,1.64
+"2,656,251",M,N,100,,BFIN,Finance,2,0,Phelan,African American,28,28,3.27
+"2,663,235",F,Y,84,,UNLA,Undeclared Arts,4,1,Hayes Healy,African American,128,117,2.97
+"2,663,598",F,Y,0,,FNAR,Fine Arts,1,2,Fromm,Asian,68,48,3.48
+"2,665,236",F,Y,0,,COMS,Communication Studies,3,3,Phelan,White,128,110,3.40
+"2,670,712",M,Y,99,Y,BNTL,International Business,3,1,Phelan,Multi Race,128,128,3.23
+"2,674,336",M,Y,94,Y,BFIN,Finance,2,0,Phelan,White,30,29,3.70
+"2,675,331",M,Y,0,,ECON,Economics,4,1,Hayes Healy,White,131,119,3.52
+"2,675,721",F,Y,19,,NURS,Nursing,19,14,Phelan,Hispanic or Latino,145,118,3.48
+"2,676,142",F,Y,98,Y,SOC,Sociology,4,1,Phelan,Hispanic or Latino,149,137,3.81
+"2,684,357",M,Y,50,,UNLA,Undeclared Arts,2,3,Gillson,White,132,120,3.47
+"2,691,610",M,Y,99,Y,PSYC,Psychology,7,5,Hayes Healy,White,128,128,3.53
+"2,703,824",F,N,48,,PSYC,Psychology,5,2,Gillson,Multi Race,128,132,3.37
+"2,704,197",F,Y,97,Y,NURS,Nursing,8,14,Hayes Healy,Pacific Islander,124,99,3.27
+"2,705,532",M,N,9,,DSGN,Design,18,6,Hayes Healy,White,128,120,3.15
+"2,706,896",M,Y,82,,SOC,Sociology,20,8,,Asian,145,132,3.07
+"2,719,248",F,N,96,Y,UNSC,Undeclared Sciences,6,2,Gillson,Multi Race,129,125,3.37
+"2,723,718",F,N,0,,PSYC,Psychology,6,3,Fromm,African American,128,132,3.14
+"2,725,867",F,Y,79,,BIOL,Biology,8,1,Phelan,Hispanic or Latino,128,128,3.45
+"2,742,658",F,Y,0,,ECON,Economics,6,9,Lone Mountain,International,142,146,2.47
+"2,748,515",F,Y,100,,ENVA,Environmental Studies,5,8,Gillson,Multi Race,150,122,3.85
+"2,756,012",M,N,0,,BADM,Business Administration,5,1,Hayes Healy,Hispanic or Latino,62,72,2.37
+"2,758,145",F,Y,0,,ENVA,Environmental Studies,6,3,Hayes Healy,Multi Race,78,74,2.80
+"2,759,301",F,Y,64,,ESS,Exercise and Sport Science,33,9,Hayes Healy,Asian,132,128,3.39
+"2,762,200",M,N,69,,PHIL,Philosophy,1,0,Phelan,White,33,33,3.14
+"2,775,392",M,Y,100,Y,UNBN,Undeclared Business,3,1,Lone Mountain,Hispanic or Latino,128,116,3.73
+"2,778,982",F,Y,92,Y,BADM,Business Administration,5,1,Hayes Healy,Asian,140,136,3.79
+"2,779,412",F,Y,0,,PASJ,Perf. Arts & Soc. Justice,3,2,Fromm,International,137,137,3.69
+"2,789,666",F,N,94,Y,CS,Computer Science,25,2,Gillson,Asian,129,129,3.51
+"2,793,813",F,Y,0,,BIOL,Biology,35,13,Phelan,Unknown,167,138,3.77
+"2,813,567",F,Y,0,,UNBN,Undeclared Business,1,0,Hayes Healy,White,47,47,2.98
+"2,833,978",F,Y,0,,NURS,Nursing,8,14,Phelan,White,134,110,3.70
+"2,839,752",M,N,80,,POLS,Politics,3,1,Phelan,Asian,129,129,3.21
+"2,843,398",M,N,99,Y,SOC,Sociology,3,1,Hayes Healy,Multi Race,136,106,3.95
+"2,843,780",F,N,52,,HIST,History,1,0,Hayes Healy,White,25,17,3.93
+"2,847,208",M,Y,0,,BMKT,Marketing,8,1,Hayes Healy,Asian,132.04,116,2.72
+"2,847,555",F,Y,0,,HIST,History,1,0,Gillson,White,134,120,3.10
+"2,858,011",F,Y,28,,UNLA,Undeclared Arts,0,0,Gillson,White,40,32,3.16
+"2,863,647",M,Y,67,,BIOL,Biology,29,12,Phelan,Multi Race,124,128,2.46
+"2,866,869",M,Y,82,,UNSC,Undeclared Sciences,9,1,Phelan,Asian,63,63,3.94
+"2,869,304",F,N,69,,NURS,Nursing,10,14,Phelan,Multi Race,130,110,3.54
+"2,875,831",F,Y,38,,PSYC,Psychology,12,3,Hayes Healy,African American,131,131,2.93
+"2,882,169",M,Y,0,,UNSC,Undeclared Sciences,1,0,Hayes Healy,International,12,16,1.35
+"2,890,646",F,N,0,,UNLA,Undeclared Arts,0,0,Gillson,White,32,32,3.64
+"2,893,510",M,Y,15,,DSGN,Design,3,3,Hayes Healy,Hispanic or Latino,128,128,3.45
+"2,898,931",F,Y,100,Y,HIST,History,6,6,Gillson,African American,128,132,2.85
+"2,899,483",M,Y,22,,BIOL,Biology,8,4,,Asian,52,28,3.39
+"2,905,798",F,Y,100,Y,HIST,History,6,2,Hayes Healy,Hispanic or Latino,128,128,3.71
+"2,906,399",F,Y,87,,BIOL,Biology,4,3,Fromm,Asian,128,136,2.95
+"2,910,743",M,N,0,,BADM,Business Administration,6,1,Phelan,White,128,135,2.93
+"2,916,723",F,N,0,,UNSC,Undeclared Sciences,16,23,Hayes Healy,Asian,140,148,2.88
+"2,931,313",F,Y,0,,BFIN,Finance,3,3,Fromm,International,129,129,3.64
+"2,944,690",F,Y,8,,BACT,Accounting,7,1,Hayes Healy,Asian,142,133,2.96
+"2,948,456",F,N,0,,UNLA,Undeclared Arts,5,1,Gillson,White,128,120,3.68
+"2,951,118",F,Y,0,,BADM,Business Administration,3,1,Gillson,International,151,145,3.55
+"2,958,313",M,N,0,,HIST,History,5,1,Phelan,White,142,142,3.51
+"2,967,512",M,Y,0,,NURS,Nursing,8,2,Hayes Healy,Pacific Islander,128,128,2.84
+"2,971,292",F,Y,97,Y,PSYC,Psychology,1,0,Hayes Healy,White,32,32,3.59
+"2,973,479",F,Y,28,,HIST,History,0,0,Hayes Healy,White,36,12,3.77
+"2,977,660",F,Y,0,,BIOL,Biology,35,13,Phelan,Asian,128,122,3.82
+"2,992,685",F,Y,95,Y,PSYC,Psychology,3,3,Phelan,Hispanic or Latino,129,133,3.29
+"2,993,057",F,Y,0,,BACT,Accounting,6,2,Lone Mountain,International,139,131,3.88
+"2,998,801",F,Y,100,Y,PSYC,Psychology,0,0,Hayes Healy,African American,47,57,1.97
+"3,001,158",F,N,0,,ARCD,Architecture & Community Design,3,8,Phelan,White,136,136,3.54
+"3,002,144",F,Y,68,,COMS,Communication Studies,3,1,Fromm,White,141,125,3.80
+"3,002,357",F,Y,100,Y,POLS,Politics,2,1,Fromm,White,145,132,3.77
+"3,003,844",F,Y,50,,BIOL,Biology,36,12,,Asian,128,131,3.46
+"3,011,932",F,Y,0,,BADM,Business Administration,3,1,Gillson,International,133,113,3.23
+"3,017,632",F,Y,0,,PSYC,Psychology,4,1,Hayes Healy,White,141,139,3.29
+"3,019,587",M,N,0,,BAIS,International Studies,1,1,Gillson,White,70,68,2.60
+"3,023,123",M,N,94,Y,BIOL,Biology,4,2,Hayes Healy,Pacific Islander,128,128,3.61
+"3,028,888",F,Y,0,,BADM,Business Administration,4,1,Phelan,International,128,131,2.49
+"3,033,933",M,Y,91,,BIOL,Biology,17,7,,Multi Race,142,136,3.43
+"3,038,549",F,Y,88,,BIOL,Biology,34,13,Hayes Healy,Hispanic or Latino,130,129,3.06
+"3,040,624",F,Y,28,,BIOL,Biology,33,12,Hayes Healy,White,128,112,3.35
+"3,041,962",F,N,0,,COMS,Communication Studies,2,2,Fromm,White,132,106,3.89
+"3,046,116",F,Y,0,,BIOL,Biology,11,3,Phelan,White,77,63,3.72
+"3,046,311",M,N,59,,PSYC,Psychology,10,3,Hayes Healy,Asian,128,124,3.08
+"3,052,328",M,Y,0,,CS,Computer Science,27,1,Gillson,International,156,154,2.64
+"3,053,883",F,Y,18,,ENVS,Environmental Science,8,4,Gillson,Hispanic or Latino,32,32,2.85
+"3,054,022",F,Y,86,,PSYC,Psychology,9,3,Gillson,Asian,128,128,3.17
+"3,054,146",F,Y,90,,PSYC,Psychology,6,2,Hayes Healy,Hispanic or Latino,128.35,124,3.01
+"3,062,695",F,Y,0,,BIOL,Biology,1,0,Fromm,White,10,10,3.40
+"3,063,149",F,N,86,,POLS,Politics,4,4,Hayes Healy,Asian,141,131,3.50
+"3,083,913",F,N,85,,POLS,Politics,6,1,Phelan,Multi Race,128,124,3.83
+"3,098,580",F,Y,32,,NURS,Nursing,6,14,Fromm,Asian,129,102,3.54
+"3,102,584",M,Y,6,,ESS,Exercise and Sport Science,7,1,Gillson,Hispanic or Latino,128.36,123,2.42
+"3,103,617",M,Y,0,,BMKT,Marketing,9,1,Hayes Healy,Hispanic or Latino,130,129,2.95
+"3,105,347",F,Y,0,,UNBN,Undeclared Business,3,0,Fromm,International,128,120,3.93
+"3,110,182",F,Y,47,,COMS,Communication Studies,,,,White,27,0,0
+"3,120,373",F,Y,0,,POLS,Politics,3,1,Hayes Healy,White,130,120,3.70
+"3,127,210",M,Y,0,,CS,Computer Science,18,1,Hayes Healy,White,160,112,3.02
+"3,128,637",F,Y,99,Y,BIOL,Biology,33,13,,Asian,139,128,3.88
+"3,128,951",F,Y,0,,UNBN,Undeclared Business,7,2,Fromm,International,145,148,3.28
+"3,134,779",F,N,0,,BAIS,International Studies,2,1,,White,131,108,4
+"3,136,674",F,Y,86,,BADM,Business Administration,3,1,Hayes Healy,Multi Race,129,123,3.50
+"3,137,451",M,Y,0,,CS,Computer Science,2,0,,White,16,16,3.75
+"3,154,673",M,Y,100,Y,CS,Computer Science,3,0,Hayes Healy,Hispanic or Latino,32,28,1.76
+"3,159,069",F,Y,100,Y,BADM,Business Administration,3,2,Hayes Healy,White,129,132,3.54
+"3,161,323",F,N,0,,UNSC,Undeclared Sciences,21,9,Fromm,White,133,135,3.34
+"3,163,513",M,Y,73,,ECON,Economics,20,4,Hayes Healy,Hispanic or Latino,176,120,3.29
+"3,169,662",M,Y,94,Y,CS,Computer Science,22,8,,Asian,139,139,3.82
+"3,171,379",F,N,0,,UNSC,Undeclared Sciences,3,1,Lone Mountain,International,157,145,3.19
+"3,171,900",F,Y,69,,BIOL,Biology,8,6,Hayes Healy,Unknown,128,131,2.92
+"3,185,129",M,N,75,,CHEM,Chemistry,29,9,Phelan,Asian,137,124,2.96
+"3,189,679",F,Y,63,,BMKT,Marketing,6,1,Gillson,Asian,128,128,3.72
+"3,191,670",M,Y,0,,ADVT,Advertising,6,2,Hayes Healy,Multi Race,128,132,3.26
+"3,207,296",F,N,0,,UNLA,Undeclared Arts,1,0,Fromm,White,36,32,2.80
+"3,211,067",M,N,87,,UNBN,Undeclared Business,5,2,Hayes Healy,Hispanic or Latino,128,125,2.99
+"3,223,012",M,N,0,,UNBN,Undeclared Business,3,0,Phelan,White,49,47,2.68
+"3,233,524",F,N,0,,ADVT,Advertising,2,2,Phelan,White,66,66,3.15
+"3,242,631",F,N,0,,UNSC,Undeclared Sciences,18,7,Lone Village,International,77,77,3.76
+"3,246,250",F,N,99,Y,BNTL,International Business,3,1,Gillson,Hispanic or Latino,145,112,3.47
+"3,251,895",M,Y,56,,BIOL,Biology,33,14,Phelan,Asian,129,125,3.65
+"3,256,040",M,Y,0,,UNLA,Undeclared Arts,7,1,Gillson,International,128,116,3.20
+"3,257,124",F,Y,61,,NURS,Nursing,10,15,Hayes Healy,Asian,136,105,3.91
+"3,264,411",M,Y,100,Y,BIOL,Biology,33,11,,Asian,131,132,2.70
+"3,264,493",F,Y,0,,BIOL,Biology,33,12,Gillson,International,155,139,3.51
+"3,276,704",M,Y,69,,BIOL,Biology,30,10,Phelan,White,134,134,3.75
+"3,280,641",F,N,0,,BIOL,Biology,31,12,,Asian,137,106,3.06
+"3,292,231",M,Y,79,,COMS,Communication Studies,2,1,Hayes Healy,Hispanic or Latino,64,60,3.78
+"3,292,272",F,Y,0,,ADVT,Advertising,5,1,Phelan,Hispanic or Latino,128,132,2.88
+"3,297,242",F,N,0,,BAIS,International Studies,4,1,Hayes Healy,White,136,134,3.81
+"3,305,152",F,Y,0,,BFIN,Finance,13,2,,Asian,140,120,3.97
+"3,308,612",F,Y,100,Y,ARCD,Architecture & Community Design,2,5,Phelan,Hispanic or Latino,129,121,3.28
+"3,309,183",F,Y,0,,BMKT,Marketing,3,3,Fromm,International,128,128,2.90
+"3,310,105",F,N,23,,ENVA,Environmental Studies,2,1,Phelan,White,54,18,3.54
+"3,325,195",F,N,0,,BNTL,International Business,0,1,Fromm,International,24,28,2.66
+"3,326,877",F,N,92,Y,PSYC,Psychology,5,4,Hayes Healy,White,128,108,3.64
+"3,336,536",F,Y,0,,BIOL,Biology,15,6,Gillson,Asian,129,136,3.27
+"3,355,387",F,Y,100,Y,FNAR,Fine Arts,3,6,Fromm,White,60,60,2.66
+"3,392,217",F,N,100,Y,PASJ,Perf. Arts & Soc. Justice,3,10,Hayes Healy,Native American,120,140,3.07
+"3,392,374",F,Y,47,,NURS,Nursing,9,14,,Asian,164,110,3.91
+"3,423,020",F,N,0,,BACT,Accounting,3,2,Gillson,International,137,127,3.64
+"3,428,943",F,Y,99,Y,NURS,Nursing,7,14,Hayes Healy,Hispanic or Latino,147,107,3.88
+"3,433,656",F,Y,64,,ENGL,English,3,1,Phelan,Multi Race,129,129,3.68
+"3,433,946",F,Y,0,,HM,Hospitality Management,3,1,Phelan,International,136,136,3.28
+"3,454,124",F,Y,76,,NURS,Nursing,6,15,Fromm,Asian,138,101,3.04
+"3,455,843",M,Y,0,,BADM,Business Administration,3,6,Gillson,Asian,140,124,3.10
+"3,456,267",F,Y,0,,HM,Hospitality Management,0,0,Gillson,White,8,16,1.50
+"3,471,930",F,Y,0,,COMS,Communication Studies,2,0,Phelan,International,154,124,3.77
+"3,479,587",F,Y,100,Y,UNBN,Undeclared Business,1,0,Phelan,White,37,29,3.39
+"3,484,036",M,Y,0,,UNBN,Undeclared Business,1,0,Hayes Healy,Hispanic or Latino,30,30,3.08
+"3,490,977",M,Y,0,,HIST,History,1,0,Lone Mountain,Asian,146,134,3.41
+"3,496,040",M,Y,0,,CS,Computer Science,20,3,,Asian,128,120,3.93
+"3,498,684",F,N,0,,BADM,Business Administration,5,3,,International,128,132,2.64
+"3,501,521",M,Y,99,Y,PSYC,Psychology,3,2,Gillson,Hispanic or Latino,140,140,3.56
+"3,521,314",F,Y,64,,NURS,Nursing,7,14,Phelan,White,158,99,3.82
+"3,537,265",M,N,0,,ENGL,English,3,1,Gillson,Unknown,133,129,3.95
+"3,547,768",F,Y,38,,UNSC,Undeclared Sciences,5,2,Gillson,White,131,110,3.76
+"3,548,547",F,Y,97,Y,NURS,Nursing,6,14,Hayes Healy,Pacific Islander,153,99,3.82
+"3,552,505",F,Y,0,,UNBN,Undeclared Business,5,1,Fromm,International,149,149,3.21
+"3,576,128",M,Y,0,,BADM,Business Administration,3,0,Gillson,White,128,113,3.77
+"3,577,230",F,Y,36,,UNSC,Undeclared Sciences,5,1,Fromm,Hispanic or Latino,128,128,3.04
+"3,582,253",M,Y,77,,BAIS,International Studies,4,3,Hayes Healy,Hispanic or Latino,149,137,3.24
+"3,605,909",F,N,100,Y,PHIL,Philosophy,5,2,Hayes Healy,African American,128,124,3.23
+"3,622,962",M,Y,83,,BADM,Business Administration,4,1,,Asian,63,63,2.65
+"3,629,486",M,Y,100,Y,UNSC,Undeclared Sciences,13,5,Hayes Healy,Hispanic or Latino,129,130,3.06
+"3,645,813",F,Y,93,,PSYC,Psychology,5,2,Gillson,Hispanic or Latino,120,134,2.63
+"3,650,263",M,Y,82,,UNSC,Undeclared Sciences,29,11,Gillson,African American,97,122,2.18
+"3,650,665",M,Y,0,,BADM,Business Administration,4,3,Gillson,International,139,139,3.49
+"3,653,390",F,N,100,Y,BIOL,Biology,29,11,Hayes Healy,Asian,130,118,3.12
+"3,656,799",F,N,0,,BAIS,International Studies,1,0,Gillson,White,128,108,3.90
+"3,657,056",F,N,0,,BIOL,Biology,33,11,Hayes Healy,Hispanic or Latino,128,126,3.47
+"3,672,187",F,N,100,Y,BADM,Business Administration,3,1,Gillson,Multi Race,128,125,3.70
+"3,679,269",F,N,0,,ARCD,Architecture & Community Design,4,9,Hayes Healy,International,128,156,2.96
+"3,680,638",M,N,86,,PHYS,Physics,10,2,Gillson,White,49,49,3.45
+"3,689,857",F,Y,73,,PSYC,Psychology,0,0,Gillson,White,51,35,3.92
+"3,690,453",M,Y,0,,BADM,Business Administration,10,1,,Asian,128,133,2.84
+"3,710,758",F,N,100,Y,ESS,Exercise and Sport Science,25,5,,White,128,119,3.92
+"3,719,270",M,Y,0,,ARCD,Architecture & Community Design,3,11,Gillson,White,129,129,3.10
+"3,720,065",F,Y,16,,NURS,Nursing,7,14,Fromm,Asian,131.68,100,3.50
+"3,720,466",M,Y,0,,BENI,Entrepreneurship & Innovation,4,3,Gillson,International,128,128,3.06
+"3,734,536",M,Y,0,,BIOL,Biology,32,13,Gillson,Asian,150,130,3.92
+"3,761,027",M,Y,80,,BADM,Business Administration,7,1,Phelan,Asian,131,131,2.95
+"3,794,672",M,N,0,,COMS,Communication Studies,3,1,Gillson,White,128,124,2.87
+"3,810,624",M,Y,75,,SPAN,Spanish,7,2,Hayes Healy,Hispanic or Latino,58,58,3.71
+"3,813,297",F,Y,17,,BIOL,Biology,8,8,Phelan,Asian,135,115,3.66
+"3,823,220",F,Y,6,,CMPL,Comparative Lit. & Culture,0,0,Phelan,Hispanic or Latino,74,50,3.86
+"3,832,988",F,Y,0,,BACT,Accounting,3,1,Gillson,International,129,133,2.72
+"3,836,115",F,Y,95,Y,PSYC,Psychology,1,0,Fromm,Hispanic or Latino,138,122,3.73
+"3,837,742",M,N,91,,BNTL,International Business,1,0,Gillson,Hispanic or Latino,60,60,2.61
+"3,838,717",F,N,76,,BAIS,International Studies,3,1,Fromm,Multi Race,133,129,3.52
+"3,845,128",F,Y,100,Y,UNLA,Undeclared Arts,3,1,Phelan,Hispanic or Latino,131,131,3.70
+"3,847,890",F,Y,0,,CS,Computer Science,3,0,Hayes Healy,Asian,60,60,3.72
+"3,856,513",F,N,98,Y,ENGL,English,1,2,Phelan,White,88,88,3.23
+"3,859,839",M,Y,100,Y,BIOL,Biology,12,6,Hayes Healy,Hispanic or Latino,154,122,2.14
+"3,860,623",F,Y,0,,BOBL,Organizational Behav.& Ldrship,6,1,Phelan,International,138,136,3.51
+"3,897,061",M,Y,0,,COMS,Communication Studies,4,0,Lone Mountain,White,144,110,3.10
+"3,916,315",F,N,100,Y,BAIS,International Studies,6,2,Gillson,Asian,128,128,3.13
+"3,929,683",F,Y,0,,NURS,Nursing,7,15,Gillson,Asian,145,98,3.77
+"3,943,259",M,Y,77,,BADM,Business Administration,8,1,,Asian,128,128,3.06
+"3,949,319",M,Y,0,,BFIN,Finance,7,1,Phelan,International,142,142,3.81
+"3,975,572",F,Y,100,Y,PSYC,Psychology,3,2,,Asian,140,124,3.86
+"3,995,418",F,Y,96,Y,BNTL,International Business,4,1,,Asian,135,127,3.56
+"4,005,420",M,Y,0,,BADM,Business Administration,4,1,Hayes Healy,White,131,131,3.30
+"4,008,816",M,Y,0,,BIOL,Biology,16,6,Phelan,Asian,148,140,3.23
+"4,009,533",F,N,95,Y,BAIS,International Studies,3,1,Fromm,White,142,108,3.93
+"4,018,767",F,Y,96,Y,BIOL,Biology,30,10,Phelan,Asian,130,125,3.18
+"4,025,353",F,Y,77,,ECON,Economics,6,1,Hayes Healy,White,128,128,3.28
+"4,026,410",F,N,0,,BAIS,International Studies,3,3,Hayes Healy,White,143,129,3.78
+"4,026,922",F,Y,60,,BADM,Business Administration,3,1,Phelan,Multi Race,129,121,3.38
+"4,029,930",M,N,72,,UNBN,Undeclared Business,3,1,Phelan,Asian,128,128,3.02
+"4,049,878",F,Y,0,,BADM,Business Administration,0,0,Lone Mountain,White,30,30,2.97
+"4,050,517",F,Y,30,,NURS,Nursing,7,16,Phelan,White,187,123,3.64
+"4,056,575",F,N,48,,CDS,Critical Diversity Studies,3,2,Hayes Healy,Pacific Islander,128,120,3.34
+"4,057,554",F,Y,71,,BIOL,Biology,33,12,Fromm,Asian,140,140,3.16
+"4,068,931",M,N,88,,BENI,Entrepreneurship & Innovation,1,1,Gillson,White,57,57,2.81
+"4,076,239",M,Y,0,,CMPL,Comparative Lit. & Culture,18,1,Hayes Healy,White,146,166,3.01
+"4,081,666",M,Y,0,,PHYS,Physics,12,4,Hayes Healy,International,96,124,2.22
+"4,104,153",F,Y,79,,PASJ,Perf. Arts & Soc. Justice,1,7,Gillson,Hispanic or Latino,74,86,2.59
+"4,105,463",F,N,96,Y,UNLA,Undeclared Arts,4,0,Phelan,Hispanic or Latino,32,32,3.34
+"4,108,617",F,Y,100,Y,HIST,History,3,2,Gillson,Hispanic or Latino,128,128,3.52
+"4,109,873",M,Y,66,,SOC,Sociology,3,5,Gillson,Asian,128,132,2.88
+"4,115,230",F,Y,97,Y,NURS,Nursing,8,14,Phelan,Asian,134,107,3.29
+"4,116,333",M,Y,99,Y,CS,Computer Science,7,1,Hayes Healy,Hispanic or Latino,128,147,2.59
+"4,136,531",M,N,0,,BADM,Business Administration,3,2,Hayes Healy,International,130,122,3.32
+"4,144,300",M,Y,58,,UNSC,Undeclared Sciences,18,4,Phelan,Asian,130,131,3.13
+"4,148,728",F,N,0,,PSYC,Psychology,4,4,Hayes Healy,White,128,120,3.63
+"4,150,294",M,N,100,Y,BAIS,International Studies,3,1,Lone Mountain,Hispanic or Latino,134,134,3.56
+"4,151,514",F,Y,97,Y,PSYC,Psychology,4,3,Hayes Healy,Hispanic or Latino,138,122,3.77
+"4,159,279",F,Y,74,,NURS,Nursing,7,4,Phelan,Hispanic or Latino,136,125,3.95
+"4,163,163",F,Y,100,Y,BIOL,Biology,29,10,Phelan,Asian,134,123,3.17
+"4,183,085",F,N,0,,BNTL,International Business,7,6,Fromm,White,167,139,3.76
+"4,185,115",M,Y,36,Y,MS,Media Studies,6,2,Hayes Healy,Native American,149,149,3.32
+"4,194,798",F,Y,0,Y,ESS,Exercise and Sport Science,21,6,Phelan,Hispanic or Latino,131,131,3.36
+"4,216,113",M,Y,69,,CHEM,Chemistry,3,2,Gillson,White,51,59,2.80
+"4,221,406",F,Y,99,Y,POLS,Politics,4,1,Fromm,Multi Race,131,121,3.62
+"4,226,557",F,Y,94,Y,PSYC,Psychology,2,2,Gillson,Hispanic or Latino,140,132,3.34
+"4,234,000",F,Y,92,Y,BIOL,Biology,8,4,Fromm,Hispanic or Latino,128,132,2.95
+"4,239,334",M,Y,81,,BIOL,Biology,3,1,Hayes Healy,White,128,124,3.55
+"4,247,778",M,Y,53,,UNBN,Undeclared Business,6,1,Gillson,Hispanic or Latino,132,132,2.82
+"4,248,417",M,Y,22,,ECON,Economics,1,0,Hayes Healy,White,31,40,2.43
+"4,248,967",F,Y,0,,BADM,Business Administration,9,1,Gillson,Asian,150.68,144,3.35
+"4,258,223",M,Y,32,,BNTL,International Business,,,,White,28,0,0
+"4,276,365",F,N,0,,BFIN,Finance,7,1,Phelan,Asian,128,124,3.16
+"4,289,341",F,Y,0,,BADM,Business Administration,3,2,Gillson,International,129,133,3.12
+"4,293,032",M,Y,0,,BSDS,Data Science,7,1,Hayes Healy,Asian,148,135,3.79
+"4,298,477",M,Y,83,,COMS,Communication Studies,3,2,Gillson,Hispanic or Latino,142,134,3.31
+"4,299,240",F,Y,100,Y,NURS,Nursing,31,12,Lone Mountain,Asian,132,124,3.28
+"4,313,522",M,Y,0,,BFIN,Finance,6,1,Phelan,International,128,140,2.30
+"4,319,340",M,Y,0,,BAIS,International Studies,2,0,Gillson,Hispanic or Latino,148,128,3.95
+"4,333,765",F,Y,94,Y,CHEM,Chemistry,14,5,Phelan,White,71,58,3.38
+"4,336,816",F,N,92,Y,ENGL,English,21,12,Phelan,African American,125,161,2.55
+"4,339,085",F,N,0,,NURS,Nursing,9,16,Hayes Healy,White,157,125,3.93
+"4,354,924",F,Y,0,,UNSC,Undeclared Sciences,9,3,Hayes Healy,Multi Race,60,48,1.57
+"4,365,759",F,Y,83,,BIOL,Biology,8,5,Phelan,Hispanic or Latino,128,133,2.98
+"4,369,584",F,N,100,Y,PSYC,Psychology,2,1,Hayes Healy,Hispanic or Latino,50,30,3.11
+"4,383,365",F,N,99,Y,ENVS,Environmental Science,3,1,Hayes Healy,White,48,52,1.90
+"4,385,291",F,N,0,,COMS,Communication Studies,5,3,Gillson,Multi Race,133,133,3.23
+"4,415,600",F,Y,44,,UNLA,Undeclared Arts,13,5,Hayes Healy,Multi Race,132,121,3.94
+"4,418,951",F,Y,0,,UNBN,Undeclared Business,4,2,Fromm,International,137,137,3.49
+"4,426,862",M,Y,0,,BNTL,International Business,1,0,Gillson,International,153,123,3.87
+"4,435,095",F,Y,48,,NURS,Nursing,7,14,Gillson,Asian,131,99,3.52
+"4,466,047",M,Y,79,,BADM,Business Administration,6,1,Phelan,White,129,126,3.83
+"4,472,397",M,Y,0,,UNBN,Undeclared Business,24,3,Gillson,Asian,130,128,3.40
+"4,476,981",F,N,48,,BAIS,International Studies,3,3,Phelan,White,129,109,3.66
+"4,487,121",F,Y,97,Y,COMS,Communication Studies,4,1,Phelan,Hispanic or Latino,128,120,3.63
+"4,488,886",F,Y,0,,UNLA,Undeclared Arts,8,3,Hayes Healy,Asian,131,125,2.47
+"4,488,997",F,Y,0,,UNLA,Undeclared Arts,4,5,Fromm,Asian,178,158,2.83
+"4,497,340",F,N,87,,UNBN,Undeclared Business,9,1,Fromm,Asian,153,137,3.84
+"4,504,843",F,Y,91,,NURS,Nursing,8,14,Phelan,White,139,112,3.32
+"4,513,861",M,Y,0,,BENI,Entrepreneurship & Innovation,2,0,Gillson,International,46,58,1.74
+"4,517,165",F,Y,0,,NURS,Nursing,6,14,Phelan,Multi Race,128,101,3.25
+"4,520,562",M,Y,0,,BIOL,Biology,9,5,Gillson,Hispanic or Latino,129,138,2.75
+"4,525,450",M,Y,75,,HIST,History,5,0,Hayes Healy,White,128,104,3.64
+"4,527,171",F,Y,62,,BACT,Accounting,5,1,Hayes Healy,Pacific Islander,140,138,3.66
+"4,529,298",F,Y,60,,NURS,Nursing,7,14,Gillson,Hispanic or Latino,135,101,3.53
+"4,541,597",F,Y,80,,COMS,Communication Studies,3,1,Gillson,African American,130,130,3.56
+"4,546,560",F,Y,0,,BADM,Business Administration,18,1,Gillson,International,140,136,3.09
+"4,554,915",M,Y,0,,BFIN,Finance,3,1,Hayes Healy,Asian,128,132,2.79
+"4,557,418",F,N,0,,BACT,Accounting,6,2,Gillson,International,138,134,3.36
+"4,562,070",F,Y,0,,BENI,Entrepreneurship & Innovation,5,1,Gillson,International,158,150,3.82
+"4,570,862",F,Y,20,,BIOL,Biology,9,4,,Asian,132,136,2.24
+"4,578,993",F,N,0,,HM,Hospitality Management,1,0,Fromm,International,31,31,3.55
+"4,588,762",M,Y,88,,ESS,Exercise and Sport Science,27,6,Phelan,Asian,128,124,3.46
+"4,591,224",F,N,0,,ECON,Economics,6,2,Lone Mountain,International,128,112,3.68
+"4,597,302",F,Y,100,Y,PSYC,Psychology,2,3,,Hispanic or Latino,130,120,3.16
+"4,598,112",F,N,0,,BNTL,International Business,6,1,Lone Village,International,132,132,3.18
+"4,598,738",F,N,0,,BADM,Business Administration,1,0,Hayes Healy,Multi Race,153,123,3.38
+"4,599,798",M,Y,92,Y,BADM,Business Administration,1,0,Hayes Healy,Hispanic or Latino,37,33,1.86
+"4,612,544",M,Y,75,,BENI,Entrepreneurship & Innovation,4,0,Gillson,Asian,161,99,3.40
+"4,621,884",M,Y,100,Y,BIOL,Biology,35,13,Lone Mountain,Asian,147,136,2.87
+"4,622,509",M,Y,0,,BADM,Business Administration,10,9,Hayes Healy,Hispanic or Latino,130,132,3.19
+"4,624,237",F,Y,0,,BENI,Entrepreneurship & Innovation,3,2,Gillson,International,171,141,3.40
+"4,630,217",F,Y,96,Y,BADM,Business Administration,4,1,Fromm,Asian,129,128,3.46
+"4,632,792",F,N,98,Y,PSYC,Psychology,3,4,Phelan,Hispanic or Latino,140,113,3.28
+"4,638,729",F,N,68,,MS,Media Studies,1,4,Gillson,Pacific Islander,132,114,3.82
+"4,639,355",F,N,0,,UNSC,Undeclared Sciences,34,13,Gillson,Multi Race,132,128,3.90
+"4,640,035",F,Y,43,,ENGL,English,0,0,Fromm,Multi Race,24,32,2.15
+"4,642,704",F,Y,0,,UNSC,Undeclared Sciences,3,1,Gillson,Multi Race,16,16,2.93
+"4,645,841",F,Y,0,,ESS,Exercise and Sport Science,31,8,Hayes Healy,Hispanic or Latino,154,130,3.57
+"4,652,911",F,Y,0,,HM,Hospitality Management,1,0,Hayes Healy,Asian,18,26,1.74
+"4,665,603",M,Y,82,,POLS,Politics,3,1,Phelan,White,128,124,3.40
+"4,667,547",F,Y,99,Y,NURS,Nursing,8,14,Fromm,Hispanic or Latino,156,119,3.04
+"4,691,518",F,Y,0,,ESS,Exercise and Sport Science,8,6,Gillson,Asian,130,127,3.61
+"4,697,669",F,Y,0,,UNLA,Undeclared Arts,4,2,Gillson,International,128,136,2.74
+"4,727,744",M,Y,45,,CS,Computer Science,20,3,Gillson,Asian,128,96,3.66
+"4,729,599",M,Y,0,,PHYS,Physics,26,4,Gillson,International,128,124,3.39
+"4,731,318",F,Y,0,,ENGL,English,3,3,Gillson,Hispanic or Latino,130,110,3.88
+"4,742,224",F,Y,45,,NURS,Nursing,6,14,Phelan,White,155,103,3.54
+"4,747,686",F,Y,100,Y,UNLA,Undeclared Arts,3,1,Gillson,Hispanic or Latino,156,128,3.81
+"4,764,823",F,Y,0,,BIOL,Biology,29,11,,White,166,142,3.60
+"4,765,238",F,Y,81,,CHEM,Chemistry,27,8,,White,128,125,3.80
+"4,769,028",F,Y,0,,BOBL,Organizational Behav.& Ldrship,4,1,Phelan,White,132,132,3.92
+"4,772,970",M,Y,100,,ARCD,Architecture & Community Design,1,2,Hayes Healy,Hispanic or Latino,14,18,1.12
+"4,775,864",F,N,93,Y,UNSC,Undeclared Sciences,12,5,Hayes Healy,White,82,71,2.06
+"4,780,753",M,Y,0,,UNBN,Undeclared Business,3,1,Lone Village,International,148,148,2.83
+"4,789,199",F,Y,70,,NURS,Nursing,7,14,,Asian,129,99,3.88
+"4,790,904",F,Y,100,Y,NURS,Nursing,8,14,Phelan,Hispanic or Latino,132,105,3.48
+"4,802,623",F,Y,6,,BACT,Accounting,4,1,Hayes Healy,Asian,142,140,3.26
+"4,802,663",M,Y,80,,CS,Computer Science,13,1,Gillson,African American,81,97,2.09
+"4,804,935",F,Y,100,Y,JNST,Japanese Studies,4,9,Hayes Healy,Hispanic or Latino,128,132,3.33
+"4,807,399",F,Y,0,,ENVA,Environmental Studies,10,4,Gillson,Asian,31,34,2.33
+"4,807,688",F,Y,48,,BIOL,Biology,21,9,Hayes Healy,White,168,124,3.96
+"4,813,771",M,N,0,,BMKT,Marketing,5,1,Phelan,International,136,128,3.72
+"4,818,846",F,Y,0,,NURS,Nursing,12,6,Hayes Healy,White,128,128,3.67
+"4,823,633",F,Y,18,,BAIS,International Studies,7,1,Hayes Healy,White,128,120,3.96
+"4,830,065",F,Y,93,Y,BIOL,Biology,18,8,Phelan,Unknown,161,141,3.98
+"4,837,430",M,Y,57,,UNSC,Undeclared Sciences,28,11,Gillson,White,168,137,3.60
+"4,842,350",M,Y,0,,BIOL,Biology,3,1,Pedro Arrupe,International,52,64,2.34
+"4,844,600",F,N,0,,ECON,Economics,1,0,,International,16,40,0.73
+"4,864,897",M,Y,0,,BACT,Accounting,3,2,Gillson,International,142,142,3.18
+"4,870,370",M,N,82,,BFIN,Finance,4,1,Gillson,Hispanic or Latino,141,125,3.25
+"4,888,482",M,N,0,,UNBN,Undeclared Business,,,,White,8,0,0
+"4,890,382",M,Y,0,,BFIN,Finance,3,1,Gillson,International,140,140,2.42
+"4,893,291",M,Y,82,,UNSC,Undeclared Sciences,5,4,,Asian,142,118,3.66
+"4,898,600",F,Y,80,,UNLA,Undeclared Arts,1,0,Gillson,White,19,15,2.73
+"4,905,651",M,Y,0,,CS,Computer Science,22,2,Phelan,International,128,128,3.91
+"4,905,897",F,Y,100,Y,COMS,Communication Studies,3,1,Fromm,African American,98,98,3.37
+"4,907,522",F,Y,52,,ESS,Exercise and Sport Science,0,0,Hayes Healy,White,12,12,3.57
+"4,920,363",F,Y,92,Y,UNBN,Undeclared Business,4,4,Phelan,Hispanic or Latino,128,96,3.35
+"4,925,960",F,Y,0,,PSYC,Psychology,5,1,Hayes Healy,White,134,114,3.09
+"4,927,227",M,Y,0,,UNSC,Undeclared Sciences,19,9,,White,136,129,3.65
+"4,931,865",M,Y,58,,BIOL,Biology,32,21,Hayes Healy,African American,147,133,2.90
+"4,932,076",M,N,93,Y,BADM,Business Administration,5,1,Phelan,Asian,129,117,3.72
+"4,943,890",M,Y,0,,BFIN,Finance,3,1,Phelan,International,134,124,3.35
+"4,945,788",F,Y,71,,BIOL,Biology,34,12,Phelan,Asian,145,114,3.86
+"4,948,443",F,N,0,,BNTL,International Business,3,2,Hayes Healy,Asian,151,115,3.93
+"4,953,191",F,Y,7,,NURS,Nursing,7,14,Hayes Healy,White,156,110,3.85
+"4,962,381",F,Y,63,,UNLA,Undeclared Arts,3,6,Fromm,Hispanic or Latino,130,128,3.55
+"4,973,365",F,N,73,,BNTL,International Business,3,1,Hayes Healy,White,142,122,3.96
+"4,978,223",F,Y,100,Y,HIST,History,1,0,,African American,32,48,1.80
+"4,985,971",F,Y,0,,BADM,Business Administration,3,2,Phelan,Asian,128,128,2.86
+"4,986,468",F,Y,0,,UNSC,Undeclared Sciences,35,13,Phelan,Asian,136,126,3.79
+"4,986,750",M,Y,9,,NURS,Nursing,5,4,Gillson,African American,34,34,2.42
+"4,994,779",M,N,0,,ADVT,Advertising,11,2,Lone Village,International,128,148,2.69
+"4,998,050",M,Y,9,,NURS,Nursing,7,14,Gillson,Asian,151,99,3.69
+"5,002,844",F,Y,82,,BIOL,Biology,30,11,Hayes Healy,Hispanic or Latino,137,135,3.22
+"5,014,124",F,Y,0,,COMS,Communication Studies,1,0,Gillson,International,24,16,0.50
+"5,021,145",F,Y,42,,MS,Media Studies,3,2,Hayes Healy,Asian,128,128,3.53
+"5,028,119",F,Y,0,,PSYC,Psychology,5,3,Gillson,Asian,139,127,3.37
+"5,036,472",F,Y,0,,NURS,Nursing,9,14,Gillson,Asian,138.38,93,3.48
+"5,036,664",M,Y,60,,UNBN,Undeclared Business,4,1,Gillson,Asian,128,132,3.18
+"5,039,282",F,N,63,,ADVT,Advertising,2,0,Gillson,Hispanic or Latino,63,63,3.22
+"5,039,684",F,Y,100,Y,BIOL,Biology,2,2,,White,129,105,3.47
+"5,056,034",F,Y,0,,BNTL,International Business,4,1,Gillson,International,132,132,3.79
+"5,068,909",F,Y,100,Y,BIOL,Biology,31,12,Hayes Healy,Hispanic or Latino,128,123,3.19
+"5,078,961",F,N,34,,NURS,Nursing,6,18,Fromm,White,175,117,3.85
+"5,085,084",M,Y,0,,BADM,Business Administration,21,3,Gillson,International,145,145,3.85
+"5,088,775",F,Y,0,,NURS,Nursing,8,14,Fromm,Asian,138,98,3.30
+"5,091,933",F,Y,87,,PSYC,Psychology,3,2,Gillson,African American,128,128,3.31
+"5,095,935",M,Y,0,,NURS,Nursing,5,4,Hayes Healy,Native American,27,31,3.00
+"5,098,545",M,Y,0,,UNBN,Undeclared Business,4,4,Gillson,White,138,98,3.40
+"5,124,903",F,Y,0,,BNTL,International Business,7,1,Gillson,International,128,127,3.48
+"5,125,104",M,Y,0,,NURS,Nursing,6,14,Hayes Healy,White,131,115,3.18
+"5,132,859",F,N,0,,UNLA,Undeclared Arts,5,1,Gillson,White,128,125,3.52
+"5,136,652",F,Y,32,,UNLA,Undeclared Arts,1,2,Phelan,White,134,124,3.86
+"5,138,264",M,Y,28,,POLS,Politics,32,12,,White,132,126,3.07
+"5,148,161",M,Y,0,,HIST,History,4,4,Gillson,Asian,156,140,3.31
+"5,152,897",M,Y,0,,UNSC,Undeclared Sciences,25,12,Phelan,White,129,129,3.09
+"5,155,040",M,Y,83,,ARCD,Architecture & Community Design,3,9,Gillson,White,123,123,2.86
+"5,163,813",F,Y,59,,NURS,Nursing,8,14,Hayes Healy,White,137,99,3.56
+"5,171,312",M,Y,0,,BFIN,Finance,3,1,,International,138,141,3.30
+"5,174,191",M,Y,0,,BFIN,Finance,4,1,Phelan,International,130,134,2.70
+"5,222,450",F,Y,95,Y,CS,Computer Science,3,1,Phelan,Asian,12,16,2.25
+"5,246,972",M,Y,0,,BIOL,Biology,2,12,,Asian,134,79,3.25
+"5,251,267",F,N,0,,ECON,Economics,9,1,Phelan,White,141,129,3.51
+"5,253,698",F,Y,0,,BNTL,International Business,1,0,Phelan,Asian,36,32,3.50
+"5,266,700",M,Y,100,Y,BIOL,Biology,34,12,Hayes Healy,Hispanic or Latino,131,123,3.45
+"5,267,663",F,Y,0,,UNBN,Undeclared Business,6,4,Fromm,International,128,120,3.29
+"5,277,155",F,N,0,,BADM,Business Administration,1,0,Hayes Healy,Asian,15,15,3.37
+"5,289,376",F,Y,99,Y,ENGL,English,4,1,Hayes Healy,Hispanic or Latino,130,130,3.10
+"5,291,810",F,Y,0,,UNSC,Undeclared Sciences,22,1,,Asian,135,131,3.23
+"5,298,027",M,Y,0,,UNBN,Undeclared Business,1,0,Hayes Healy,International,10,25,0.51
+"5,301,511",F,Y,66,,BACT,Accounting,1,0,Gillson,Pacific Islander,28,28,2.81
+"5,311,948",F,N,100,Y,ADVT,Advertising,1,0,Phelan,Hispanic or Latino,24,44,1.43
+"5,322,574",F,N,93,Y,BAIS,International Studies,3,0,Hayes Healy,Asian,159,131,3.54
+"5,323,938",M,N,88,,BADM,Business Administration,8,2,Hayes Healy,Hispanic or Latino,128,124,3.52
+"5,327,209",F,N,0,,BADM,Business Administration,3,1,Phelan,Asian,128,128,3.46
+"5,329,081",F,Y,89,,BIOL,Biology,9,3,Hayes Healy,White,140,135,3.31
+"5,332,638",F,Y,73,,BIOL,Biology,24,9,Hayes Healy,Hispanic or Latino,145,124,1.99
+"5,333,068",F,Y,38,,MS,Media Studies,1,4,Gillson,White,128,100,3.42
+"5,339,517",M,Y,0,,BFIN,Finance,3,1,Gillson,International,142,148,2.73
+"5,341,304",M,Y,27,,UNBN,Undeclared Business,3,1,Gillson,White,128,112,3.50
+"5,341,594",F,Y,99,Y,BIOL,Biology,2,1,Phelan,White,28,28,3.73
+"5,342,751",F,N,0,,BAIS,International Studies,2,1,Fromm,White,138,98,3.89
+"5,344,917",F,Y,68,,DSGN,Design,3,3,Hayes Healy,Hispanic or Latino,134,126,3.12
+"5,353,140",M,Y,0,,UNBN,Undeclared Business,5,1,Gillson,International,129,138,2.99
+"5,357,006",F,Y,100,Y,BIOL,Biology,39,17,Phelan,Hispanic or Latino,129,128,3.02
+"5,362,344",F,N,100,Y,ENGL,English,1,3,Phelan,White,174,134,3.98
+"5,365,646",F,Y,0,,DSGN,Design,2,3,Hayes Healy,International,33,33,3.79
+"5,368,292",F,Y,0,,UNBN,Undeclared Business,5,1,Gillson,International,56,72,2.10
+"5,368,819",F,Y,0,,MS,Media Studies,3,3,Hayes Healy,White,128,110,3.88
+"5,386,419",F,Y,76,,POLS,Politics,4,2,Hayes Healy,White,137,126,3.76
+"5,389,493",M,N,0,,BADM,Business Administration,7,1,Hayes Healy,International,150,150,3.49
+"5,393,227",M,Y,93,Y,UNBN,Undeclared Business,4,1,,Hispanic or Latino,128,128,3.05
+"5,404,230",F,Y,0,,UNBN,Undeclared Business,3,0,Gillson,International,133,103,3.74
+"5,404,343",F,Y,0,,PSYC,Psychology,3,1,Phelan,Asian,134,114,3.19
+"5,421,832",M,Y,0,,BFIN,Finance,4,3,Gillson,International,128,120,3.81
+"5,422,416",M,Y,0,,UNBN,Undeclared Business,3,2,Hayes Healy,International,133,125,3.19
+"5,428,668",F,Y,79,,BMKT,Marketing,5,1,Hayes Healy,Hispanic or Latino,128,128,3.59
+"5,429,804",F,Y,59,,NURS,Nursing,10,15,Hayes Healy,Asian,134,115,3.18
+"5,441,137",M,Y,0,,ECON,Economics,1,0,Phelan,International,36,57,1.58
+"5,447,326",F,N,0,,BMKT,Marketing,10,10,Fromm,White,146,127,3.72
+"5,449,491",F,Y,33,,ENVS,Environmental Science,29,11,Hayes Healy,White,175,142,3.71
+"5,456,275",M,Y,57,,UNLA,Undeclared Arts,1,0,Gillson,Hispanic or Latino,28,16,2.58
+"5,458,777",F,Y,0,,FNAR,Fine Arts,4,10,Gillson,Asian,154,120,2.97
+"5,460,269",M,Y,25,,BAIS,International Studies,4,2,Hayes Healy,Asian,128,128,3.28
+"5,460,347",F,N,96,Y,BMKT,Marketing,4,1,Phelan,White,36,32,4
+"5,460,720",F,Y,87,,ENVS,Environmental Science,17,1,Phelan,Asian,156,112,3.21
+"5,465,778",M,Y,0,,UNSC,Undeclared Sciences,5,1,Gillson,Asian,36,68,1.55
+"5,471,917",M,Y,0,,PHYS,Physics,4,1,Phelan,White,36,16,3.10
+"5,485,318",M,Y,0,,ECON,Economics,3,2,Phelan,International,128,140,2.41
+"5,486,782",F,Y,76,,UNBN,Undeclared Business,4,1,Phelan,Multi Race,135,105,3.88
+"5,491,347",M,Y,96,Y,UNLA,Undeclared Arts,3,4,Hayes Healy,African American,133,117,3.08
+"5,497,412",M,Y,0,,BADM,Business Administration,3,1,Lone Mountain,International,147,147,2.76
+"5,499,891",F,Y,80,,BADM,Business Administration,4,1,Phelan,Asian,142,134,3.83
+"5,501,406",F,N,0,,BIOL,Biology,11,5,Hayes Healy,Hispanic or Latino,23,47,0.90
+"5,512,280",F,N,13,,POLS,Politics,1,3,Gillson,White,150,120,3.95
+"5,513,815",M,Y,100,Y,UNSC,Undeclared Sciences,29,10,Gillson,African American,145,128,2.92
+"5,520,423",F,Y,0,,BADM,Business Administration,6,1,Gillson,Asian,144,140,3.56
+"5,524,631",F,Y,64,,POLS,Politics,19,3,Fromm,White,158,132,3.42
+"5,527,415",M,N,100,Y,CS,Computer Science,24,3,Phelan,Asian,128,118,3.00
+"5,547,403",M,Y,0,,DSGN,Design,3,4,Hayes Healy,Unknown,139.01,129,3.56
+"5,570,901",F,Y,99,Y,NURS,Nursing,7,14,Fromm,Hispanic or Latino,131,104,3.09
+"5,577,046",F,Y,0,,BMKT,Marketing,1,0,Hayes Healy,Multi Race,15,15,3.13
+"5,591,768",M,N,0,,BADM,Business Administration,3,1,,International,139,143,3.09
+"5,606,889",M,Y,0,,UNBN,Undeclared Business,5,5,Gillson,Multi Race,131,131,3.40
+"5,606,991",M,Y,68,,CDS,Critical Diversity Studies,7,1,,Hispanic or Latino,128,128,3.74
+"5,611,691",M,Y,100,Y,BADM,Business Administration,8,1,Phelan,White,128,125,2.97
+"5,611,994",M,Y,0,,PHYS,Physics,20,4,Lone Mountain,International,128,132,3.30
+"5,612,758",M,Y,100,Y,ARCD,Architecture & Community Design,1,0,Phelan,Asian,4,4,3
+"5,620,701",F,Y,79,,BAIS,International Studies,3,1,Hayes Healy,Hispanic or Latino,129,121,3.55
+"5,632,825",M,Y,99,Y,BENI,Entrepreneurship & Innovation,1,2,Gillson,Asian,33,33,3.93
+"5,642,930",F,Y,100,Y,COMS,Communication Studies,3,1,Phelan,African American,128,128,3.33
+"5,646,986",F,N,0,,ADVT,Advertising,0,3,Phelan,White,58,58,3.84
+"5,647,370",F,Y,100,Y,UNSC,Undeclared Sciences,8,2,Phelan,African American,67,65,3.34
+"5,647,375",F,Y,99,Y,BNTL,International Business,4,1,Gillson,Hispanic or Latino,130,122,2.69
+"5,657,378",M,N,0,,POLS,Politics,4,2,Gillson,Asian,132,128,3.16
+"5,663,770",F,Y,76,,CHEM,Chemistry,15,7,Hayes Healy,Asian,151,136,2.90
+"5,667,997",F,Y,0,,ADVT,Advertising,5,2,Gillson,Asian,146,128,3.95
+"5,681,857",F,Y,0,,ENGL,English,3,2,Gillson,Asian,143,131,3.53
+"5,683,350",M,Y,87,,BIOL,Biology,1,0,Phelan,Hispanic or Latino,24,24,2.47
+"5,685,433",M,Y,0,,BADM,Business Administration,4,1,Phelan,Hispanic or Latino,128,128,3.51
+"5,687,276",M,Y,0,,ECON,Economics,6,4,Gillson,International,136,152,2.56
+"5,688,668",M,Y,88,,MS,Media Studies,0,3,Gillson,White,128,100,3.28
+"5,695,490",F,Y,0,,UNSC,Undeclared Sciences,9,1,Gillson,Asian,134,134,3.39
+"5,698,396",M,Y,36,,PSYC,Psychology,2,3,Hayes Healy,White,128,128,3.67
+"5,706,491",F,Y,99,Y,UNBN,Undeclared Business,1,0,Gillson,Unknown,31,31,2.90
+"5,708,014",M,Y,0,,BMKT,Marketing,3,2,Phelan,Asian,128,128,2.46
+"5,723,636",F,N,67,,NURS,Nursing,2,1,Hayes Healy,Multi Race,29,29,3.54
+"5,730,826",F,Y,71,,ARCD,Architecture & Community Design,3,10,Hayes Healy,White,154,126,3.66
+"5,735,201",F,N,17,,PHIL,Philosophy,0,0,Gillson,White,12,12,3.33
+"5,744,859",F,Y,77,,NURS,Nursing,6,14,Gillson,Asian,159,117,3.33
+"5,745,843",M,N,100,Y,ECON,Economics,6,1,Gillson,African American,136,128,3.02
+"5,748,727",F,N,0,,POLS,Politics,4,1,Hayes Healy,White,129,118,3.90
+"5,781,213",M,N,82,,ARCD,Architecture & Community Design,0,2,Gillson,Hispanic or Latino,14,14,3.13
+"5,789,256",M,Y,0,,PHIL,Philosophy,4,0,Hayes Healy,Asian,128,132,2.98
+"5,807,399",M,N,0,,DSGN,Design,3,4,Hayes Healy,White,92,88,3.16
+"5,822,522",F,Y,0,,COMS,Communication Studies,5,3,Gillson,Asian,128,128,3.29
+"5,829,599",F,Y,81,,NURS,Nursing,7,14,Fromm,Hispanic or Latino,157,109,3.61
+"5,832,856",M,Y,100,Y,ENVA,Environmental Studies,4,2,Gillson,Hispanic or Latino,132,128,2.82
+"5,837,807",F,Y,99,Y,MATH,Mathematics,5,0,Hayes Healy,White,89,61,3.26
+"5,842,328",F,N,74,,BIOL,Biology,2,1,Gillson,White,44,16,3.68
+"5,842,540",F,Y,100,Y,HM,Hospitality Management,4,1,Gillson,Hispanic or Latino,145,125,3.69
+"5,846,653",F,Y,62,,COMS,Communication Studies,3,2,Phelan,Hispanic or Latino,128,128,3.80
+"5,849,755",F,N,97,Y,PSYC,Psychology,0,1,Hayes Healy,African American,68,48,2.07
+"5,853,609",M,N,89,,ESS,Exercise and Sport Science,6,1,Phelan,Hispanic or Latino,32,32,3.18
+"5,858,595",F,Y,0,,UNBN,Undeclared Business,3,1,Gillson,International,151,131,3.57
+"5,864,802",M,Y,0,,BADM,Business Administration,5,2,Lone Mountain,International,140,181,1.84
+"5,880,040",F,Y,0,,PSYC,Psychology,9,7,Hayes Healy,Unknown,128,130,3.61
+"5,885,375",M,Y,80,,CS,Computer Science,7,3,,Asian,128,128,3.58
+"5,889,062",F,N,100,Y,THES,Theology  Studies,3,5,Phelan,Multi Race,138,138,3.76
+"5,893,203",F,Y,31,,UNSC,Undeclared Sciences,15,8,Gillson,Asian,160,130,3.18
+"5,913,386",F,N,0,,BFIN,Finance,3,3,,International,67,85,1.87
+"5,921,581",M,Y,0,,PHYS,Physics,7,1,Gillson,International,128,136,2.48
+"5,921,588",F,Y,73,,BADM,Business Administration,1,0,Gillson,Hispanic or Latino,42,34,3.45
+"5,928,009",F,N,57,,MATH,Mathematics,20,1,Gillson,White,132,108,3.73
+"5,928,219",M,Y,32,,BNTL,International Business,30,11,Gillson,Multi Race,181,149,2.95
+"5,934,816",F,Y,94,Y,SPAN,Spanish,4,1,Gillson,Asian,128,128,3.83
+"5,936,996",M,Y,0,,PSYC,Psychology,1,0,Hayes Healy,Hispanic or Latino,44,74,1.39
+"5,941,279",F,Y,100,Y,FNAR,Fine Arts,25,6,Gillson,Asian,123,127,3.01
+"5,950,154",F,Y,85,,NURS,Nursing,7,14,Gillson,Hispanic or Latino,131,104,3.33
+"5,967,684",F,N,100,Y,BADM,Business Administration,4,1,Hayes Healy,White,121,121,3.41
+"5,971,761",F,N,100,Y,PASJ,Perf. Arts & Soc. Justice,4,1,Gillson,White,128,128,3.11
+"5,972,572",F,N,0,,COMS,Communication Studies,0,0,Hayes Healy,White,46,16,2.50
+"5,977,870",F,Y,51,,NURS,Nursing,10,14,,Asian,149,103,3.67
+"5,983,130",M,N,97,Y,BNTL,International Business,4,1,Hayes Healy,White,139,139,3.39
+"5,987,099",F,Y,96,Y,UNLA,Undeclared Arts,1,0,Hayes Healy,White,41,33,3.76
+"5,991,662",F,N,51,,COMS,Communication Studies,3,5,Phelan,White,132,132,3.12
+"5,996,806",F,N,100,Y,UNLA,Undeclared Arts,2,0,Phelan,White,62,32,3.55
+"6,004,223",M,Y,0,,PHIL,Philosophy,0,2,Hayes Healy,White,86,61,2.15
+"6,022,728",M,Y,78,,BIOL,Biology,3,1,Gillson,White,28,24,2.72
+"6,022,770",F,Y,0,,BFIN,Finance,4,1,Gillson,International,156,156,3.22
+"6,025,162",M,Y,98,Y,NURS,Nursing,8,14,Hayes Healy,Asian,139,107,3.19
+"6,030,986",F,Y,56,,NURS,Nursing,6,3,Gillson,White,42,34,3.31
+"6,031,361",F,Y,57,,PSYC,Psychology,0,0,,White,24,16,3.15
+"6,044,925",F,Y,0,,BADM,Business Administration,3,5,Phelan,International,128,124,3.42
+"6,044,959",M,Y,0,,NURS,Nursing,6,16,Phelan,Hispanic or Latino,154,134,3.09
+"6,046,007",M,N,0,,PHIL,Philosophy,5,1,Gillson,White,128,124,3.09
+"6,059,444",F,N,0,,COMS,Communication Studies,2,3,Phelan,African American,128,128,3.65
+"6,060,199",F,Y,0,,BENI,Entrepreneurship & Innovation,3,2,Phelan,International,144,144,3.09
+"6,066,375",F,N,100,Y,HM,Hospitality Management,3,1,Hayes Healy,Unknown,131,111,2.50
+"6,071,860",M,Y,0,,BADM,Business Administration,1,0,,International,67,71,3.07
+"6,075,289",F,N,0,,ENGL,English,3,5,Gillson,White,131,123,3.17
+"6,078,393",M,Y,0,,BFIN,Finance,1,0,Gillson,White,30,30,3.16
+"6,080,388",F,Y,100,Y,HM,Hospitality Management,3,3,Phelan,Asian,95,86,2.96
+"6,094,876",F,N,94,Y,HIST,History,0,0,Gillson,Hispanic or Latino,20,30,0.36
+"6,095,376",M,Y,0,,CS,Computer Science,0,0,Lone Mountain,Asian,4,8,1.15
+"6,101,698",M,Y,58,,MATH,Mathematics,17,1,,Asian,139,135,3.18
+"6,111,382",M,Y,100,Y,BIOL,Biology,4,2,Gillson,Hispanic or Latino,16,16,0
+"6,115,945",F,Y,77,,BADM,Business Administration,5,1,Hayes Healy,Asian,128,128,3.66
+"6,117,630",F,Y,80,,BMKT,Marketing,2,0,Phelan,Asian,67,67,2.99
+"6,133,025",F,Y,98,Y,BIOL,Biology,8,5,Phelan,Hispanic or Latino,128,120,3.21
+"6,134,665",F,N,0,,ARCD,Architecture & Community Design,4,9,Gillson,Asian,133,133,3.83
+"6,137,009",F,Y,80,,NURS,Nursing,7,14,Phelan,White,128,105,3.63
+"6,138,571",F,Y,90,,MATH,Mathematics,7,1,Hayes Healy,Hispanic or Latino,143,139,3.99
+"6,138,762",F,Y,84,,MS,Media Studies,6,3,Hayes Healy,Asian,128,112,3.59
+"6,138,764",F,Y,0,,UNBN,Undeclared Business,4,2,Fromm,International,134,126,3.39
+"6,139,268",M,Y,70,,NURS,Nursing,8,15,Phelan,Multi Race,133,105,3.33
+"6,147,881",M,N,82,,BNTL,International Business,4,1,Phelan,Asian,128,128,3.78
+"6,151,611",F,Y,100,Y,BADM,Business Administration,1,0,Fromm,Asian,16,16,3.55
+"6,154,307",M,Y,94,Y,UNBN,Undeclared Business,10,1,,Asian,146,137,3.53
+"6,159,758",M,Y,0,,UNBN,Undeclared Business,3,3,,International,128,132,3.40
+"6,159,963",M,N,100,Y,PHYS,Physics,25,4,Hayes Healy,Hispanic or Latino,128,132,3.05
+"6,179,611",F,N,71,,BIOL,Biology,12,6,Gillson,Hispanic or Latino,158,136,3.38
+"6,181,884",F,Y,95,Y,BIOL,Biology,31,12,Gillson,Hispanic or Latino,126,118,3.52
+"6,185,143",M,N,76,,ECON,Economics,2,0,Hayes Healy,White,42,42,2.71
+"6,198,376",F,Y,0,,NURS,Nursing,5,2,Phelan,Unknown,45,41,3.34
+"6,201,111",F,Y,50,,PHYS,Physics,1,0,Hayes Healy,Native American,23,17,3.06
+"6,204,825",M,N,100,Y,ANST,Asian Studies,4,2,Gillson,Asian,146,130,3.36
+"6,225,239",F,Y,73,,ARCD,Architecture & Community Design,34,12,Phelan,Asian,128,135,2.84
+"6,233,618",M,Y,0,,UNSC,Undeclared Sciences,12,5,Lone Village,Hispanic or Latino,141,108,2.14
+"6,240,733",F,Y,99,Y,CHEM,Chemistry,24,8,Hayes Healy,Multi Race,128,119,2.99
+"6,243,742",F,Y,100,Y,DSGN,Design,3,5,,Multi Race,128,129,3.06
+"6,251,000",F,Y,0,,PSYC,Psychology,2,3,Phelan,White,138,114,3.81
+"6,253,330",F,N,0,,ARCD,Architecture & Community Design,0,4,Fromm,Asian,34,34,3.55
+"6,256,128",F,Y,0,,BADM,Business Administration,32,12,Phelan,White,146,126,3.94
+"6,258,417",M,Y,0,,COMS,Communication Studies,3,1,Hayes Healy,International,159,129,3.11
+"6,259,366",F,N,100,Y,BADM,Business Administration,4,1,Gillson,Hispanic or Latino,130,110,3.83
+"6,265,072",M,Y,100,Y,BIOL,Biology,35,11,Gillson,Hispanic or Latino,159,135,3.49
+"6,271,145",F,Y,95,Y,BADM,Business Administration,3,1,Hayes Healy,Hispanic or Latino,130,130,3.06
+"6,275,820",F,Y,68,,COMS,Communication Studies,5,5,Fromm,Hispanic or Latino,128,128,3.41
+"6,276,301",F,N,77,,PSYC,Psychology,5,1,Hayes Healy,Pacific Islander,135,135,3.79
+"6,280,056",F,Y,0,,SOC,Sociology,0,0,Lone Village,International,75,51,3.30
+"6,284,429",M,Y,68,,NURS,Nursing,22,9,Hayes Healy,Asian,141,136,3.87
+"6,291,057",M,Y,0,,ECON,Economics,24,3,Lone Mountain,International,198,162,3.33
+"6,298,011",F,N,0,,UNLA,Undeclared Arts,3,1,Hayes Healy,White,12.04,40,0.10
+"6,303,397",F,N,0,,BACT,Accounting,4,1,Lone Mountain,International,128,124,3.39
+"6,304,948",F,Y,99,Y,UNLA,Undeclared Arts,3,1,Gillson,White,128,128,3.63
+"6,306,222",F,Y,42,,BADM,Business Administration,4,1,Gillson,Multi Race,130,130,3.37
+"6,315,078",F,Y,1,,BIOL,Biology,36,12,Phelan,Asian,147.73,126,3.79
+"6,316,599",F,Y,0,,COMS,Communication Studies,11,2,Hayes Healy,Asian,129,128,3.10
+"6,321,001",F,Y,94,Y,COMS,Communication Studies,6,1,Phelan,Asian,128,128,3.49
+"6,328,869",F,Y,97,Y,DSGN,Design,3,3,Phelan,Hispanic or Latino,136,128,3.22
+"6,340,205",F,Y,96,Y,PSYC,Psychology,3,2,Gillson,Hispanic or Latino,133,109,3.49
+"6,360,219",F,Y,98,Y,BIOL,Biology,28,10,Hayes Healy,Asian,129,124,3.54
+"6,374,968",M,Y,99,Y,UNLA,Undeclared Arts,2,1,Hayes Healy,Asian,20,28,1.86
+"6,386,751",F,Y,73,,BACT,Accounting,4,1,Fromm,Asian,129,113,3.44
+"6,386,899",M,Y,95,Y,BIOL,Biology,11,4,Gillson,Asian,138.03,128,2.98
+"6,399,268",F,Y,0,,UNBN,Undeclared Business,4,3,Fromm,International,150,150,3.10
+"6,401,463",M,Y,23,,BSDS,Data Science,2,0,Phelan,White,79,56,2.93
+"6,476,630",F,Y,0,,UNLA,Undeclared Arts,3,6,Gillson,White,144,144,3.64
+"6,494,555",M,Y,100,Y,BIOL,Biology,22,9,Hayes Healy,Hispanic or Latino,127,120,3.11
+"6,497,671",F,Y,75,,NURS,Nursing,11,16,Fromm,Asian,142,116,3.75
+"6,511,123",M,N,66,,BIOL,Biology,,,Hayes Healy,White,0,0,0
+"6,512,775",F,Y,0,,PSYC,Psychology,2,2,Gillson,White,60,60,3.67
+"6,513,781",F,Y,72,,ESS,Exercise and Sport Science,36,11,Hayes Healy,Asian,149,149,3.44
+"6,522,120",F,Y,0,,CS,Computer Science,17,3,Gillson,International,135,105,3.55
+"6,524,267",F,N,97,Y,CHEM,Chemistry,33,10,Hayes Healy,White,129,124,2.70
+"6,528,049",F,Y,0,,HM,Hospitality Management,3,1,Gillson,International,128,112,3.11
+"6,547,366",F,Y,100,Y,POLS,Politics,3,1,Gillson,Hispanic or Latino,134,124,2.94
+"6,547,783",F,Y,100,Y,PSYC,Psychology,0,0,Phelan,Hispanic or Latino,48,48,3.78
+"6,556,965",F,Y,0,,BADM,Business Administration,2,0,Lone Mountain,International,29,33,2.15
+"6,557,134",M,Y,0,,CS,Computer Science,21,1,Hayes Healy,International,156,136,3.64
+"6,561,795",M,Y,75,,BNTL,International Business,28,7,Hayes Healy,Hispanic or Latino,131,122,3.56
+"6,564,405",F,Y,0,,BADM,Business Administration,4,2,Fromm,International,138,138,2.98
+"6,564,584",F,Y,100,Y,ENVA,Environmental Studies,27,15,Hayes Healy,White,129,129,3.53
+"6,576,383",F,Y,89,,SOC,Sociology,5,1,Hayes Healy,Hispanic or Latino,128,128,3.30
+"6,578,326",M,Y,0,,UNBN,Undeclared Business,0,0,Gillson,White,14,16,2.26
+"6,585,059",M,Y,0,,UNSC,Undeclared Sciences,34,14,Phelan,White,133,128,3.67
+"6,586,393",F,Y,0,,NURS,Nursing,8,14,Hayes Healy,Asian,135.35,106,3.16
+"6,595,105",F,Y,0,,PSYC,Psychology,3,2,Phelan,Asian,134,118,3.73
+"6,596,574",F,N,99,Y,MS,Media Studies,1,0,Phelan,Asian,32,32,3.05
+"6,610,203",F,Y,0,,NURS,Nursing,7,14,Fromm,Hispanic or Latino,129,101,3.52
+"6,614,604",F,N,94,Y,PSYC,Psychology,6,1,Gillson,African American,137,129,3.50
+"6,615,233",F,Y,73,,UNBN,Undeclared Business,4,1,Fromm,White,134,132,3.71
+"6,619,179",M,Y,86,,BADM,Business Administration,1,0,,Hispanic or Latino,30,46,1.58
+"6,639,283",F,Y,0,,NURS,Nursing,7,14,Hayes Healy,White,130,98,3.85
+"6,640,672",F,Y,52,,NURS,Nursing,7,16,Gillson,African American,156,122,3.73
+"6,649,956",F,Y,92,Y,ENGL,English,3,1,Phelan,Hispanic or Latino,136,136,3.53
+"6,651,366",F,Y,0,,ADVT,Advertising,5,1,Phelan,White,128,128,3.51
+"6,655,058",M,N,97,Y,BADM,Business Administration,1,0,Hayes Healy,White,39,31,3.81
+"6,655,279",F,Y,84,,PSYC,Psychology,0,0,Gillson,Multi Race,60,48,2.25
+"6,662,625",F,N,52,,UNBN,Undeclared Business,4,1,Gillson,Asian,152,152,3.65
+"6,676,812",F,Y,0,,PASJ,Perf. Arts & Soc. Justice,3,7,Hayes Healy,White,129,129,3.37
+"6,677,614",F,N,0,,CHEM,Chemistry,2,1,Hayes Healy,White,12,12,2.10
+"6,692,648",F,N,0,,BADM,Business Administration,1,0,Gillson,International,4,12,0.57
+"6,699,242",F,Y,0,,BADM,Business Administration,5,2,Lone Mountain,International,136,132,3.44
+"6,713,111",M,Y,75,,BADM,Business Administration,6,0,Gillson,Asian,138,134,3.50
+"6,720,959",F,Y,31,,BADM,Business Administration,8,0,Hayes Healy,Asian,155,131,3.82
+"6,737,155",M,Y,0,,BFIN,Finance,16,1,Hayes Healy,International,173,161,3.77
+"6,740,805",M,Y,54,,CMPL,Comparative Lit. & Culture,9,5,Phelan,Hispanic or Latino,136,112,2.78
+"6,740,832",M,Y,0,,FNEC,Financial Economics (4+1),5,0,Phelan,Asian,34,30,3.39
+"6,757,405",F,N,100,Y,ARCD,Architecture & Community Design,3,8,Hayes Healy,Hispanic or Latino,129,125,2.56
+"6,769,008",F,Y,0,,ENGL,English,3,1,Gillson,White,136,136,3.83
+"6,791,066",F,Y,76,,PSYC,Psychology,2,8,,Asian,133,129,3.71
+"6,793,699",F,N,0,,COMS,Communication Studies,3,1,Hayes Healy,White,132,132,3.73
+"6,801,221",F,N,0,,ADVT,Advertising,3,1,Phelan,White,128,104,3.62
+"6,804,336",F,Y,21,,NURS,Nursing,7,14,Hayes Healy,Asian,131,111,3.39
+"6,806,839",F,Y,98,Y,ENGL,English,0,0,Hayes Healy,Hispanic or Latino,39,31,3.83
+"6,807,851",F,Y,100,,ESS,Exercise and Sport Science,25,3,Phelan,Asian,129.71,112,3.79
+"6,810,312",F,Y,0,,NURS,Nursing,7,14,Phelan,Hispanic or Latino,129,100,3.50
+"6,815,263",F,Y,0,,BENI,Entrepreneurship & Innovation,3,2,Fromm,International,152,161,2.96
+"6,829,761",F,N,42,,CHEM,Chemistry,6,1,Hayes Healy,White,161,130,3.86
+"6,833,394",M,Y,0,,BIOL,Biology,37,14,,Asian,128,132,3.10
+"6,841,608",M,Y,0,,UNBN,Undeclared Business,5,1,,White,128,132,2.84
+"6,842,542",F,Y,0,,FNAR,Fine Arts,3,7,Lone Mountain,International,128,128,3.54
+"6,842,618",F,Y,0,,BADM,Business Administration,5,1,Gillson,International,128,124,3.19
+"6,842,783",F,N,91,,BADM,Business Administration,5,1,Hayes Healy,White,128,126,3.52
+"6,843,452",M,Y,0,,CS,Computer Science,20,5,,Hispanic or Latino,128,128,3.47
+"6,844,923",F,Y,91,,NURS,Nursing,7,3,Fromm,White,31,36,1.49
+"6,845,249",F,N,72,,PSYC,Psychology,3,1,Hayes Healy,White,135.36,108,3.86
+"6,847,108",M,N,94,Y,BADM,Business Administration,3,0,Hayes Healy,Multi Race,60,58,2.89
+"6,850,018",M,N,0,,BAIS,International Studies,4,2,Hayes Healy,White,136,116,3.41
+"6,866,550",F,Y,0,,UNBN,Undeclared Business,2,4,Gillson,International,10,34,0.52
+"6,915,215",F,Y,0,,BADM,Business Administration,3,1,Fromm,International,110,110,3.35
+"6,921,398",F,Y,0,,BADM,Business Administration,6,2,Lone Mountain,International,149,148,2.98
+"6,924,565",M,Y,0,,CS,Computer Science,20,3,Hayes Healy,White,128,118,3.12
+"6,925,932",M,Y,72,,BMKT,Marketing,8,1,Hayes Healy,White,128,128,2.87
+"6,927,295",M,Y,78,,BIOL,Biology,34,12,Hayes Healy,Hispanic or Latino,138,133,3.92
+"6,930,178",F,N,79,,PSYC,Psychology,0,3,Fromm,Multi Race,143,113,3.82
+"6,931,164",F,Y,0,,ADVT,Advertising,4,3,Gillson,International,66,57,3.96
+"6,935,032",F,Y,79,,COMS,Communication Studies,0,0,Gillson,Hispanic or Latino,13,13,3.60
+"6,941,733",M,Y,71,,HIST,History,1,0,Phelan,White,128,124,3.37
+"6,952,226",F,Y,0,,PASJ,Perf. Arts & Soc. Justice,1,0,Gillson,White,48,36,3.87
+"6,953,755",M,Y,0,,COMS,Communication Studies,4,5,Hayes Healy,White,128,132,2.87
+"6,965,440",M,Y,0,,NURS,Nursing,6,6,Gillson,International,116,133,2.58
+"6,968,178",F,N,0,,ESS,Exercise and Sport Science,5,1,Gillson,White,136,135,3.07
+"6,972,901",F,Y,0,,NURS,Nursing,12,9,Phelan,White,139,135,2.80
+"6,979,620",F,Y,100,Y,MS,Media Studies,3,3,Fromm,Asian,130,112,3.82
+"6,982,082",F,Y,0,,BIOL,Biology,13,4,Gillson,Asian,130,137,3.32
+"6,998,846",F,Y,0,,MS,Media Studies,3,7,Fromm,International,150,130,3.11
+"7,007,221",M,Y,0,,BADM,Business Administration,4,1,Phelan,International,128,138,2.53
+"7,009,978",F,N,0,,PSYC,Psychology,2,4,Phelan,White,128,128,3.54
+"7,019,360",M,Y,0,,CHEM,Chemistry,15,5,,Asian,68,64,3.35
+"7,020,668",F,Y,84,,ADVT,Advertising,19,3,Gillson,Hispanic or Latino,128,116,3.67
+"7,024,513",M,N,0,,CS,Computer Science,9,1,Gillson,International,64,64,3.13
+"7,025,435",F,N,51,,BAIS,International Studies,3,1,Hayes Healy,White,130.04,114,3.93
+"7,025,479",F,Y,71,,DSGN,Design,0,1,Gillson,White,60,32,3.70
+"7,028,945",M,N,100,Y,NURS,Nursing,0,0,Pacific Wing,White,9,9,3.42
+"7,036,899",M,Y,97,Y,COMS,Communication Studies,1,0,Gillson,Hispanic or Latino,29,28,2.96
+"7,038,490",F,Y,0,,BIOL,Biology,15,5,Hayes Healy,International,130,130,3.62
+"7,043,941",F,Y,73,,POLS,Politics,1,0,Fromm,Hispanic or Latino,20,28,0.57
+"7,049,517",F,Y,0,,BFIN,Finance,8,2,Lone Mountain,International,174,174,2.74
+"7,049,754",F,N,67,,BNTL,International Business,1,0,Hayes Healy,Asian,44,32,3.18
+"7,052,990",M,Y,0,,BMKT,Marketing,3,1,Gillson,Asian,147,151,2.50
+"7,055,525",F,N,95,Y,BMKT,Marketing,3,1,Gillson,Asian,128,143,2.81
+"7,068,642",M,Y,0,,UNBN,Undeclared Business,5,1,Lone Mountain,International,137,137,3.52
+"7,076,153",F,Y,0,,BADM,Business Administration,4,6,Hayes Healy,White,128,127,3.73
+"7,083,266",M,N,0,,BMKT,Marketing,3,4,Lone Mountain,International,128,119,3.39
+"7,084,106",M,Y,0,,UNBN,Undeclared Business,2,0,Gillson,International,128,129,2.35
+"7,084,390",M,Y,88,,BAIS,International Studies,3,2,Hayes Healy,White,144,116,3.71
+"7,106,229",M,Y,69,,BADM,Business Administration,1,0,,White,18,14,2.41
+"7,110,487",F,N,0,,BADM,Business Administration,3,1,Lone Village,International,142,134,2.94
+"7,113,427",M,Y,0,,BMKT,Marketing,1,1,Phelan,International,67,33,3.16
+"7,121,003",F,N,90,,UNBN,Undeclared Business,3,1,Hayes Healy,Hispanic or Latino,141,130,3.04
+"7,121,631",F,Y,100,Y,NURS,Nursing,8,24,,Asian,161,116,3.33
+"7,136,950",F,N,83,,BIOL,Biology,6,3,Phelan,Asian,38,30,3.06
+"7,137,104",F,Y,99,Y,COMS,Communication Studies,4,8,Phelan,Hispanic or Latino,128,132,3.16
+"7,149,685",F,Y,94,Y,PSYC,Psychology,18,3,,Hispanic or Latino,128,128,3.37
+"7,169,519",F,Y,45,,NURS,Nursing,6,14,Phelan,White,144.03,102,3.63
+"7,178,348",F,N,75,,BIOL,Biology,9,2,Phelan,White,131,108,3.38
+"7,180,989",M,Y,0,,ECON,Economics,5,2,Gillson,International,128,128,3.01
+"7,200,535",F,N,100,Y,BAIS,International Studies,10,1,Hayes Healy,Multi Race,130,122,3.00
+"7,207,197",F,Y,0,,BMKT,Marketing,4,4,Phelan,International,128,128,3.84
+"7,212,564",F,Y,0,,POLS,Politics,4,0,Hayes Healy,White,143,135,3.97
+"7,218,102",F,Y,90,,ENVA,Environmental Studies,7,4,Hayes Healy,Hispanic or Latino,136,120,2.94
+"7,218,879",M,N,0,,BFIN,Finance,3,2,,International,129,137,2.68
+"7,222,948",F,Y,0,,BACT,Accounting,4,1,Gillson,Asian,142,138,3.85
+"7,224,914",F,Y,0,,ADVT,Advertising,2,2,Fromm,White,139,131,3.89
+"7,226,359",F,Y,100,Y,BIOL,Biology,24,11,,Hispanic or Latino,128,124,3.57
+"7,246,817",M,Y,0,,BFIN,Finance,1,0,Hayes Healy,White,129,93,3.66
+"7,260,663",F,Y,100,Y,UNLA,Undeclared Arts,4,5,Gillson,Asian,129.03,115,3.26
+"7,263,368",M,Y,96,Y,UNBN,Undeclared Business,6,1,Gillson,Hispanic or Latino,128,128,3.06
+"7,266,038",M,N,100,Y,MS,Media Studies,2,14,Lone Mountain,Hispanic or Latino,131,115,2.45
+"7,273,030",F,Y,0,,BADM,Business Administration,3,1,Gillson,Hispanic or Latino,128,128,3.55
+"7,273,746",M,N,0,,BADM,Business Administration,3,1,,International,134,134,3.09
+"7,285,317",F,Y,0,,HM,Hospitality Management,3,1,Fromm,International,151,161,2.47
+"7,294,597",F,N,76,,HM,Hospitality Management,3,1,Lone Mountain,Asian,129,121,3.47
+"7,297,294",M,Y,0,,HM,Hospitality Management,4,1,Gillson,Asian,128,138,2.41
+"7,310,847",M,Y,61,,ARCD,Architecture & Community Design,1,2,Gillson,Hispanic or Latino,10,30,0.57
+"7,324,072",M,Y,98,Y,ESS,Exercise and Sport Science,30,8,Hayes Healy,Hispanic or Latino,149,133,3.58
+"7,335,536",F,N,0,,BADM,Business Administration,6,1,Fromm,Asian,128,129,3.35
+"7,335,867",M,Y,96,,PSYC,Psychology,3,5,Hayes Healy,Asian,131,131,3.75
+"7,336,645",M,Y,96,Y,ESS,Exercise and Sport Science,26,5,Gillson,Hispanic or Latino,128,132,3.00
+"7,347,199",M,Y,1,,ARTM,Art History/Arts Management,0,4,Hayes Healy,White,44,44,2.80
+"7,352,973",F,N,25,,BFIN,Finance,1,0,Phelan,Asian,136,128,3.68
+"7,353,837",M,N,0,,BADM,Business Administration,4,1,Hayes Healy,Asian,128,128,3.56
+"7,354,300",F,N,80,,UNBN,Undeclared Business,22,4,Hayes Healy,Asian,128,128,3.32
+"7,369,337",F,N,0,,UNSC,Undeclared Sciences,0,0,Gillson,White,38,34,3.44
+"7,381,719",F,Y,0,,MATH,Mathematics,1,1,Fromm,White,21,29,1.67
+"7,382,435",F,Y,100,Y,BIOL,Biology,32,12,,Asian,154,130,3.79
+"7,410,884",M,Y,0,,BFIN,Finance,4,1,Phelan,International,128,128,2.61
+"7,425,670",M,Y,95,Y,BACT,Accounting,5,1,Gillson,Hispanic or Latino,148,136,3.26
+"7,426,242",F,Y,0,,SOC,Sociology,4,3,Phelan,Asian,137,113,3.52
+"7,429,218",M,Y,17,,BFIN,Finance,3,1,,Asian,129,125,3.28
+"7,432,013",F,N,58,,UNLA,Undeclared Arts,3,2,Phelan,White,163,139,3.91
+"7,439,905",M,Y,13,,PASJ,Perf. Arts & Soc. Justice,3,12,Hayes Healy,White,128,126,3.00
+"7,450,405",F,Y,100,Y,SOC,Sociology,3,1,Phelan,Multi Race,130,134,2.49
+"7,453,518",F,Y,99,Y,BIOL,Biology,16,4,Hayes Healy,Hispanic or Latino,115,115,2.85
+"7,462,466",F,N,0,,PSYC,Psychology,1,1,Hayes Healy,Asian,17,17,3.55
+"7,462,773",M,Y,60,,POLS,Politics,7,1,Hayes Healy,Hispanic or Latino,128,123,3.07
+"7,470,355",F,Y,64,,ENVA,Environmental Studies,7,4,Gillson,White,144,132,3.63
+"7,477,887",F,Y,81,,COMS,Communication Studies,1,4,Gillson,Hispanic or Latino,129,108,3.23
+"7,490,005",F,Y,73,,PASJ,Perf. Arts & Soc. Justice,0,1,Gillson,White,52,28,3.42
+"7,492,431",F,Y,94,Y,HM,Hospitality Management,1,1,Phelan,Multi Race,57,57,2.86
+"7,495,664",F,Y,0,,BAIS,International Studies,3,5,Gillson,International,128,128,3.63
+"7,498,158",F,Y,58,,BIOL,Biology,32,14,,White,134,114,3.54
+"7,510,185",F,Y,0,,HM,Hospitality Management,4,2,Hayes Healy,International,136,120,3.30
+"7,515,629",M,Y,0,,BENI,Entrepreneurship & Innovation,2,0,Pacific Wing,International,54,34,3.49
+"7,518,683",M,Y,100,Y,SOC,Sociology,3,1,Hayes Healy,Asian,64,64,3.46
+"7,524,118",F,Y,83,,PSYC,Psychology,3,3,Gillson,African American,132,132,3.62
+"7,538,002",F,Y,100,Y,BIOL,Biology,2,1,Phelan,White,22,14,3.04
+"7,556,470",F,Y,0,,BFIN,Finance,5,3,Phelan,International,128,128,3.40
+"7,560,966",F,Y,31,,NURS,Nursing,7,14,Fromm,Asian,136,100,3.24
+"7,568,492",M,Y,36,,URBS,Urban Studies,5,3,Gillson,White,136,128,3.93
+"7,568,545",M,Y,0,,BFIN,Finance,1,0,Lone Mountain,International,158,159,2.53
+"7,573,336",F,Y,100,Y,PSYC,Psychology,0,1,Gillson,Asian,43,35,2.99
+"7,577,714",F,Y,100,Y,COMS,Communication Studies,3,1,Gillson,Hispanic or Latino,128,128,3.67
+"7,584,562",F,Y,0,,ESS,Exercise and Sport Science,7,1,Gillson,International,131,127,3.60
+"7,587,188",M,Y,0,,BADM,Business Administration,1,0,Phelan,International,58,48,3.34
+"7,590,676",F,Y,100,Y,NURS,Nursing,10,14,,Hispanic or Latino,130,110,3.34
+"7,595,997",F,Y,100,Y,HIST,History,1,0,Hayes Healy,Hispanic or Latino,163,139,3.20
+"7,601,309",F,Y,95,Y,BIOL,Biology,11,5,Gillson,Hispanic or Latino,70,58,1.94
+"7,614,058",F,Y,77,,UNSC,Undeclared Sciences,33,8,Hayes Healy,Multi Race,132,125,3.58
+"7,617,352",F,Y,0,,UNBN,Undeclared Business,2,0,Gillson,White,128,120,3.85
+"7,618,939",F,Y,61,,COMS,Communication Studies,3,1,Hayes Healy,Hispanic or Latino,129,114,3.78
+"7,621,335",F,Y,40,,UNLA,Undeclared Arts,2,1,Gillson,White,137,129,3.17
+"7,623,465",F,Y,0,,BADM,Business Administration,9,3,Phelan,Hispanic or Latino,132,116,3.49
+"7,624,203",F,Y,0,,BMKT,Marketing,3,1,Hayes Healy,White,130,130,3.53
+"7,626,085",F,N,0,,PHIL,Philosophy,1,0,Phelan,White,22,42,1.62
+"7,626,616",F,Y,0,,UNBN,Undeclared Business,3,1,Hayes Healy,Hispanic or Latino,132,135,3.21
+"7,629,669",F,Y,82,,ENVA,Environmental Studies,6,2,Hayes Healy,Hispanic or Latino,128,119,3.75
+"7,633,082",F,N,19,,BIOL,Biology,27,9,Fromm,White,181,137,4
+"7,647,977",F,Y,0,,BIOL,Biology,13,14,,Hispanic or Latino,144,144,3.50
+"7,649,104",M,Y,0,,BFIN,Finance,3,1,Gillson,International,132,132,3.45
+"7,649,977",M,Y,0,,BADM,Business Administration,1,0,Gillson,Asian,147,119,3.23
+"7,653,484",F,Y,0,,BENI,Entrepreneurship & Innovation,4,3,Phelan,International,128,108,3.47
+"7,661,432",F,Y,0,,BIOL,Biology,3,1,Gillson,Asian,28,28,2.64
+"7,663,327",F,Y,100,Y,ECON,Economics,4,1,Hayes Healy,Hispanic or Latino,152,132,3.85
+"7,676,328",M,Y,59,,BADM,Business Administration,4,1,Gillson,Hispanic or Latino,141,145,2.91
+"7,687,331",F,N,0,,BADM,Business Administration,4,1,Gillson,International,129,121,3.47
+"7,687,711",F,Y,0,,BADM,Business Administration,3,1,Phelan,White,130,127,3.44
+"7,693,291",M,Y,0,,CHEM,Chemistry,32,14,Gillson,White,136,128,3.70
+"7,695,813",F,N,100,Y,MS,Media Studies,2,3,Gillson,Pacific Islander,132,92,3.93
+"7,695,935",F,N,100,Y,MS,Media Studies,1,0,Phelan,Hispanic or Latino,36,28,3.44
+"7,697,807",F,N,0,,ENVA,Environmental Studies,28,12,Gillson,White,138,136,3.57
+"7,709,022",M,N,82,,BMKT,Marketing,3,8,Hayes Healy,Asian,139,120,3.44
+"7,726,440",M,Y,0,,UNBN,Undeclared Business,6,4,Phelan,International,140,136,3.11
+"7,738,005",F,Y,100,Y,BNTL,International Business,3,1,Hayes Healy,Hispanic or Latino,129,113,3.13
+"7,752,281",F,N,0,,BMKT,Marketing,4,7,Fromm,Asian,158,146,3.51
+"7,761,209",F,Y,0,,COMS,Communication Studies,5,1,Gillson,Asian,128,128,3.45
+"7,771,672",F,Y,100,Y,UNLA,Undeclared Arts,3,6,Phelan,White,128,128,3.73
+"7,780,277",F,Y,3,,BADM,Business Administration,3,8,Hayes Healy,Unknown,142,142,3.70
+"7,781,887",F,Y,0,,UNBN,Undeclared Business,4,4,Hayes Healy,White,146,142,3.77
+"7,791,460",F,Y,100,Y,ENVS,Environmental Science,35,12,Hayes Healy,Hispanic or Latino,153,123,3.12
+"7,799,117",M,Y,0,,BADM,Business Administration,4,2,Gillson,International,51,88,1.63
+"7,813,815",F,Y,91,Y,UNLA,Undeclared Arts,3,1,Hayes Healy,Multi Race,137,137,3.09
+"7,830,134",M,N,76,,FNEC,Financial Economics (4+1),3,1,Gillson,Asian,128,122,2.78
+"7,832,383",F,Y,80,,UNLA,Undeclared Arts,2,2,Phelan,White,159,135,3.55
+"7,835,016",F,Y,100,Y,ARCD,Architecture & Community Design,5,10,Gillson,White,136,140,3.27
+"7,856,928",M,Y,28,Y,POLS,Politics,3,3,Gillson,Hispanic or Latino,129,121,3.53
+"7,859,032",M,Y,0,,PSYC,Psychology,1,0,,International,140,136,2.93
+"7,860,016",M,Y,72,,UNLA,Undeclared Arts,4,1,,Hispanic or Latino,129,117,3.64
+"7,868,801",F,Y,86,,BADM,Business Administration,2,0,Phelan,Multi Race,141.68,127,3.45
+"7,871,929",F,N,81,,UNSC,Undeclared Sciences,7,5,Fromm,Multi Race,132,128,3.36
+"7,881,324",M,Y,100,Y,POLS,Politics,0,0,Pacific Wing,White,52,16,4
+"7,888,810",F,N,0,,CHEM,Chemistry,7,2,Phelan,International,32,32,3.18
+"7,908,928",F,N,97,Y,BAIS,International Studies,3,1,Hayes Healy,Hispanic or Latino,132,128,3.67
+"7,910,739",M,Y,0,,BADM,Business Administration,7,1,Hayes Healy,White,128,128,3.19
+"7,916,087",M,N,82,,MS,Media Studies,5,7,Gillson,White,129,118,3.21
+"7,927,743",M,Y,0,,BADM,Business Administration,6,1,Hayes Healy,International,132,135,2.43
+"7,951,753",M,Y,90,,NURS,Nursing,7,14,,Asian,143,103,3.45
+"7,964,895",M,Y,84,,BADM,Business Administration,5,1,,Asian,128,128,2.98
+"7,968,025",M,N,39,,HIST,History,2,0,Hayes Healy,White,58,28,2.96
+"7,968,244",M,Y,0,,UNBN,Undeclared Business,1,2,,International,67,67,3.53
+"7,993,286",F,Y,0,,COMS,Communication Studies,1,6,Phelan,White,129,125,3.59
+"8,003,326",F,Y,64,,BMKT,Marketing,1,0,Phelan,Hispanic or Latino,32,32,3.71
+"8,005,149",F,N,76,,NURS,Nursing,7,14,Phelan,White,131,100,3.60
+"8,006,350",F,Y,61,,BADM,Business Administration,1,0,Phelan,Hispanic or Latino,17,28,1.03
+"8,010,516",F,Y,100,,ENVS,Environmental Science,25,10,Gillson,White,128,112,3.09
+"8,010,767",M,Y,0,,BADM,Business Administration,3,1,Gillson,International,144,136,3.41
+"8,012,779",M,N,0,,BADM,Business Administration,4,3,Lone Village,International,128,134,2.87
+"8,018,687",F,N,90,,BENI,Entrepreneurship & Innovation,3,0,Hayes Healy,African American,41,32,3.54
+"8,020,566",F,N,0,,ENGL,English,1,0,Gillson,White,45,33,3.96
+"8,021,228",M,N,0,,HM,Hospitality Management,8,5,Phelan,White,128,139,2.49
+"8,035,482",F,Y,59,,DSGN,Design,6,5,Gillson,White,140,124,3.84
+"8,044,307",M,Y,89,,CS,Computer Science,6,1,Phelan,Asian,36.50,48,1.50
+"8,048,029",M,Y,75,,BNTL,International Business,4,1,,Hispanic or Latino,128,119,3.52
+"8,048,828",M,Y,0,,DSGN,Design,3,3,Phelan,White,129,129,3.46
+"8,057,601",F,N,61,,UNSC,Undeclared Sciences,10,5,Phelan,Multi Race,135,105,3.58
+"8,060,603",M,Y,0,,UNBN,Undeclared Business,1,0,Gillson,White,88,58,3.90
+"8,067,578",M,N,0,,BNTL,International Business,8,1,Hayes Healy,Multi Race,128,128,3.06
+"8,067,895",F,Y,0,,PSYC,Psychology,8,3,Fromm,Asian,166,150,3.85
+"8,071,742",F,Y,51,,ESS,Exercise and Sport Science,27,7,,Asian,130,130,3.98
+"8,087,278",F,Y,93,Y,BIOL,Biology,31,11,Phelan,Hispanic or Latino,151.35,129,3.59
+"8,088,759",M,Y,100,Y,BIOL,Biology,7,2,Gillson,Hispanic or Latino,136,128,3.13
+"8,090,749",F,Y,99,Y,ESS,Exercise and Sport Science,7,2,Phelan,Asian,136,136,2.55
+"8,101,527",F,Y,99,Y,NURS,Nursing,10,2,Hayes Healy,Asian,78,90,2.42
+"8,102,674",F,Y,0,,BIOL,Biology,30,19,Fromm,International,93,122,2.18
+"8,108,967",F,Y,0,,PSYC,Psychology,0,0,Gillson,Hispanic or Latino,28,28,3.06
+"8,111,369",F,Y,0,,NURS,Nursing,6,3,Gillson,Multi Race,36,40,2.97
+"8,124,523",F,Y,0,,BADM,Business Administration,2,0,,International,7,31,0.42
+"8,147,060",F,Y,71,,NURS,Nursing,4,2,Fromm,Hispanic or Latino,34,34,3.49
+"8,156,194",F,Y,34,,ENVA,Environmental Studies,6,4,Gillson,Hispanic or Latino,132,132,3.74
+"8,159,449",M,Y,0,,BADM,Business Administration,1,0,,International,0,17,0
+"8,159,665",F,N,0,,NURS,Nursing,6,3,Phelan,African American,34,34,3.19
+"8,160,669",M,N,100,Y,BIOL,Biology,7,3,Phelan,African American,136,121,3.52
+"8,162,044",F,Y,80,,PSYC,Psychology,6,4,Fromm,White,128,112,3.79
+"8,177,986",M,Y,0,,BADM,Business Administration,4,1,Hayes Healy,International,16,44,0.79
+"8,182,902",F,N,88,,UNLA,Undeclared Arts,8,3,Phelan,Hispanic or Latino,135,129,3.52
+"8,184,213",F,Y,20,,BNTL,International Business,1,0,,African American,70,84,2.59
+"8,188,258",F,Y,0,,BACT,Accounting,5,2,Fromm,International,133,133,2.77
+"8,198,013",F,Y,93,Y,UNBN,Undeclared Business,8,1,Hayes Healy,Asian,125,130,2.19
+"8,202,925",M,Y,90,,BIOL,Biology,36,12,Gillson,Asian,138,129,3.73
+"8,205,681",M,Y,100,Y,BADM,Business Administration,11,2,Hayes Healy,White,132,148,2.41
+"8,214,035",M,Y,59,,BADM,Business Administration,7,1,Gillson,Hispanic or Latino,137,117,3.51
+"8,217,250",F,Y,10,,BMKT,Marketing,5,1,Gillson,Asian,130.50,126.50,3.24
+"8,233,893",M,Y,100,Y,CS,Computer Science,23,3,Phelan,White,129,126,3.86
+"8,243,349",F,N,94,Y,UNBN,Undeclared Business,3,1,Fromm,Asian,134,134,3.82
+"8,248,148",F,Y,85,,NURS,Nursing,10,4,Hayes Healy,White,143,123,3.05
+"8,257,802",F,Y,0,,BENI,Entrepreneurship & Innovation,4,2,Gillson,International,136,155,2.92
+"8,259,465",M,Y,0,,ECON,Economics,3,1,Gillson,International,134,134,3.34
+"8,273,024",M,Y,0,,ECON,Economics,5,1,Phelan,International,151,151,3.29
+"8,278,525",M,Y,0,,UNSC,Undeclared Sciences,4,2,Hayes Healy,International,76,46,3.27
+"8,288,506",F,Y,69,,ESS,Exercise and Sport Science,7,1,Phelan,Hispanic or Latino,107,104,2.50
+"8,295,142",F,Y,0,,BFIN,Finance,1,0,Fromm,International,32,44,1.25
+"8,298,521",M,N,0,,ADVT,Advertising,1,2,Hayes Healy,White,84,96,2.55
+"8,314,759",F,N,0,,COMS,Communication Studies,0,0,Gillson,Hispanic or Latino,132,112,3.92
+"8,328,304",M,Y,0,,BNTL,International Business,3,1,Hayes Healy,International,130,130,3.28
+"8,341,717",F,Y,100,Y,DSGN,Design,3,2,Gillson,Hispanic or Latino,146,132,3.70
+"8,344,139",F,Y,0,,ENGL,English,3,1,Hayes Healy,White,136,128,3.49
+"8,353,959",M,Y,0,,UNBN,Undeclared Business,1,0,Gillson,International,27,30,2.33
+"8,364,201",F,N,0,,DSGN,Design,3,5,Fromm,International,128,128,3.51
+"8,366,838",F,N,0,,UNBN,Undeclared Business,1,0,Fromm,Asian,31,31,3.66
+"8,371,173",F,Y,0,,UNSC,Undeclared Sciences,2,1,,International,24,24,2.17
+"8,380,843",M,N,34,,PSYC,Psychology,5,1,Phelan,Multi Race,128,130,2.65
+"8,385,990",F,Y,11,,CHEM,Chemistry,5,1,Phelan,White,128,132,2.93
+"8,388,112",F,N,100,Y,PASJ,Perf. Arts & Soc. Justice,3,5,Hayes Healy,Hispanic or Latino,154,132,3.29
+"8,393,263",M,N,0,,UNSC,Undeclared Sciences,0,0,Hayes Healy,White,12,12,3.53
+"8,397,092",M,Y,71,,NURS,Nursing,2,4,Hayes Healy,Hispanic or Latino,135,105,3.46
+"8,397,967",F,Y,100,Y,BADM,Business Administration,5,1,Phelan,Hispanic or Latino,141,138,3.72
+"8,398,699",M,N,0,,ARCD,Architecture & Community Design,2,3,Phelan,Multi Race,55,31,3.85
+"8,407,022",M,Y,0,,ARCD,Architecture & Community Design,3,8,Phelan,White,146,146,3.03
+"8,409,895",M,Y,83,,BOBL,Organizational Behav.& Ldrship,9,1,Phelan,Hispanic or Latino,128,128,3.13
+"8,420,580",F,Y,38,,NURS,Nursing,22,7,Hayes Healy,Hispanic or Latino,142,145,3.08
+"8,424,869",F,Y,0,,DSGN,Design,3,4,Phelan,White,143,135,3.54
+"8,432,835",F,Y,100,Y,POLS,Politics,3,1,Phelan,White,132,122,3.69
+"8,440,173",F,Y,100,Y,CHEM,Chemistry,6,2,,Hispanic or Latino,26,29,2.50
+"8,440,384",M,Y,32,,BIOL,Biology,29,11,,Asian,128,124,3.12
+"8,444,250",M,Y,0,,CS,Computer Science,1,0,Phelan,Asian,42,12,3.80
+"8,446,887",F,Y,91,,SOC,Sociology,3,1,Fromm,Hispanic or Latino,128,128,3.55
+"8,451,612",F,N,0,,UNBN,Undeclared Business,4,1,Gillson,White,137,129,3.58
+"8,455,968",F,N,83,,BADM,Business Administration,1,0,Hayes Healy,Multi Race,16,16,2.58
+"8,479,483",F,N,11,,SOC,Sociology,0,0,Phelan,White,32,32,3.88
+"8,483,544",F,Y,79,,PSYC,Psychology,3,2,Gillson,Hispanic or Latino,134,124,2.87
+"8,493,650",F,Y,0,,PSYC,Psychology,6,3,Lone Mountain,White,56,36,3.59
+"8,494,944",M,Y,0,,UNLA,Undeclared Arts,1,0,Hayes Healy,International,12,32,0.95
+"8,499,712",M,Y,0,,CS,Computer Science,7,1,Phelan,International,129,145,2.48
+"8,501,349",F,Y,0,,CHEM,Chemistry,5,2,Fromm,International,28,32,2.55
+"8,515,038",M,Y,100,Y,BACT,Accounting,7,1,Phelan,Hispanic or Latino,130,118,2.99
+"8,537,664",F,N,93,,BIOL,Biology,9,4,Hayes Healy,White,41,28,3.48
+"8,543,498",M,N,90,,CS,Computer Science,2,0,Lone Mountain,White,26,34,2.43
+"8,547,247",M,Y,89,,BADM,Business Administration,4,1,Gillson,Asian,143,123,3.63
+"8,553,195",F,N,100,Y,BADM,Business Administration,4,1,Hayes Healy,Asian,150,153,2.87
+"8,568,584",F,Y,39,,ENGL,English,2,1,Hayes Healy,Asian,133,105,3.92
+"8,568,938",F,Y,0,,UNBN,Undeclared Business,0,0,Hayes Healy,International,36,39,2.51
+"8,574,488",F,Y,94,Y,BADM,Business Administration,1,0,,Asian,42,43,1.70
+"8,577,688",F,Y,0,,PSYC,Psychology,7,1,Gillson,White,128,126,2.98
+"8,586,348",F,N,76,,BADM,Business Administration,2,0,Fromm,White,32,32,3.52
+"8,598,869",M,N,73,,POLS,Politics,3,2,Hayes Healy,White,140,120,3.66
+"8,599,691",M,N,84,,BSDS,Data Science,20,0,Gillson,Unknown,128,112,3.85
+"8,616,919",F,Y,100,Y,PSYC,Psychology,0,1,Hayes Healy,Hispanic or Latino,27,27,3.55
+"8,617,637",M,Y,64,,BADM,Business Administration,3,0,Gillson,Multi Race,134,102,3.79
+"8,620,337",M,Y,0,,UNSC,Undeclared Sciences,27,6,Pedro Arrupe,International,136,130,3.71
+"8,625,861",F,N,42,,ENGL,English,3,1,Gillson,White,138,128,3.08
+"8,626,548",F,N,100,Y,BADM,Business Administration,3,1,Hayes Healy,White,57,57,2.77
+"8,627,360",F,Y,78,,SOC,Sociology,7,5,,Hispanic or Latino,144,122,3.56
+"8,628,100",F,Y,100,Y,COMS,Communication Studies,0,0,Hayes Healy,Asian,58,58,3.29
+"8,643,975",F,Y,100,Y,BIOL,Biology,20,8,Gillson,Hispanic or Latino,139,127,3.09
+"8,648,729",F,N,0,,BIOL,Biology,15,6,Hayes Healy,White,138,134,3.57
+"8,651,923",M,N,100,Y,ARCD,Architecture & Community Design,31,8,Hayes Healy,White,142,140,3.54
+"8,657,893",M,Y,0,,BAIS,International Studies,6,1,Hayes Healy,International,130,134,3.47
+"8,660,586",F,Y,65,Y,BAIS,International Studies,3,9,Gillson,Hispanic or Latino,150,118,3.14
+"8,661,938",F,N,100,Y,UNLA,Undeclared Arts,4,2,Gillson,Multi Race,128,107,3.19
+"8,669,398",M,Y,0,,BADM,Business Administration,9,1,Lone Mountain,White,141,138,3.37
+"8,669,404",F,Y,68,,BIOL,Biology,13,1,Hayes Healy,Asian,129,132,2.88
+"8,680,063",M,Y,19,,BADM,Business Administration,4,1,Phelan,Asian,128,127,3.08
+"8,682,916",F,N,100,Y,COMS,Communication Studies,5,1,Phelan,Hispanic or Latino,128,122,3.57
+"8,689,686",M,Y,0,,CHEM,Chemistry,34,13,Hayes Healy,Hispanic or Latino,130,145,2.38
+"8,696,336",F,Y,100,Y,POLS,Politics,3,1,Gillson,Hispanic or Latino,129,129,3.21
+"8,699,856",F,Y,0,,COMS,Communication Studies,3,5,Phelan,White,128,112,3.81
+"8,707,591",F,Y,17,,NURS,Nursing,7,14,Gillson,White,130,99,3.84
+"8,713,243",F,N,67,,BIOL,Biology,11,5,Gillson,White,71.35,48,3.98
+"8,713,711",F,Y,50,,ENGL,English,3,5,Gillson,Asian,128,124,3.42
+"8,718,105",M,N,26,,BMKT,Marketing,1,0,Gillson,White,18,18,2.96
+"8,724,270",F,Y,99,Y,UNLA,Undeclared Arts,19,8,Hayes Healy,Hispanic or Latino,149,132,3.08
+"8,726,868",F,Y,4,,NURS,Nursing,7,4,Hayes Healy,Asian,141,123,3.70
+"8,727,939",F,Y,73,,NURS,Nursing,7,17,Gillson,Asian,134,104,3.82
+"8,728,132",M,N,99,Y,POLS,Politics,3,1,Hayes Healy,Multi Race,123,125,2.91
+"8,732,206",M,Y,42,,PSYC,Psychology,3,2,Hayes Healy,Hispanic or Latino,128,128,3.48
+"8,740,766",F,N,74,,COMS,Communication Studies,3,2,Gillson,African American,128,128,2.72
+"8,744,405",M,Y,0,,BFIN,Finance,3,1,Lone Village,International,141,145,2.53
+"8,745,574",F,Y,0,,UNBN,Undeclared Business,3,1,Hayes Healy,White,64,64,3.63
+"8,759,445",F,Y,100,Y,BADM,Business Administration,0,0,Gillson,Asian,28,28,3.34
+"8,760,353",F,Y,0,,BIOL,Biology,28,10,Fromm,Asian,129,118,3.09
+"8,781,164",F,Y,82,,UNSC,Undeclared Sciences,16,6,Hayes Healy,Hispanic or Latino,134,125,2.86
+"8,796,691",M,Y,93,Y,CS,Computer Science,6,1,,Asian,142,146,3.36
+"8,796,729",F,Y,92,Y,MATH,Mathematics,16,1,Gillson,White,128,128,3.05
+"8,799,892",F,N,51,,CS,Computer Science,20,3,Fromm,White,128,144,2.80
+"8,807,095",F,N,100,Y,ENGL,English,0,0,Fromm,Pacific Islander,58,84,1.77
+"8,807,994",F,N,60,,ENGL,English,5,2,Phelan,African American,94,110,2.22
+"8,813,468",F,Y,0,,SOC,Sociology,3,1,Gillson,International,156,140,3.57
+"8,820,299",M,Y,22,,HIST,History,3,3,Hayes Healy,White,141,125,3.19
+"8,823,959",F,Y,100,Y,MATH,Mathematics,6,1,Hayes Healy,Hispanic or Latino,133,137,2.97
+"8,831,331",M,N,66,,BIOL,Biology,25,5,Hayes Healy,White,130,124,3.75
+"8,842,986",F,Y,0,,BACT,Accounting,3,1,Lone Village,International,62,62,3.51
+"8,844,027",F,Y,0,,BADM,Business Administration,4,2,Lone Mountain,International,144,144,2.80
+"8,847,816",F,Y,100,Y,SOC,Sociology,3,1,Hayes Healy,Hispanic or Latino,95,119,2.07
+"8,849,559",M,Y,0,,BFIN,Finance,6,1,Phelan,International,78,48,2.98
+"8,854,712",F,N,60,,BAIS,International Studies,6,1,Phelan,White,128,79,3.85
+"8,869,316",M,N,100,Y,UNBN,Undeclared Business,0,0,Hayes Healy,Asian,27,27,3.11
+"8,869,903",M,Y,0,,BADM,Business Administration,3,1,Gillson,Hispanic or Latino,130,126,2.87
+"8,877,989",F,Y,8,,COMS,Communication Studies,3,1,Phelan,Asian,128,105,3.70
+"8,895,505",M,Y,78,,SOC,Sociology,6,2,Gillson,Asian,128,130,2.85
+"8,909,211",F,Y,100,Y,BNTL,International Business,6,1,Gillson,Multi Race,128,120,3.31
+"8,915,312",M,Y,61,,PHYS,Physics,13,1,Hayes Healy,Asian,76,92,2.01
+"8,920,664",F,Y,98,Y,MS,Media Studies,6,3,Hayes Healy,Hispanic or Latino,146,134,3.48
+"8,946,317",F,Y,79,,UNLA,Undeclared Arts,6,2,Gillson,White,128,128,3.47
+"8,954,393",F,N,0,,PSYC,Psychology,13,6,Hayes Healy,White,147,127,3.43
+"8,956,909",M,Y,86,,CS,Computer Science,21,3,Phelan,Asian,130,122,3.55
+"8,959,533",F,Y,61,,ENGL,English,3,4,,Asian,104,142,2.23
+"8,971,312",M,Y,0,,BNTL,International Business,1,0,Phelan,International,37,44,1.90
+"8,973,557",F,Y,0,,BADM,Business Administration,3,6,Fromm,International,152,144,3.51
+"8,977,437",F,Y,54,,BIOL,Biology,13,6,Phelan,White,128,119,3.12
+"8,979,084",F,Y,96,Y,NURS,Nursing,7,5,Phelan,Hispanic or Latino,141,111,2.60
+"8,989,488",M,Y,0,,BADM,Business Administration,5,1,Hayes Healy,White,128,132,2.80
+"8,993,328",M,Y,97,Y,MS,Media Studies,0,2,Gillson,Hispanic or Latino,74,62,3.38
+"8,998,872",F,N,95,Y,FNAR,Fine Arts,3,8,Gillson,Hispanic or Latino,130,118,3.71
+"9,003,960",F,N,0,,PSYC,Psychology,2,3,Hayes Healy,White,144,140,3.69
+"9,008,772",F,Y,100,Y,BIOL,Biology,4,1,Fromm,Hispanic or Latino,148,112,3.36
+"9,008,933",F,Y,0,,UNSC,Undeclared Sciences,3,1,Gillson,Asian,130,121,2.92
+"9,014,598",F,Y,90,,ESS,Exercise and Sport Science,33,12,Fromm,Asian,144,136,3.57
+"9,017,269",M,Y,100,Y,HIST,History,5,2,Phelan,Hispanic or Latino,112,142,1.94
+"9,019,119",F,Y,0,,PSYC,Psychology,3,1,,International,140,120,2.83
+"9,029,926",F,Y,0,,BMKT,Marketing,3,1,Lone Village,International,140,140,3.04
+"9,039,435",F,Y,0,,HM,Hospitality Management,3,1,Phelan,Multi Race,90,66,3.25
+"9,045,455",M,Y,0,,ECON,Economics,0,0,Gillson,Asian,24,16,2.83
+"9,047,030",M,Y,39,,UNBN,Undeclared Business,13,1,Hayes Healy,Asian,142,124,3.15
+"9,048,938",F,Y,35,,UNBN,Undeclared Business,5,1,Hayes Healy,White,128,128,2.80
+"9,053,607",M,Y,0,,HIST,History,3,2,,Asian,160,160,3.72
+"9,053,750",M,Y,96,Y,HM,Hospitality Management,4,1,Gillson,Asian,128,132,2.75
+"9,063,737",F,Y,77,,BIOL,Biology,32,12,Phelan,Asian,133,129,3.06
+"9,068,833",F,N,0,,HM,Hospitality Management,1,0,Hayes Healy,White,16,16,3.65
+"9,070,105",F,N,0,,BADM,Business Administration,5,1,Gillson,International,64,64,3.63
+"9,071,103",F,Y,83,,UNSC,Undeclared Sciences,7,5,Hayes Healy,Hispanic or Latino,158,121,3.61
+"9,077,231",F,N,84,,PASJ,Perf. Arts & Soc. Justice,4,4,Phelan,African American,137,137,3.93
+"9,088,263",M,Y,0,,BIOL,Biology,20,4,Hayes Healy,Asian,134,138,2.92
+"9,088,421",F,Y,100,Y,PSYC,Psychology,2,3,Hayes Healy,African American,128,128,3.44
+"9,089,647",F,Y,0,,BMKT,Marketing,5,1,Gillson,Asian,80,72,3.53
+"9,104,755",F,Y,0,,PSYC,Psychology,2,5,Gillson,White,128,124,3.91
+"9,107,077",F,Y,0,,PSYC,Psychology,9,5,Gillson,White,128,124,3.18
+"9,114,278",F,Y,93,Y,PHYS,Physics,29,2,Gillson,Hispanic or Latino,150,138,2.75
+"9,115,467",M,Y,97,Y,BMKT,Marketing,1,0,,White,28,27,2.13
+"9,123,388",F,Y,0,,BADM,Business Administration,6,3,Gillson,International,131,123,2.97
+"9,125,541",M,Y,0,,UNSC,Undeclared Sciences,10,6,Hayes Healy,Asian,128,131,2.83
+"9,137,191",F,Y,72,,UNLA,Undeclared Arts,3,1,Lone Mountain,African American,33,34,2.04
+"9,137,949",F,Y,12,,BADM,Business Administration,3,1,Gillson,White,128,124,3.75
+"9,153,027",F,Y,62,,NURS,Nursing,7,14,Phelan,Hispanic or Latino,133,104,3.54
+"9,169,730",F,Y,0,,PSYC,Psychology,2,1,Gillson,Hispanic or Latino,73,77,2.90
+"9,175,245",F,N,99,Y,BAIS,International Studies,5,1,Phelan,White,149,117,3.79
+"9,178,640",F,Y,98,Y,BMKT,Marketing,28,11,Gillson,White,149,149,3.48
+"9,178,869",F,N,89,,UNBN,Undeclared Business,4,1,Hayes Healy,White,136,132,3.53
+"9,182,123",F,Y,0,,BADM,Business Administration,5,1,Gillson,International,145,145,3.39
+"9,187,490",F,Y,99,Y,BMKT,Marketing,4,3,Phelan,Multi Race,129,129,3.25
+"9,194,437",F,Y,54,,DSGN,Design,5,2,Gillson,Asian,128,96,3.91
+"9,198,524",M,Y,0,,HM,Hospitality Management,3,3,Phelan,International,128,128,3.44
+"9,198,629",M,N,0,,BADM,Business Administration,4,1,Hayes Healy,White,131,131,3.29
+"9,199,824",F,N,0,,BIOL,Biology,29,12,Hayes Healy,Asian,162,121,2.79
+"9,210,883",F,Y,100,Y,NURS,Nursing,8,8,Phelan,Asian,141,122,3.33
+"9,218,225",F,Y,99,Y,BIOL,Biology,11,5,Hayes Healy,Multi Race,129,134,2.61
+"9,220,878",F,Y,0,,UNLA,Undeclared Arts,33,13,Gillson,International,144,158,2.95
+"9,222,089",F,N,12,,ENGL,English,1,0,Hayes Healy,White,58,34,4
+"9,223,072",M,Y,70,,DSGN,Design,0,3,Hayes Healy,Asian,52,52,2.10
+"9,226,900",F,Y,36,,NURS,Nursing,7,24,,Asian,163,121,3.80
+"9,239,000",M,Y,0,,UNSC,Undeclared Sciences,6,3,Hayes Healy,White,130,132,3.28
+"9,250,627",F,N,70,,NURS,Nursing,7,14,Gillson,White,177,110,3.82
+"9,256,892",F,Y,51,,NURS,Nursing,7,4,Gillson,Native American,67,49,3.56
+"9,261,510",M,Y,14,,CS,Computer Science,6,1,Gillson,Unknown,131,123,3.32
+"9,268,361",F,Y,54,,COMS,Communication Studies,3,1,Gillson,Multi Race,128,112,3.91
+"9,268,841",F,Y,100,Y,BIOL,Biology,5,3,Phelan,White,77,64,3.77
+"9,272,352",M,N,0,,BNTL,International Business,3,0,Gillson,International,42,42,3.94
+"9,280,310",F,Y,32,,ESS,Exercise and Sport Science,6,5,Hayes Healy,Multi Race,140,139,3.78
+"9,281,655",F,N,19,,DSGN,Design,5,4,Gillson,Asian,128,128,3.16
+"9,283,946",F,N,0,,BADM,Business Administration,3,1,,International,129,129,2.41
+"9,292,632",F,Y,53,,DSGN,Design,3,6,Hayes Healy,White,129,117,3.31
+"9,325,880",F,N,0,,ESS,Exercise and Sport Science,4,1,Phelan,White,29,29,3.36
+"9,326,295",M,Y,0,,BIOL,Biology,6,3,Hayes Healy,Asian,0,28,0
+"9,327,404",M,Y,76,,CS,Computer Science,21,3,Gillson,White,128,122,3.16
+"9,338,812",F,Y,0,,NURS,Nursing,9,15,Phelan,White,133,107,3.81
+"9,355,058",M,Y,70,,UNBN,Undeclared Business,9,1,Hayes Healy,Asian,128,128,3.29
+"9,356,334",F,Y,70,,ENGL,English,2,2,Hayes Healy,White,64,44,3.30
+"9,361,535",F,Y,74,,ESS,Exercise and Sport Science,23,5,Hayes Healy,White,140,129,3.94
+"9,371,262",M,Y,97,Y,BFIN,Finance,9,1,Phelan,Hispanic or Latino,128,135,2.39
+"9,387,381",M,Y,0,,ADVT,Advertising,6,2,Lone Mountain,International,128,146,2.40
+"9,388,093",F,Y,96,Y,BIOL,Biology,12,7,Hayes Healy,Hispanic or Latino,128,112,2.84
+"9,388,253",M,Y,0,,BMKT,Marketing,3,1,Gillson,International,136,136,2.78
+"9,390,657",F,Y,0,,UNSC,Undeclared Sciences,13,5,Hayes Healy,White,132,132,3.48
+"9,393,435",F,Y,74,,ARCD,Architecture & Community Design,3,9,Hayes Healy,Hispanic or Latino,130,130,3.36
+"9,400,224",F,Y,0,,PSYC,Psychology,0,2,Gillson,Asian,100,82,2.21
+"9,405,594",F,Y,0,,COMS,Communication Studies,1,0,Gillson,White,32,32,3.34
+"9,413,852",F,Y,66,,DSGN,Design,3,7,Hayes Healy,Multi Race,138,120,3.71
+"9,414,922",F,Y,68,,SOC,Sociology,0,2,Hayes Healy,White,166,126,3.70
+"9,421,311",F,Y,0,,BMKT,Marketing,4,1,Gillson,International,128,128,3.39
+"9,430,173",F,N,35,,PSYC,Psychology,2,5,Gillson,White,128,128,3.54
+"9,447,326",F,Y,0,,PASJ,Perf. Arts & Soc. Justice,3,6,Phelan,White,143,130,3.79
+"9,452,006",F,Y,100,Y,NURS,Nursing,9,14,Fromm,Asian,153,114,3.37
+"9,456,131",M,Y,0,,BADM,Business Administration,4,1,Gillson,White,128,128,3.13
+"9,460,277",F,Y,30,,BAIS,International Studies,0,0,Phelan,Asian,32,32,3.50
+"9,465,550",M,Y,55,,UNLA,Undeclared Arts,3,3,Hayes Healy,White,136,134,3.80
+"9,467,979",F,Y,0,,BFIN,Finance,3,1,Phelan,International,136,136,3.37
+"9,479,386",F,Y,100,Y,BMKT,Marketing,1,0,Phelan,Multi Race,34,14,3.34
+"9,479,826",M,Y,0,,BADM,Business Administration,2,0,Gillson,White,30,29,3.47
+"9,480,599",F,Y,0,,NURS,Nursing,8,25,Fromm,Asian,151,115,3.85
+"9,484,728",F,Y,0,,NURS,Nursing,8,14,Phelan,White,133,101,3.66
+"9,485,044",F,Y,52,,PSYC,Psychology,0,0,Phelan,Hispanic or Latino,28,32,2.50
+"9,491,730",F,Y,89,,UNSC,Undeclared Sciences,10,4,Gillson,White,128,132,3.26
+"9,494,831",F,Y,99,Y,BSDS,Data Science,2,0,Hayes Healy,Hispanic or Latino,22,18,1.71
+"9,509,135",F,Y,91,,BADM,Business Administration,5,1,Hayes Healy,Asian,129,129,3.63
+"9,510,939",F,Y,95,Y,ENGL,English,3,3,Phelan,White,128,128,3.46
+"9,525,006",M,Y,0,,MATH,Mathematics,3,0,Phelan,International,34,34,3.96
+"9,535,940",F,Y,100,Y,ANST,Asian Studies,3,1,,Asian,138,124,3.95
+"9,545,686",F,Y,79,,FNAR,Fine Arts,1,3,Gillson,White,24,56,1.36
+"9,548,033",M,Y,98,Y,BENI,Entrepreneurship & Innovation,3,1,Gillson,Hispanic or Latino,139,127,3.66
+"9,555,812",F,Y,91,,BIOL,Biology,32,6,Hayes Healy,White,140,143,2.70
+"9,571,464",F,N,100,Y,UNLA,Undeclared Arts,5,1,Hayes Healy,Hispanic or Latino,131,113,3.43
+"9,583,059",F,Y,99,Y,ENGL,English,3,3,Hayes Healy,Hispanic or Latino,119,107,2.53
+"9,608,556",F,N,51,,ENGL,English,3,5,Phelan,Hispanic or Latino,151,135,3.49
+"9,609,554",F,N,0,,BADM,Business Administration,1,0,Phelan,Asian,71,63,3.44
+"9,615,281",F,Y,100,Y,POLS,Politics,6,1,Gillson,Hispanic or Latino,140,136,3.35
+"9,625,802",F,Y,0,,CHEM,Chemistry,12,5,Gillson,International,96,66,3.96
+"9,638,767",F,Y,92,Y,BADM,Business Administration,1,0,Hayes Healy,Asian,34,34,3.11
+"9,645,566",F,N,0,,BACT,Accounting,3,1,Hayes Healy,International,130,122,3.87
+"9,649,923",M,Y,100,Y,BADM,Business Administration,1,0,Hayes Healy,Hispanic or Latino,23,43,1.09
+"9,651,062",F,Y,0,,ENGL,English,3,5,Phelan,White,82,64,2.77
+"9,656,546",F,Y,71,,NURS,Nursing,9,14,,Asian,144,105,3.41
+"9,657,800",F,Y,97,Y,PSYC,Psychology,0,0,Fromm,Hispanic or Latino,17,17,4
+"9,662,516",F,Y,78,,CS,Computer Science,4,4,Hayes Healy,Asian,132,132,3.76
+"9,670,045",F,Y,98,Y,PSYC,Psychology,0,0,Gillson,Hispanic or Latino,32,52,1.77
+"9,676,484",M,Y,65,,BACT,Accounting,5,1,Hayes Healy,Hispanic or Latino,129,129,3.00
+"9,680,091",F,N,87,,ENGL,English,23,9,Gillson,White,138,106,3.95
+"9,680,925",F,Y,0,,PSYC,Psychology,3,2,Hayes Healy,White,139,139,3.34
+"9,682,562",F,Y,82,Y,BIOL,Biology,27,5,,Hispanic or Latino,138,134,3.40
+"9,684,957",M,Y,0,,POLS,Politics,3,5,Phelan,White,128,128,3.11
+"9,691,591",M,Y,7,,NURS,Nursing,2,1,Gillson,Hispanic or Latino,54,14,3.54
+"9,706,848",F,N,0,,ECON,Economics,6,2,,International,128,132,3.10
+"9,710,646",F,N,98,Y,DSGN,Design,3,3,Hayes Healy,Hispanic or Latino,129,129,3.20
+"9,717,439",F,N,100,Y,PSYC,Psychology,1,0,Hayes Healy,African American,59,59,3.09
+"9,735,970",F,Y,87,,COMS,Communication Studies,1,0,Phelan,Multi Race,62,66,3.28
+"9,742,041",F,N,100,Y,ARCD,Architecture & Community Design,0,1,Hayes Healy,Hispanic or Latino,12,13,2.86
+"9,742,265",F,Y,0,,ESS,Exercise and Sport Science,20,3,Phelan,White,128,117,3.57
+"9,760,215",F,Y,0,,UNSC,Undeclared Sciences,33,13,Gillson,Asian,128,128,3.15
+"9,761,564",M,Y,0,,ECON,Economics,3,0,Gillson,International,36,36,4
+"9,766,401",M,Y,0,,ENVA,Environmental Studies,6,3,Gillson,International,118,114,2.29
+"9,774,854",F,Y,100,Y,BIOL,Biology,0,0,Gillson,White,28,28,3.07
+"9,775,621",F,N,0,,UNBN,Undeclared Business,4,3,Gillson,International,128,128,3.68
+"9,787,926",F,Y,94,Y,BIOL,Biology,29,7,Gillson,African American,138,118,2.93
+"9,790,859",F,Y,79,,DSGN,Design,8,3,Gillson,Hispanic or Latino,128,124,3.42
+"9,799,174",F,Y,100,Y,BIOL,Biology,18,10,Gillson,Hispanic or Latino,136,120,2.94
+"9,800,304",F,Y,0,,COMS,Communication Studies,6,1,Gillson,White,128,126,3.63
+"9,801,787",F,N,0,,PASJ,Perf. Arts & Soc. Justice,6,2,Gillson,Hispanic or Latino,172,142,3.74
+"9,812,291",F,N,0,,NURS,Nursing,7,14,Hayes Healy,White,115,103,3.28
+"9,813,529",F,Y,0,,BADM,Business Administration,3,1,Hayes Healy,White,113,113,3.03
+"9,823,885",M,N,64,,DSGN,Design,0,1,Gillson,White,24,16,3.78
+"9,825,376",F,Y,99,Y,COMS,Communication Studies,3,2,Hayes Healy,Multi Race,57,86,1.51
+"9,834,205",M,Y,92,Y,UNBN,Undeclared Business,4,1,Gillson,Hispanic or Latino,132,116,3.29
+"9,842,491",F,Y,91,,COMS,Communication Studies,3,1,Phelan,African American,131,131,3.41
+"9,843,863",M,N,100,Y,BADM,Business Administration,1,0,Hayes Healy,African American,67,67,1.41
+"9,849,096",M,Y,99,Y,ENGL,English,10,1,Gillson,Hispanic or Latino,128,108,3.12
+"9,854,197",M,Y,0,,HM,Hospitality Management,1,0,Gillson,International,0,26,0
+"9,860,088",F,Y,69,,BIOL,Biology,14,6,Fromm,Multi Race,134,129,3.37
+"9,860,557",F,Y,64,,ECON,Economics,26,3,Fromm,Hispanic or Latino,131,134,2.60
+"9,863,184",F,N,72,,ENGL,English,1,3,Phelan,White,160,100,3.92
+"9,873,926",F,N,89,,UNLA,Undeclared Arts,2,11,Hayes Healy,African American,130,130,3.15
+"9,888,492",F,Y,78,,BMKT,Marketing,9,1,Gillson,Asian,155,135,3.11
+"9,892,148",F,N,15,,BNTL,International Business,11,4,Phelan,White,142,139,3.74
+"9,915,989",M,N,0,,COMS,Communication Studies,2,0,Hayes Healy,White,12,32,0.50
+"9,917,359",F,Y,64,,BIOL,Biology,8,4,Fromm,Asian,52,28,2.86
+"9,923,755",M,Y,0,,BFIN,Finance,4,2,Gillson,International,137,129,3.21
+"9,926,172",F,Y,98,Y,BAIS,International Studies,3,1,Phelan,White,36,36,3.76
+"9,935,647",F,Y,81,,PSYC,Psychology,5,2,Gillson,White,128,128,3.34
+"9,942,872",M,N,0,,BADM,Business Administration,5,1,Gillson,International,128,136,2.42
+"9,950,761",F,N,50,,PSYC,Psychology,3,4,Hayes Healy,White,131,123,3.94
+"9,956,183",F,N,74,,NURS,Nursing,6,3,Hayes Healy,Multi Race,34,34,2.82
+"9,957,208",F,N,0,,BIOL,Biology,,,,White,20,0,0
+"9,960,260",F,Y,53,,ADVT,Advertising,3,2,Gillson,White,128,125,3.72
+"9,963,332",F,Y,74,,UNSC,Undeclared Sciences,10,7,Phelan,Multi Race,61,61,3.17
+"9,963,967",F,Y,88,,PSYC,Psychology,8,4,Hayes Healy,Hispanic or Latino,128,128,3.51
+"9,970,347",F,Y,0,,UNSC,Undeclared Sciences,6,1,Gillson,Asian,131,115,3.61
+"9,975,398",F,Y,85,,BMKT,Marketing,4,1,Hayes Healy,Asian,129,129,3.34
